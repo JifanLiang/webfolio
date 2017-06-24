@@ -57,7 +57,7 @@
 
 	</head>
 	<body>
-		<div id="global">
+		<div class="global">
 
 		<!--PAGE D'ACCUEIL-->
 			<div id="accueil">
@@ -246,7 +246,7 @@
 					<div id="photographie1" class="colG">
 
 					<div  class="conteneur_o">
-						<a href="#">
+						<a href="publicitaire.php">
 							<div class="images_o">
 								<p class="legende">Voir le projet</p>
 								
@@ -294,7 +294,7 @@
 							</div>
 						</a>
 					</div>
-					<a href="#"><p class="text"><span>Paysage</span>, photographie ...</p></a>
+					<a href="#"><p class="text"><span>Vagabondage</span>, photographie ...</p></a>
 					
 				</div>
 						

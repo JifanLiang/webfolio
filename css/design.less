@@ -11,7 +11,7 @@ header, footer, nav, article, aside {
 	display:block;
 }
 
-html, body, #global {
+html, body, .global {
 	width:100%;
 	height:100%;
 
@@ -816,6 +816,12 @@ span {
 	text-align: center;
 	margin-top: 20px;
 }
+
+
+
+.underline {
+	text-decoration: underline;
+}
 #autoportrait {
 	height: 100%;
 
@@ -954,7 +960,7 @@ PAGE CONTACT
 #grenoble {
 	width: 100%;
 	height: 100%;
-	background-image: url(../images/contact.jpg);
+	background-image: url(../images/grenoble.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -966,10 +972,10 @@ PAGE CONTACT
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 .bottom {
-	padding-top: 100px;
+	padding-top: 80px;
 	clear: both;
 	width: 100%;
-	height: 300px;
+	height: 200px;
 	background-color: #0be58f;
 
 	position: relative;
@@ -980,7 +986,12 @@ PAGE CONTACT
 }
 .bottom p {
 	text-align: center;
-	font-size: 28px;
+	font-size: 18px;
+	color: white;
+}
+
+.bottom a {
+	text-decoration: underline;
 	color: white;
 }
 
@@ -1065,5 +1076,111 @@ PAGE CONTACT
 	left: 25%;
 	bottom: 15%;
 }
+
+
+
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+																					Publicitaire
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+#publicitaire {
+	width: 60%;
+	margin: 0 auto;
+}
+
+
+#publicitaire h1 {
+	font-size: 24px;
+
+	margin: 0px auto 80px;
+	width: 300px;
+	height: 100px;
+	border: solid 1px #0BE58F;
+	text-align: center;
+	padding-top: 35px;
+
+	border-left: 1px solid;
+    border-image-source: linear-gradient(to top right, #0BE58F 10%, white 40%);
+    border-image-slice: 1 1; 
+
+}
+
+#publicitaire .border_logo {
+	margin: 100px auto 100px;
+	width: 300px;
+	height: 100px;
+	border: solid 1px #0BE58F;
+	text-align: center;
+	
+
+	border-right: 1px solid;
+    border-image-source: linear-gradient(to bottom left, #0BE58F 10%, white 40%);
+    border-image-slice: 1 1; 
+}
+
+
+#publicitaire img {
+
+	filter: grayscale(100%);
+	transition: all 1s ease-out;
+	width: 80%;
+}
+
+#publicitaire img:hover {
+
+	filter: grayscale(0%);
+	transition: all 1s ease-out;
+}
+
+#publicitaire figure {
+	margin-bottom: 60px;
+}
+
+figcaption {
+	text-align: left;
+	font-size: 16px;
+	position: relative;
+	left: 10%;
+}
+
+.gallerie_colG {
+
+	width: 33.33%;
+	min-height: 300px; 
+	
+	float: left;
+	text-align: center;
+
+
+}
+
+
+
+
+.gallerie_colM {
+	width: 33.33%;
+	min-height: 300px; 
+	
+	float: left;
+	text-align: center;
+
+
+}
+
+
+
+.gallerie_colD {
+	width: 33.33%;
+	min-height: 300px; 
+	
+	float: left;
+	text-align: center;
+
+}
+
+
+
+
+
 
 @import "responsive.less";

@@ -1,6 +1,6 @@
 <footer>
 				<div class="bottom">
-				<p>	Vous aimez bien mon travail ? </p><a href="#contact"><p>Voici mes coordonnées !</p></a>
+				<p>	Vous aimez mon travail ? </p><a href="mailto:liang.jifan@gmail.com"><p>Contactez-Moi !</p></a>
 			</div>
 
 				
