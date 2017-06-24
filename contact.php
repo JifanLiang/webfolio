@@ -99,11 +99,16 @@
 
 	<?php include_once("inc/header.php"); ?>
 
+<div id="contact">
+<div class="colD">
+
 <div class="contenant">
+
+	<div class="border_logo"><h2>Contact</h2></div>
 <form action="contact.php" method="post">
 
 <p>
-	<label for="prenom" class="label">Votre nom * : </label>
+	<label for="prenom" class="label categorie">Votre nom * : </label>
 	<input type="text" name="prenom" id="prenom" class="champ" placeholder="Paul"
 	<?php if(isset($prenom)) echo "value=\"".$prenom."\"";
 	?>>
@@ -113,7 +118,7 @@
 
 </p>
 <p>
-	<label for="mail" class="label">Votre adress mail * : </label>
+	<label for="mail" class="label categorie">Votre adress mail * : </label>
 	<input type="text" name="mail" id="mail" class="champ" placeholder="Paul@exemple.com"
 	<?php if(isset($prenom)) echo "value=\"".$mail."\"";
 	?>>
@@ -124,7 +129,7 @@
 
 </p>
 <p>
-	<label for="objet" class="label">Objet : </label>
+	<label for="objet" class="label categorie">Objet : </label>
 	<input type="text" name="objet" id="objet" class="champ" placeholder="recrutement"
 	<?php if(isset($objet)) echo "value=\"".$objet."\"";
 	?>>
@@ -132,7 +137,7 @@
 </p>
 
 <p>
-	<label for="message" class="label">Votre message * : </label>
+	<label for="message" class="label categorie">Votre message * : </label>
 	<textarea name="message" id="message" cols="50" rows="10" class="champ" placeholder="Bonjour Jifan, "
 	 <?php if(isset($message)) echo "value=\"".$message."\"";
 	?>>
@@ -148,6 +153,15 @@
 </form>
 
 	
+</div>
+
+</div>
+<div class="colG">
+	<div id="grenoble">
+		
+	</div>
+	
+</div>
 </div>
 </body>
 </html>

@@ -31,11 +31,9 @@ ul {
 	list-style-type: none;
 }
 
-#main_menu h1{
-	text-align: center;
-	padding-top: 50px;
-	font-weight: 900;
-}
+
+
+
 
 p {
 	text-align: justify;
@@ -229,7 +227,7 @@ SCROLLER
 - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
 #scroller {
 	z-index: 2000;
-	position: absolute;
+	position: fixed;
 	bottom: -20px;
 	left: 45%;
 
@@ -770,48 +768,75 @@ span {
 
 
 
-
 /*page À propos*/
 
 #a_propos {
 
 	clear: both;
-	margin: 100px auto;
+	
 	width: 100%;
-	min-height: 850px;
-	
-	background-image: url(../images/bg_bas.png);
-	background-repeat: no-repeat;
-	background-size: cover;
+	height: 100%;
 
-	
+}
+#a_propos .paragraphe {
+	padding-top: 50px;
+
 
 
 }
 
-#a_propos h2 {
-	width: 300px;
-	padding-left: 55px;
-	padding-top: 17px;
-	margin: 50px auto 20px;
-	font-size: 80px;
-	
-	
-	background-image: url(../images/feuil_fond.png);
-	background-repeat: no-repeat;
-	background-size: 80px auto;
 
+#a_propos .border_logo {
+	margin: 300px auto 50px;
+	width: 200px;
+	height: 100px;
+	border: solid 1px #0BE58F;
+	text-align: center;
+	
+
+	border-right: 1px solid;
+    border-image-source: linear-gradient(to bottom left, #0BE58F 10%, white 40%);
+    border-image-slice: 1 1; 
+}
+
+#a_propos h2 {
+	
+	width: 200px;
+	height: 100px;
+	border: solid 1px #0BE58F;
+	text-align: center;
+	padding-top: 35px;
+
+	border-left: 1px solid;
+    border-image-source: linear-gradient(to top right, #0BE58F 10%, white 40%);
+    border-image-slice: 1 1; 
+
+}
+#a_propos p {
+	text-align: center;
+	margin-top: 20px;
+}
+#autoportrait {
+	height: 100%;
+
+	background-image: url(../images/autoportrait.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 
 #cv_animate {
 	width: 100%;
+	height: 100%;
 	padding-top: 0px;
 	text-align: center;
 
 }
 #cv_animate video {
+	margin-top: 300px;
 	width: 900px;
 	height: auto;
+	border: solid 1px #0BE58F;
 
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
@@ -848,10 +873,93 @@ span {
 
 
 
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+PAGE CONTACT
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+#contact {
+	width: 100%;
+	height: 100%;
+}
+
+.contenant {
+
+	
+	width: 500px;
+	height: 100%;
+	margin: 0px auto;
+
+}
+#contact .colD {
+	padding-top: 300px;
+
+}
+
+#contact .border_logo {
+	margin: 0px auto 80px;
+	width: 200px;
+	height: 100px;
+	border: solid 1px #0BE58F;
+
+	border-right: 1px solid;
+    border-image-source: linear-gradient(to bottom left, #0BE58F 10%, white 40%);
+    border-image-slice: 1 1; 
+}
+
+#contact h2 {
+	margin: 0px auto 80px;
+	width: 200px;
+	height: 100px;
+	border: solid 1px #0BE58F;
+	text-align: center;
+	padding-top: 35px;
+
+	border-left: 1px solid;
+    border-image-source: linear-gradient(to top right, #0BE58F 10%, white 40%);
+    border-image-slice: 1 1; 
+
+}
 
 
 
+.label {
+	width: 150px;
+	float: left;
+	
+}
 
+.champ {
+	width: 500px;
+	/*border: solid 1px #0be58f; */
+
+}
+
+#go {
+	cursor: pointer;
+}
+
+.warning {
+	color: red;
+}
+
+#go {
+	color: #0be58f;
+}
+#contact .colG {
+	width: 50%;
+	height: 100%;
+	padding: 0;
+
+}
+
+#grenoble {
+	width: 100%;
+	height: 100%;
+	background-image: url(../images/contact.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+
+}
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 																							FOOTER
@@ -888,12 +996,13 @@ span {
 }
 .a_global_matter .colD {
 	height: 100%;
+	padding: 0;
 
 
 	background-image: url(../images/06.png);
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: 100% auto;
+	background-size: cover;
 
 }
 
@@ -903,9 +1012,15 @@ span {
 	margin: 20% auto;
 
 	width: 50%;
-	border: solid 3px #0BE58F;
+	border: solid 1px #0BE58F;
 	text-align: center;
 	padding: 30px 20px;
+
+
+	border-left: 1px solid;
+    border-image-source: linear-gradient(to top right, #0BE58F 10%, white 40%);
+    border-image-slice: 1 1; 
+
 }
 .categorie {
 	color: #0BE58F;
@@ -932,6 +1047,8 @@ span {
 .a_global_matter .wrap {
 	clear: both;
 	background-color: #EFEEEC;
+	width: 100%;
+	height: 100%;
 } 
 
 

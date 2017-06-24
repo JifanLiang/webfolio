@@ -12,6 +12,49 @@
 		<!-- Lien vers la librairie-->
 		<script src="js/html5.js"></script>
 		<script src="js/jQuery3.2.1.js"></script>
+
+			<script>
+			$(function(){
+
+				var identifiant;
+
+				$("#menu_vertical a").click(function(event) {
+
+				//Déactiver l'effet de flash en annulant l'ancre 
+				event.preventDefault();
+				//Je récupère l'id de la div jusqu'à laquelle descendre
+				identifiant = $(this).attr('href');
+				//J'emmène la barre de scroll verticale
+				//Jusqu'à cette destination
+				$("html,body").animate({
+					scrollTop:$(identifiant).offset().top
+				},3000);
+
+				});
+
+					$("#scroller a").click(function(event) {
+
+				//Déactiver l'effet de flash en annulant l'ancre 
+				event.preventDefault();
+				//Je récupère l'id de la div jusqu'à laquelle descendre
+				identifiant = $(this).attr('href');
+				//J'emmène la barre de scroll verticale
+				//Jusqu'à cette destination
+				$("html,body").animate({
+					scrollTop:$(identifiant).offset().top
+				},2000);
+
+				});
+
+				
+			
+
+				
+			});
+			
+			</script>
+
+
 	</head>
 	<body>
 		<div id="global">
@@ -25,6 +68,7 @@
 
 	
 				<div id="scroller">
+				<a href="#">
 
 					<div class="u-absolute u-fit-w u-pos-bl u-align-center is-active" has-binding="">
 					<div class="u-inline-block c-text--regular c-line c-line--from-opacity c-line--3">
@@ -39,6 +83,7 @@
 						</div>
 					</div>
 				</div>
+				</a>
 				</div>
 
 
