@@ -71,7 +71,10 @@
 			<source src="video/movie.webm" type="video/webm" />
 			
 			</video>
+		
+<?php include_once("inc/footer.php") ?>
 		</div>
+
 
 
 

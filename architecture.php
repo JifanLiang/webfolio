@@ -165,7 +165,7 @@
 					
 					<a href="publicitaire.php"><p>Photographie Publicitaire</p></a>
 					<a href="portrait.php"><p>Photographie Portrait</p></a>
-					<a href="vogabondage.php"><p>Photographie Vagabondage</p></a>
+					<a href="vagabondage.php"><p>Photographie Vagabondage</p></a>
 				</div>
 			</div>
 			<?php include_once("inc/footer.php") ?>

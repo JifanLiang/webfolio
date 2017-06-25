@@ -1,3 +1,4 @@
+<?php $page="index.php";?>
 <!doctype html>
 <html>
 	<head>
@@ -46,6 +47,23 @@
 
 				//});
 
+
+				$("#ancrage a").click(function(event) {
+
+				//Déactiver l'effet de flash en annulant l'ancre 
+				event.preventDefault();
+				//Je récupère l'id de la div jusqu'à laquelle descendre
+				identifiant = $(this).attr('href');
+				//J'emmène la barre de scroll verticale
+				//Jusqu'à cette destination
+				$("html,body").animate({
+					scrollTop:$(identifiant).offset().top
+				},2000);
+
+				});
+
+
+				
 			});
 			
 			</script>
@@ -59,6 +77,23 @@
 			<div id="accueil">
 				<?php 
 					include_once("inc/header.php"); ?>
+
+						<nav id="menu_vertical">
+						
+							<ul id="vertical">
+								<li class="menu_mobile"><a href="<?php if(isset($page) && $page === "index.php"){ echo '#webdesign';} else{ echo 'index.php#webdesign';}?>" title="Portfolio">Portfolio</a></li>
+								<li class="menu_mobile"><a href="a_propos.php" title="À propos">À-propos</a></li>
+								<li id="der" class="menu_mobile"><a href="contact.php" title="contact">Contact</a></li>
+								<li>
+									<a href="#webdesign">
+										Web-design
+									</a>
+								</li>
+								<li><a href="#graphisme">Design graphique</a></li>
+								<li><a href="#photographie">Photographie</a></li>
+								
+							</ul>
+					</nav>
 				
 			<div class="bandeau">
 
