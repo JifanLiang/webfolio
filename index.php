@@ -32,24 +32,20 @@
 
 				});
 
-					$("#scroller a").click(function(event) {
+					//$("#scroller a").click(function(event) {
 
 				//Déactiver l'effet de flash en annulant l'ancre 
-				event.preventDefault();
+				//event.preventDefault();
 				//Je récupère l'id de la div jusqu'à laquelle descendre
-				identifiant = $(this).attr('href');
+				//identifiant = $(this).attr('href');
 				//J'emmène la barre de scroll verticale
 				//Jusqu'à cette destination
-				$("html,body").animate({
-					scrollTop:$(identifiant).offset().top
-				},2000);
+				//$("html,body").animate({
+				//	scrollTop:$(identifiant).offset().top
+				//},2000);
 
-				});
+				//});
 
-				
-			
-
-				
 			});
 			
 			</script>
@@ -68,7 +64,7 @@
 
 	
 				<div id="scroller">
-				<a href="#">
+				<a  onclick="window.scrollBy(0,window.innerHeight)">
 
 					<div class="u-absolute u-fit-w u-pos-bl u-align-center is-active" has-binding="">
 					<div class="u-inline-block c-text--regular c-line c-line--from-opacity c-line--3">
