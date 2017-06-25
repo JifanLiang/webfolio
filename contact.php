@@ -91,8 +91,34 @@
 <script src="js/html5.js"></script>
 <script src="js/jQuery3.2.1.js"></script>
 
+<script>$(document).ready(function() {
 
+    var div = $("#contact .colG");
 
+    var height = div.css({
+        display: "block"
+    }).height();
+
+    div.css({
+        overflow: "hidden",
+        marginTop: height,
+        height: 0
+    }).animate({
+        marginTop: 0,
+        height: height
+    }, 1000, function () {
+        $(this).css({
+            display: "",
+            overflow: "",
+            height: "",
+            marginTop: ""
+        });
+    });
+
+    $('#contact .colD').slideDown(1000);
+});
+
+</script>
 </head>
 
 <body>

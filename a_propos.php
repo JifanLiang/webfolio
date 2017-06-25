@@ -35,6 +35,34 @@
 			});
 			
 			</script>
+			<script>
+			$(document).ready(function() {
+
+			    var div = $("#a_propos .colG");
+
+			    var height = div.css({
+			        display: "block"
+			    }).height();
+
+			    div.css({
+			        overflow: "hidden",
+			        marginTop: height,
+			        height: 0
+			    }).animate({
+			        marginTop: 0,
+			        height: height
+			    }, 1000, function () {
+			        $(this).css({
+			            display: "",
+			            overflow: "",
+			            height: "",
+			            marginTop: ""
+			        });
+			    });
+
+			    $('#a_propos .colD').slideDown(1000);
+			});
+			</script>
 
 	</head>
 	<body>
