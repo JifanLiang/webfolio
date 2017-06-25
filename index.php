@@ -53,7 +53,7 @@
 
 	</head>
 	<body>
-		<div id="global">
+		<div class="global">
 
 		<!--PAGE D'ACCUEIL-->
 			<div id="accueil">
@@ -242,7 +242,7 @@
 					<div id="photographie1" class="colG">
 
 					<div  class="conteneur_o">
-						<a href="#">
+						<a href="publicitaire.php">
 							<div class="images_o">
 								<p class="legende">Voir le projet</p>
 								
@@ -253,44 +253,47 @@
 					
 				</div>
 
-				<div id="photographie2" class="colD">
+			
+
+				<div id="photographie3" class="colD">
+
+					<div  class="conteneur_o">
+						<a href="architecture.php">
+							<div class="images_o">
+								<p class="legende">Voir le projet</p>
+								
+							</div>
+						</a>
+					</div>
+					<a href="architecture.php"><p class="text"><span>Architecture</span>, photographie pour architecture...</p></a>
+					
+				</div>
+
+					<div id="photographie2" class="colG">
 					<div class="conteneur_v">
-						<a href="#">
+						<a href="portrait.php">
 							<div class="images_v">
 								<p class="legende">Voir le projet</p>
 								
 							</div>
 						</a>
 					</div>
-					<a href="#"><p class="text"><span>Portrait</span>, photographie de portrait professtionel, personnel... </p></a>
+					<a href="portrait.php"><p class="text"><span>Portrait</span>, photographie de portrait professtionel, personnel... </p></a>
 					
 					
 				</div>
 
-				<div id="photographie3" class="colG">
-
-					<div  class="conteneur_o">
-						<a href="#">
-							<div class="images_o">
-								<p class="legende">Voir le projet</p>
-								
-							</div>
-						</a>
-					</div>
-					<a href="#"><p class="text"><span>Architecture</span>, photographie pour architecture...</p></a>
-					
-				</div>
 						<div id="photographie4" class="colG">
 
 					<div  class="conteneur_o">
-						<a href="#">
+						<a href="vogabondage.php">
 							<div class="images_o">
 								<p class="legende">Voir le projet</p>
 								
 							</div>
 						</a>
 					</div>
-					<a href="#"><p class="text"><span>Paysage</span>, photographie ...</p></a>
+					<a href="vogabondage.php"><p class="text"><span>Vagabondage</span>, photographie ...</p></a>
 					
 				</div>
 						
