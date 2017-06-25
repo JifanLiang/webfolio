@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Jifan Liang</title>
+		<title>Photographie publicitaire</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/design.css">
 		<!-- Google font : josefin sans-->
@@ -32,6 +32,7 @@
 			include_once("inc/header.php"); ?>
 			<div id="publicitaire">
 				<div class="border_logo"><h1>Photographie publicitaire</h1></div>
+				
 				<div class="gallerie_colG">
 					
 					<figure>
@@ -70,7 +71,8 @@
 					
 					
 					
-				</div>
+			</div>
+				
 				<div class="gallerie_colM">
 					<figure>
 						<a data-fancybox="gallery" href="images/pub-rob-mariee-l.jpg" data-caption="Robes de mariée - Lelee">
@@ -101,7 +103,7 @@
 					
 					
 					
-				</div>
+			</div>
 				
 				<div class="gallerie_colD">
 					<figure>
@@ -136,6 +138,13 @@
 						<figcaption>Burger - Casse croût à Dédé</figcaption>
 						</a>
 					</figure>
+				</div>
+
+				<div class="link">
+					
+					<a href="architecture.php"><p>Photographie Architecture</p></a>
+					<a href="portrait.php"><p>Photographie Portrait</p></a>
+					<a href="vagabondage.php"><p>Photographie Vagabondage</p></a>
 				</div>
 			</div>
 			<?php include_once("inc/footer.php") ?>
