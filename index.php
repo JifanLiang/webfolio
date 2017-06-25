@@ -321,14 +321,14 @@
 						<div id="photographie4" class="colG">
 
 					<div  class="conteneur_o">
-						<a href="vogabondage.php">
+						<a href="vagabondage.php">
 							<div class="images_o">
 								<p class="legende">Voir le projet</p>
 								
 							</div>
 						</a>
 					</div>
-					<a href="vogabondage.php"><p class="text"><span>Vagabondage</span>, photographie ...</p></a>
+					<a href="vagabondage.php"><p class="text"><span>Vagabondage</span>, photographie ...</p></a>
 					
 				</div>
 						
