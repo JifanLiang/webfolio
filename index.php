@@ -13,6 +13,7 @@
 		<!-- Lien vers la librairie-->
 		<script src="js/html5.js"></script>
 		<script src="js/jQuery3.2.1.js"></script>
+		<script src="js/viewport.js"></script>
 
 			<script>
 			$(function(){
@@ -66,6 +67,20 @@
 				
 			});
 			
+
+			$(document).scroll(function () {
+    			var $menu_vertical = $("#menu_vertical:after");
+    			var $bandeau = $(".bandeau");
+    			$menu_vertical.toggleClass('navbar-not-transparent', $(this).scrollTop() > $bandeau.height()-1);
+
+			  $('.conteneur_o,.conteneur_v').each(function(i, element) {
+			    var el = $(element);
+			    if (el.visible(true)) {
+			      el.addClass("come-in"); 
+			    } 
+			  });
+
+			});
 			</script>
 
 
