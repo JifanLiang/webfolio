@@ -66,6 +66,7 @@
 
 	</head>
 	<body>
+	<div class="global">
 
 		<?php include_once("inc/header.php"); ?>
 	
@@ -106,6 +107,7 @@
 
 
 
+		</div>
 		</div>
 
 
