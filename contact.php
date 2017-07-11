@@ -40,7 +40,7 @@
 
 		$prenom = strtr($prenom,$pattern);
 		$objet = strtr($objet,$pattern);
-		$message = strtr($message, $patterne);
+		$message = strtr($message, $pattern);
 
 		$corps = "<h1>Mail reçu par mon site webfolio";
 		$corps .= "<h2>Nom<h2>";
