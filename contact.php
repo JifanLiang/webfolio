@@ -123,6 +123,8 @@
 
 <body>
 
+<div class="global">
+
 	<?php include_once("inc/header.php"); ?>
 
 <div id="contact">
@@ -189,6 +191,7 @@
 	
 </div>
  <?php include_once("inc/footer.php") ?>
+</div>
 </div>
 </body>
 </html>
