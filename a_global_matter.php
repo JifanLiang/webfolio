@@ -117,13 +117,13 @@
 					<figure>
 						
 							
-							<img src="images/planche-1.jpg" alt="planche 1" title="planche 1" >
+							<img src="images/ins01.jpg" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
 						</a>
 						
 					</figure>
 					<figure>	
-							<img src="images/planche-2.jpg" alt="planche 1" title="planche 1" >
+							<img src="images/ins02.jpg" alt="planche 2" title="planche 2" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
 						</a>
 						
@@ -134,19 +134,21 @@
 				<div class="planche_col">
 
 				<figure>
-							<img src="images/planche-2.jpg" alt="planche 1" title="planche 1" >
+							<img src="images/ins03.jpg" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
 						</a>
 						
 					</figure>
+				
 					<figure>
 						
 							
-							<img src="images/planche-1.jpg" alt="planche 1" title="planche 1" >
+							<img src="images/ins08.jpg" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
 						</a>
 						
 					</figure>
+				
 
 			</div>
 				
@@ -154,15 +156,15 @@
 					<figure>
 						
 							
-							<img src="images/planche-1.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<img src="images/ins07.jpg" alt="planche 1" title="planche 1" >
+							<figcaption>Inspiration 7- TangYauHoong.com</figcaption>
 						</a>
 						
 					</figure>
 					<figure>
 						
 							
-							<img src="images/planche-2.jpg" alt="planche 1" title="planche 1" >
+							<img src="images/ins06.jpg" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
 						</a>
 						
@@ -174,20 +176,21 @@
 					<figure>
 						
 							
-							<img src="images/planche-1.jpg" alt="planche 1" title="planche 1" >
+							<img src="images/ins05.jpg" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
 						</a>
 						
 					</figure>
+				
 					<figure>
 						
 							
-							<img src="images/planche-2.jpg" alt="planche 1" title="planche 1" >
+							<img src="images/ins04.jpg" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
 						</a>
 						
 					</figure>
-					
+				
 				</div>
 
 
@@ -208,32 +211,36 @@
 					<figure>
 						
 							
-							<img src="images/planche-2.jpg" alt="planche 1" title="planche 1" >
+							<img src="images/piste01.png" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
 						</a>
 						
 					</figure>
+					<!--
 					<figure>	
-							<img src="images/planche-1.jpg" alt="planche 1" title="planche 1" >
+							<img src="images/piste03.png" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
 						</a>
 						
 					</figure>
+					-->
 					
 			</div>
 				
 				<div class="planche_col">
+			
 
 				<figure>
-							<img src="images/planche-2.jpg" alt="planche 1" title="planche 1" >
+							<img src="images/piste03.png" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
 						</a>
 						
 					</figure>
+
 					<figure>
 						
 							
-							<img src="images/planche-1.jpg" alt="planche 1" title="planche 1" >
+							<img src="images/piste04.jpg" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
 						</a>
 						
@@ -245,7 +252,7 @@
 					<figure>
 						
 							
-							<img src="images/planche-1.jpg" alt="planche 1" title="planche 1" >
+							<img src="images/piste05.jpg" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
 						</a>
 						
@@ -253,7 +260,7 @@
 					<figure>
 						
 							
-							<img src="images/planche-2.jpg" alt="planche 1" title="planche 1" >
+							<img src="images/pist06.png" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
 						</a>
 						
@@ -265,7 +272,7 @@
 					<figure>
 						
 							
-							<img src="images/planche-1.jpg" alt="planche 1" title="planche 1" >
+							<img src="images/piste07.png" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
 						</a>
 						
@@ -273,7 +280,7 @@
 					<figure>
 						
 							
-							<img src="images/planche-2.jpg" alt="planche 1" title="planche 1" >
+							<img src="images/piste08.png" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
 						</a>
 						
