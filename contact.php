@@ -56,7 +56,7 @@
 
 		if(mail($destinataire, $objet, $corps, $tete)){
 			$retour = "Message correctement envoyé";
-			$class  = "sucdess";
+			$class  = "success";
 		}else{
 			$retour ="Problème de l'envoi du message, veuillez essayer plus tard";
 			$class ="warning";
