@@ -244,7 +244,7 @@
 								</div>
 							</a>
 						</div>
-						<a href="#"><p class="text"><span>Affiche d'une conférence</span>, création graphique... </p></a>
+						<a href="#"><p class="text"><span>Affiches</span></p></a>
 						
 						
 					</div>
@@ -261,7 +261,7 @@
 							</div>
 						</a>
 					</div>
-					<a href="#"><p class="text"><span>Logo</span>: création de logo</p></a>
+					<a href="#"><p class="text"><span>Logos</span></p></a>
 					
 				</div>
 				<div id="graphisme3" class="colG">
@@ -273,7 +273,7 @@
 							</div>
 						</a>
 					</div>
-					<a href="#"><p class="text"><span>Motifs</span>, création motifs graphiques/pattern... </p></a>
+					<a href="#"><p class="text"><span>Motifs</span></p></a>
 					
 					
 				</div>
