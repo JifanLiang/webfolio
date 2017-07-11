@@ -81,6 +81,18 @@
 			  });
 
 			});
+
+
+			$(document).ready(function() {
+					$('.js-scrollTo').on('click', function() { 
+						// on prend la distance actuelle du scroller jusqu'en haut de page, et on ajoute la taille du scroller
+						var goTo = $(this).offset().top + $(this).innerHeight();
+						var speed = 750; 
+						$('html, body').animate( { scrollTop: goTo }, speed ); 
+						return false;
+					});
+				});
+
 			</script>
 
 
@@ -114,8 +126,8 @@
 
 	
 				<div id="scroller">
-				<a  onclick="window.scrollBy(0,window.innerHeight)">
-
+				<!-- <a  onclick="window.scrollBy(0,window.innerHeight)"> -->
+					<a class="js-scrollTo">
 					<div class="u-absolute u-fit-w u-pos-bl u-align-center is-active" has-binding="">
 					<div class="u-inline-block c-text--regular c-line c-line--from-opacity c-line--3">
 						<div class="u-inline-block c-scroll-btn__label">
