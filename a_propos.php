@@ -18,7 +18,7 @@
 
 				var identifiant;
 
-				$("#a_propos a").click(function(event) {
+				$("#link_to_cv").click(function(event) {
 
 				//Déactiver l'effet de flash en annulant l'ancre 
 				event.preventDefault();
@@ -78,7 +78,7 @@
 
 			<a href="pdf/cv_Liang_Jifan.pdf" target="_blank" alt="mon cv en pdf"><p>Pour connaître mon parcours, vous pouvez télécharger mon<span class="categorie underline"> CV en PDF</span>;</p></a>
 
-			<p> D'ailleurs, si vous avez 1 minute maintenant, vous pouvez aussi regarder mon <a href="#cv_animate"><span class="categorie underline">CV en motion design.</span></a>
+			<p> D'ailleurs, si vous avez 1 minute maintenant, vous pouvez aussi regarder mon <a href="#cv_animate" id="link_to_cv"><span class="categorie underline">CV en motion design.</span></a>
 </p> 
 			</div>
 	
