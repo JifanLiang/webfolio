@@ -180,6 +180,10 @@
 
 </form>
 
+<div class="<?php if(isset($class)){ echo $class; } ?>">
+	<?php if(isset($retour)) { echo $retour; } ?> 
+</div>
+
 	
 </div>
 
