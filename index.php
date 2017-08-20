@@ -194,7 +194,7 @@
 								</div>
 							</a>
 						</div>
-						<a href="#"><p class="text"><span>Nervures</span>, le renouvellememnt de l'image de marque... </p></a>
+						<a href="#"><p class="text"><span>Nervures</span>, création du site e-commerce. </p></a>
 						
 						
 					</div>
@@ -209,7 +209,7 @@
 							</div>
 						</a>
 					</div>
-					<a href="#"><p class="text"><span>Slider</span>: exercise slider</p></a>
+					<a href="#"><p class="text"><span>Webfolio</span>, création du site statique.</p></a>
 					
 				</div>
 				</div>

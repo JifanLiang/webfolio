@@ -110,7 +110,7 @@
 		
 		<div class="bloc_images">
 
-			<div class="titre_planche"><span class="categorie">Planche de tendence :</span></div>
+			<div class="titre_planche"><span class="categorie">Planche de tendances :</span></div>
 
 			<div class="planche_col">
 					
