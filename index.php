@@ -15,86 +15,7 @@
 		<script src="js/jQuery3.2.1.js"></script>
 		<script src="js/viewport.js"></script>
 
-			<script>
-			$(function(){
-
-				var identifiant;
-
-				$("#menu_vertical a").click(function(event) {
-
-				//Déactiver l'effet de flash en annulant l'ancre 
-				event.preventDefault();
-				//Je récupère l'id de la div jusqu'à laquelle descendre
-				identifiant = $(this).attr('href');
-				//J'emmène la barre de scroll verticale
-				//Jusqu'à cette destination
-				$("html,body").animate({
-					scrollTop:$(identifiant).offset().top
-				},3000);
-
-				});
-
-					//$("#scroller a").click(function(event) {
-
-				//Déactiver l'effet de flash en annulant l'ancre 
-				//event.preventDefault();
-				//Je récupère l'id de la div jusqu'à laquelle descendre
-				//identifiant = $(this).attr('href');
-				//J'emmène la barre de scroll verticale
-				//Jusqu'à cette destination
-				//$("html,body").animate({
-				//	scrollTop:$(identifiant).offset().top
-				//},2000);
-
-				//});
-
-
-				$("#ancrage a").click(function(event) {
-
-				//Déactiver l'effet de flash en annulant l'ancre 
-				event.preventDefault();
-				//Je récupère l'id de la div jusqu'à laquelle descendre
-				identifiant = $(this).attr('href');
-				//J'emmène la barre de scroll verticale
-				//Jusqu'à cette destination
-				$("html,body").animate({
-					scrollTop:$(identifiant).offset().top
-				},2000);
-
-				});
-
-
-				
-			});
 			
-
-			$(document).scroll(function () {
-    			var $menu_vertical = $("#menu_vertical:after");
-    			var $bandeau = $(".bandeau");
-    			$menu_vertical.toggleClass('navbar-not-transparent', $(this).scrollTop() > $bandeau.height()-1);
-
-			  $('.conteneur_o,.conteneur_v').each(function(i, element) {
-			    var el = $(element);
-			    if (el.visible(true)) {
-			      el.addClass("come-in"); 
-			    } 
-			  });
-
-			});
-
-
-			$(document).ready(function() {
-					$('.js-scrollTo').on('click', function() { 
-						// on prend la distance actuelle du scroller jusqu'en haut de page, et on ajoute la taille du scroller
-						var goTo = $(this).offset().top + $(this).innerHeight();
-						var speed = 750; 
-						$('html, body').animate( { scrollTop: goTo }, speed ); 
-						return false;
-					});
-				});
-
-			</script>
-
 
 	</head>
 	<body>
@@ -178,9 +99,8 @@
 							
 							<p>Ayant découvert le code et sa magie depuis un an, je suis impressionnée et passionnée par le monde informatique. Jonglant entre HTML 5, CSS 3 et JavaScript, je maîtrise l’intégration et la création de sites web, CMS ( Wordpress)… Je vous invite à regarder les projets que j’ai réalisés récemment. 
 							<br />
-							<br />Pour le site dynamique de Nervures, j'ai réalisé la migration et gestion de contenu, amélioré l'ergonomie générale et le référencement afin d'obtenir une plus forte fréquentation pour augmenter les ventes en ligne.
-							<br />
-							<br />Webfolio est la réalisation de mon propre site web, afin de montrer mon savoir faire et mes compétences. Le code Less est compilé vers du CSS pour un développement plus lisible, un meilleur rendu multi-plateforme et de l'optimisation de poids de page.</p>
+							<br />Pour le site dynamique de <strong>Nervures</strong>, j'ai réalisé la migration et gestion de contenu, amélioré l'ergonomie générale et le référencement afin d'obtenir une plus forte fréquentation pour augmenter les ventes en ligne.
+							<strong>Webfolio</strong> est la réalisation de mon propre site web, afin de montrer mon savoir faire et mes compétences. Le code Less est compilé vers du CSS pour un développement plus lisible, un meilleur rendu multi-plateforme et de l'optimisation de poids de page.</p>
 						</article>
 						
 					</div>
@@ -297,7 +217,7 @@
 
 			<div id="photographie">
 				<div class="wrap">
-					<div class="colD">
+					<div class="colG">
 						<p class="nombre">03</p>
 						<article>
 							<h1>
@@ -311,7 +231,7 @@
 					<!-- PROJET 1-->
 
 
-					<div id="photographie1" class="colG">
+					<div id="photographie1" class="colD">
 
 					<div  class="conteneur_o">
 						<a href="publicitaire.php">
@@ -327,7 +247,7 @@
 
 			
 
-				<div id="photographie3" class="colD">
+				<div id="photographie3" class="colG">
 
 					<div  class="conteneur_o">
 						<a href="architecture.php">
@@ -341,7 +261,7 @@
 					
 				</div>
 
-					<div id="photographie2" class="colG">
+					<div id="photographie2" class="colD">
 					<div class="conteneur_v">
 						<a href="portrait.php">
 							<div class="images_v">
@@ -381,6 +301,87 @@
 			
 
 		</div>
+
+		<script>
+			$(function(){
+
+				var identifiant;
+
+				$("#menu_vertical a").click(function(event) {
+
+				//Déactiver l'effet de flash en annulant l'ancre 
+				event.preventDefault();
+				//Je récupère l'id de la div jusqu'à laquelle descendre
+				identifiant = $(this).attr('href');
+				//J'emmène la barre de scroll verticale
+				//Jusqu'à cette destination
+				$("html,body").animate({
+					scrollTop:$(identifiant).offset().top
+				},3000);
+
+				});
+
+					//$("#scroller a").click(function(event) {
+
+				//Déactiver l'effet de flash en annulant l'ancre 
+				//event.preventDefault();
+				//Je récupère l'id de la div jusqu'à laquelle descendre
+				//identifiant = $(this).attr('href');
+				//J'emmène la barre de scroll verticale
+				//Jusqu'à cette destination
+				//$("html,body").animate({
+				//	scrollTop:$(identifiant).offset().top
+				//},2000);
+
+				//});
+
+
+				$("#ancrage a").click(function(event) {
+
+				//Déactiver l'effet de flash en annulant l'ancre 
+				event.preventDefault();
+				//Je récupère l'id de la div jusqu'à laquelle descendre
+				identifiant = $(this).attr('href');
+				//J'emmène la barre de scroll verticale
+				//Jusqu'à cette destination
+				$("html,body").animate({
+					scrollTop:$(identifiant).offset().top
+				},2000);
+
+				});
+
+
+				
+			});
+			
+
+			$(document).scroll(function () {
+    			var $menu_vertical = $("#menu_vertical:after");
+    			var $bandeau = $(".bandeau");
+    			$menu_vertical.toggleClass('navbar-not-transparent', $(this).scrollTop() > $bandeau.height()-1);
+
+			  $('.conteneur_o,.conteneur_v').each(function(i, element) {
+			    var el = $(element);
+			    if (el.visible(true)) {
+			      el.addClass("come-in"); 
+			    } 
+			  });
+
+			});
+
+
+			$(document).ready(function() {
+					$('.js-scrollTo').on('click', function() { 
+						// on prend la distance actuelle du scroller jusqu'en haut de page, et on ajoute la taille du scroller
+						var goTo = $(this).offset().top + $(this).innerHeight();
+						var speed = 750; 
+						$('html, body').animate( { scrollTop: goTo }, speed ); 
+						return false;
+					});
+				});
+
+			</script>
+
 		
 	</body>
 </html>

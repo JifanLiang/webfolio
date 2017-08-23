@@ -16,36 +16,7 @@
 		<script src="js/jquery.fancybox.min.js"></script>
 
 
-				<script>
-			$(function(){
-
-				var identifiant;
-
-				$(".a_global_matter a").click(function(event) {
-
-				//Déactiver l'effet de flash en annulant l'ancre 
-				event.preventDefault();
-				//Je récupère l'id de la div jusqu'à laquelle descendre
-				identifiant = $(this).attr('href');
-				//J'emmène la barre de scroll verticale
-				//Jusqu'à cette destination
-				$("html,body").animate({
-					scrollTop:$(identifiant).offset().top
-				},2000);
-
-				});
-
-
-				$('[data-fancybox]').fancybox({
-			image : {
-			protect: true
-			}
-			});
 				
-			});
-		
-		
-		</script>
 	</head>
 	<body>
 		<?php include_once("inc/header.php"); ?>
@@ -118,13 +89,13 @@
 						
 							
 							<img src="images/ins01.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<figcaption>Inspiration 1 - http://www.wwf.fr</figcaption>
 						</a>
 						
 					</figure>
 					<figure>	
 							<img src="images/ins02.jpg" alt="planche 2" title="planche 2" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<figcaption>Inspiration 2 - www.jifan.com</figcaption>
 						</a>
 						
 					</figure>
@@ -157,7 +128,7 @@
 						
 							
 							<img src="images/ins07.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 7- TangYauHoong.com</figcaption>
+							<figcaption>Inspiration 7- www.karimfakhoury.com</figcaption>
 						</a>
 						
 					</figure>
@@ -196,10 +167,13 @@
 
 		
 		</div>
+		<div class="planche_btn">
 		<a href="#a_global_matter4"><div class="btn">+</div></a>
+		</div>
 
 		</div>
-		<div id="a_global_matter4" class="wrap">
+		
+<div id="a_global_matter4" class="wrap">
 		
 		
 		<div class="bloc_images">
@@ -287,13 +261,18 @@
 					</figure>
 					
 				</div>
+				</div>
+				<div class="planche_btn">
+				<a href="#a_global_matter5"><div class="btn">+</div></a>
+				</div>
+				</div>
 
 
 		
-		</div>
-		<a href="#a_global_matter5"><div class="btn">+</div></a>
+		
+		
 
-		</div>
+		
 		
 		<div id="a_global_matter5" class="wrap">
 		
@@ -305,9 +284,9 @@
 			<div class="gallerie_colG">
 					
 					<figure>
-						<a data-fancybox="gallery" href="images/10.jpg" data-caption="affiche vintage">
+						<a data-fancybox="gallery" href="images/affiche-vintage.jpg" data-caption="affiche vintage">
 							
-							<img src="images/10.png" alt="affiche vintage" title="affiche vintage" >
+							<img src="images/affiche-vintage.jpg" alt="affiche vintage" title="affiche vintage" >
 							<figcaption>Affiche vintage</figcaption>
 						</a>
 						
@@ -318,8 +297,8 @@
 				
 				<div class="gallerie_colM">
 				<figure>
-						<a data-fancybox="gallery" href="images/affiche-casque.jpg" data-caption="Affiche publicitaire">
-							<img src="images/affiche-casque.jpg" alt="Affiche publicitaire" title="Affiche publicitaire" >
+						<a data-fancybox="gallery" href="images/affiche-chocolat-l.jpg" data-caption="Affiche publicitaire">
+							<img src="images/affiche-chocolat.jpg" alt="Affiche publicitaire" title="Affiche publicitaire" >
 							<figcaption>Affiche publicitaire - Émotions sucrées</figcaption>
 						</a>
 					</figure>
@@ -329,8 +308,8 @@
 				
 				<div class="gallerie_colD">
 					<figure>
-						<a data-fancybox="gallery" href="images/13.png" data-caption="affiche cinéma">
-							<img src="images/13.png" alt="affiche cinéma" title="affiche cinéma">
+						<a data-fancybox="gallery" href="images/affiche-tarantino.jpg" data-caption="affiche cinéma">
+							<img src="images/affiche-tarantino.jpg" alt="affiche cinéma" title="affiche cinéma">
 							<figcaption>Affiche cinéma</figcaption>
 						</a>
 					</figure>
@@ -348,6 +327,37 @@
 		
 		
 	</div>
+
+	<script>
+			$(function(){
+
+				var identifiant;
+
+				$(".a_global_matter a").click(function(event) {
+
+				//Déactiver l'effet de flash en annulant l'ancre 
+				event.preventDefault();
+				//Je récupère l'id de la div jusqu'à laquelle descendre
+				identifiant = $(this).attr('href');
+				//J'emmène la barre de scroll verticale
+				//Jusqu'à cette destination
+				$("html,body").animate({
+					scrollTop:$(identifiant).offset().top
+				},2000);
+
+				});
+
+
+				$('[data-fancybox]').fancybox({
+			image : {
+			protect: true
+			}
+			});
+				
+			});
+		
+		
+		</script>
 	
 </body>
 </html>
