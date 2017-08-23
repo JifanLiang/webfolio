@@ -176,10 +176,11 @@
 							Web-design
 							</h1>
 							
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat.</p>
+							<p>Ayant découvert le code et sa magie depuis un an, je suis impressionnée et passionnée par le monde informatique. Jonglant entre HTML 5, CSS 3 et JavaScript, je maîtrise l’intégration et la création de sites web, CMS ( Wordpress)… Je vous invite à regarder les projets que j’ai réalisés récemment. 
+							<br />
+							<br />Pour le site dynamique de Nervures, j'ai réalisé la migration et gestion de contenu, amélioré l'ergonomie générale et le référencement afin d'obtenir une plus forte fréquentation pour augmenter les ventes en ligne.
+							<br />
+							<br />Webfolio est la réalisation de mon propre site web, afin de montrer mon savoir faire et mes compétences. Le code Less est compilé vers du CSS pour un développement plus lisible, un meilleur rendu multi-plateforme et de l'optimisation de poids de page.</p>
 						</article>
 						
 					</div>
@@ -194,7 +195,7 @@
 								</div>
 							</a>
 						</div>
-						<a href="#"><p class="text"><span>Nervures</span>, création du site e-commerce. </p></a>
+						<a href="#"><p class="text"><span>Nervures</span>, création de site e-commerce. </p></a>
 						
 						
 					</div>
@@ -209,7 +210,7 @@
 							</div>
 						</a>
 					</div>
-					<a href="#"><p class="text"><span>Webfolio</span>, création du site statique.</p></a>
+					<a href="#"><p class="text"><span>Webfolio</span>, création de site statique. </p></a>
 					
 				</div>
 				</div>
@@ -228,10 +229,7 @@
 							Design Graphique
 							</h1>
 							
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat.</p>
+							<p>Logos, affiches d'évènements, impression, identités visuelles, clips vidéos... Le monde de l'image et de la création graphique est un univers sans fin, dans lequel je sais comment et où aller, quelque soit le projet à mettre en oeuvre! Vous trouverez ici des exemples réalisés sous Photoshop, InDesign, Illustrator ou encore Premiere.</p>
 						</article>
 						
 					</div>
@@ -265,15 +263,30 @@
 					
 				</div>
 				<div id="graphisme3" class="colG">
-					<div class="conteneur_v">
+					<div class="conteneur_o">
 						<a href="#">
-							<div class="images_v">
+							<div class="images_o">
 								<p class="legende">Voir le projet</p>
 								
 							</div>
 						</a>
 					</div>
 					<a href="#"><p class="text"><span>Motifs</span></p></a>
+					
+					
+				</div>
+
+
+				<div id="graphisme4" class="colD">
+				<div class="conteneur_v">
+							<a href="a_global_matter.php">
+								<div class="images_v">
+									<p class="legende">Voir le projet</p>
+									
+								</div>
+							</a>
+						</div>
+						<a href="#"><p class="text"><span>Data design</span></p></a>
 					
 					
 				</div>
@@ -291,10 +304,7 @@
 							Photographie
 							</h1>
 							
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-							consequat.</p>
+							<p>Après plusieurs années d’expérience dans le cinéma et le documentaire, et avoir parcouru les festival de Cannes et de Venise, j’ai acquis un regard critique et profond. Quand je travaille pour mes photos, un pensée analytique me guide sur les différents aspects de la photographie tels que le cadrage, la composition, la couleur et le contaste. J'aime surtout travailler l'aspect narratif de la photographie, je souhaite raconter toute une histoire à travers une seule image. </p>
 						</article>
 						
 					</div>
@@ -311,7 +321,7 @@
 							</div>
 						</a>
 					</div>
-					<a href="#"><p class="text"><span>Publicitaire</span>, photographie pour des patisseries, des pret-àporter, des bijoux...</p></a>
+					<a href="#"><p class="text"><span>Publicitaire</span>, photographie pour de la pâtisserie, du prêt-à-porter, des bijoux...</p></a>
 					
 				</div>
 
@@ -327,7 +337,7 @@
 							</div>
 						</a>
 					</div>
-					<a href="architecture.php"><p class="text"><span>Architecture</span>, photographie pour architecture...</p></a>
+					<a href="architecture.php"><p class="text"><span>Architecture</span>, photographie pour des architectes et de l'immobilier...</p></a>
 					
 				</div>
 
@@ -340,7 +350,7 @@
 							</div>
 						</a>
 					</div>
-					<a href="portrait.php"><p class="text"><span>Portrait</span>, photographie de portrait professtionel, personnel... </p></a>
+					<a href="portrait.php"><p class="text"><span>Portrait</span>, photographie de portraits professionels, personnels... </p></a>
 					
 					
 				</div>
@@ -355,7 +365,7 @@
 							</div>
 						</a>
 					</div>
-					<a href="vagabondage.php"><p class="text"><span>Vagabondage</span>, photographie ...</p></a>
+					<a href="vagabondage.php"><p class="text"><span>Vagabondage</span>, photographie de paysages, villes, 	...</p></a>
 					
 				</div>
 						
