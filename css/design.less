@@ -1114,11 +1114,18 @@ A GLOBAL MATTER
     }
 }
 
+.webfolio {
+	.colD{
+		background-image: url(../images/webf-ordi.jpg);
+	}
+}
+
 .motif {
 	.colD {
 		background-image: url(../images/motif.jpg);
 	}
 }
+
 .categorie {
     color: #0BE58F;
     font-weight: bold;
@@ -1196,13 +1203,16 @@ A GLOBAL MATTER
 } */
 }
 
-#a_global_matter2 {
+#a_global_matter2, #webfolio2 {
     &.wrap {
         background-color: @global_matter_alt_bg_color;
     }
 }
 
-#a_global_matter3 {
+#a_global_matter3, #webfolio3 {
+    .wrap {
+        background-color: @global_matter_main_bg_color;
+    }
     img {
         filter: grayscale(100%);
         transition: all 1s ease-out;
@@ -1213,7 +1223,7 @@ A GLOBAL MATTER
     }
 }
 
-#a_global_matter4 {
+#a_global_matter4, #webfolio4 {
     background-color: @global_matter_alt_bg_color;
     padding-top: 50px;
 
@@ -1397,6 +1407,28 @@ NERVURES
     width: 25%;
     float: left;
 }
+
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+																				webfolio
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+#pal_webf_1 {
+	background-color: #0BE58F;
+
+}
+#pal_webf_2 {
+	background-color: white;
+	
+}
+#webfolio3 .titre_planche {
+	margin-bottom: 100px;
+}
+#webfolio3 figure {
+	margin-bottom: 100px;
+}
+#webfolio3 figcaption:hover {
+color: black;
+}
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 																				Galleries Noir et Blanc
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
