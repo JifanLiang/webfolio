@@ -19,13 +19,7 @@
 		// Animate loader off screen
 		$(".se-pre-con").fadeOut("slow");;
 	});</script>
-	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'></script>
-<script type='text/javascript' src='loadImg.js'></script>
-<script type='text/javascript'>
-    $(function(){
-        $('img').imgPreload()
-    })
-</script>
+	
 
 			
 	</head>
