@@ -193,7 +193,7 @@
 <div class="lien">
 					
 					
-					<a  class="link" href="https://webfolio.jifan.fr/">Voir d'autres projets </a>
+					<a  class="link" href="https://webfolio.jifan.fr/index.php#webdesign">Voir d'autres projets </a>
 					
 				</div>
 
@@ -208,7 +208,7 @@
 <script>
 		$(function(){
 			var identifiant;
-			$(".a_global_matter a").click(function(event) {
+			$(".nervures a").click(function(event) {
 			//Déactiver l'effet de flash en annulant l'ancre
 			event.preventDefault();
 			//Je récupère l'id de la div jusqu'à laquelle descendre
