@@ -19,88 +19,88 @@
 
 <body>
     <?php include_once("inc/header.php"); ?>
-    <div class="logo_design">
+    <div class="motif">
         <div class="colG">
             <div class="border_logo">
-                <h1>Design de Logo</h1></div>
+                <h1>Design de Motifs</h1></div>
             <div class="bloc_text">
-                <p class="text_standard"><span class="categorie">Client :</span> JV Froid</p>
-                <p class="text_standard"><span class="categorie">Logiciel :</span> Photoshop, Illustrator, Indesign</p>
+                <p class="text_standard"><span class="categorie">Client :</span> Agence Himalaya</p>
+                <p class="text_standard"><span class="categorie">Logiciel :</span> Illustrator</p>
                 <p class="text_standard"><span class="categorie">Origine du projet:</span>
-                    <br> Pour le client de l'entreprise, création d'un logo permettant l'identification de l'entreprise et suggérant le domaine d'activité - climatisation et chauffage.</p>
+                    <br>Pour meubler différents supports (papier, fond d'écran, image de fond), l'entreprise souhaitait avoir un panel de motifs en correspondance avec l'esprit et le nom de l'entreprise.</p>
             </div>
             <div class="scroller">
-                <a href="#logo_design2">
+                <a href="#motif2">
                     <div class="btn">+</div>
                 </a>
             </div>
         </div>
         <div class="colD">
         </div>
-        <div id="logo_design2" class="page wrap">
+        <div id="motif2" class="page wrap">
             <div class="bloc_text">
                 <p class="categorie">Analyse de projet :</p>
-                <p>L'entreprise JV Froid souhaitait moderniser son logo, pour le rendre plus visible, plus reconnaissable et qu'il soit en accord avec le secteur d'activité. JV Froid commercialise des solutions de climatisation et chauffage. Elle souhaite également montrer un aspect écologique, lié à l'utilisation de ses produits, à leur rendement et à la diminution de leur impact sur l'environnement.</p>
+                <p>Agence Himalaya est une agence de communication. Son nom évoque clairement l'aspect montagne, j'ai donc travaillé le sujet, avec ses composantes principales. On retrouve donc stylisés des montagnes, de l'eau, des arbres, des nuages, des tentes, la lune, des ponts ou encore du vent.</p>
                 <div id="pal_1" class="palette"></div>
                 <div id="pal_2" class="palette"></div>
             </div>
             <div class="scroller">
-                <a href="#logo_design3">
+                <a href="#motif3">
                     <div class="btn">+</div>
                 </a>
             </div>
         </div>
-        <div id="logo_design3" class="moodboard page wrap">
+        <div id="motif3" class="moodboard page wrap">
             <div class="bloc_images">
                 <div class="titre_planche"><span class="categorie">Moodboard :</span></div>
                 <div class="planche_col">
                     <figure>
-                        <img src="images/logo/jvfroid/moodboard/31506154-vecteur-de-montagne-de-neige-fond-abstrait-l-hiver-illustration-mod-le-toile-de-fond-pour-la-concept-Banque-d'images.jpeg" alt="planche 1" title="planche 1">
+                        <img src="images/motifs/moodboard/01.jpg" alt="planche 1" title="planche 1">
                         <figcaption>Inspiration 1 - http://www.wwf.fr</figcaption>
                     </figure>
                     <figure>
-                        <img src="images/logo/jvfroid/moodboard/14565.jpeg" alt="planche 2" title="planche 2">
+                        <img src="images/motifs/moodboard/02.jpg" alt="planche 2" title="planche 2">
                         <figcaption>Inspiration 2 - www.jifan.com</figcaption>
                     </figure>
                 </div>
                 <div class="planche_col">
                     <figure>
-                        <img src="images/logo/jvfroid/moodboard/11.jpeg" alt="planche 3" title="planche 3">
+                        <img src="images/motifs/moodboard/03.jpg" alt="planche 3" title="planche 3">
                         <figcaption>Inspiration 3 - www.jifan.com</figcaption>
                     </figure>
                     <figure>
-                        <img src="images/logo/jvfroid/moodboard/drop_dribbble.jpeg" alt="planche 4" title="planche 4">
+                        <img src="images/motifs/moodboard/04.jpg" alt="planche 4" title="planche 4">
                         <figcaption>Inspiration 4 - www.jifan.com</figcaption>
                     </figure>
                 </div>
                 <div class="planche_col">
                     <figure>
-                        <img src="images/logo/jvfroid/moodboard/mv_icons_small.png" alt="planche 5" title="planche 5">
+                        <img src="images/motifs/moodboard/05.jpg" alt="planche 5" title="planche 5">
                         <figcaption>Inspiration 5 - www.karimfakhoury.com</figcaption>
                     </figure>
                     <figure>
-                        <img src="images/logo/jvfroid/moodboard/snowflake-vectors-preview.jpeg" alt="planche 6" title="planche 6">
+                        <img src="images/motifs/moodboard/06.jpg" alt="planche 6" title="planche 6">
                         <figcaption>Inspiration 6 - www.jifan.com</figcaption>
                     </figure>
                 </div>
                 <div class="planche_col">
                     <figure>
-                        <img src="images/logo/jvfroid/moodboard/the_looking_glass_logo.jpeg" alt="planche 7" title="planche 7">
+                        <img src="images/motifs/moodboard/07.jpg" alt="planche 7" title="planche 7">
                         <figcaption>Inspiration 7 - www.jifan.com</figcaption>
                     </figure>
                     <figure>
-                        <img src="images/logo/jvfroid/moodboard/le-soleil-et-la-neige.jpeg" alt="planche 8" title="planche 8">
+                        <img src="images/motifs/moodboard/08.jpg" alt="planche 8" title="planche 8">
                         <figcaption>Inspiration 8 - www.jifan.com</figcaption>
                     </figure>
                 </div>
             </div>
             <div class="scroller">
-                <a href="#logo_design4">
+                <a href="#motif4">
                     <div class="btn">+</div>
                 </a>
             </div>
         </div>
-        <div id="logo_design4" class="page wrap">
+        <div id="motif4" class="page wrap">
             <div class="bloc_images">
                 <div class="titre_planche"><span class="categorie">Pistes créatives :</span></div>
                 <div class="planche_col">
@@ -156,12 +156,12 @@
                 </div>
             </div>
             <div class="scroller">
-                <a href="#logo_design5">
+                <a href="#motif5">
                     <div class="btn">+</div>
                 </a>
             </div>
         </div>
-        <div id="logo_design5" class="wrap">
+        <div id="motif5" class="wrap">
             <div class="bloc_images">
                 <div class="titre_planche"><span class="categorie">D'autres créations de logos :</span></div>
                 <div class="gallerie_colG">
@@ -190,7 +190,7 @@
 
         var identifiant;
 
-        $(".logo_design a").click(function(event) {
+        $(".motif a").click(function(event) {
 
             //Déactiver l'effet de flash en annulant l'ancre 
             event.preventDefault();

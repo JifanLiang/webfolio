@@ -1007,7 +1007,6 @@ FOOTER
 
 .moodboard {
     img {
-
         filter: grayscale(100%);
         transition: all 1s ease-out;
         width: 80%;
@@ -1020,6 +1019,10 @@ FOOTER
     figure {
         //margin-bottom: 60px;
     }
+    figcaption:hover {
+    	color: black;
+	}
+
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 A GLOBAL MATTER
@@ -1029,7 +1032,9 @@ A GLOBAL MATTER
 @global_matter_alt_bg_color: #EFEEEC;
 .a_global_matter,
 .logo_design,
-.nervures, .webfolio {
+.nervures,
+.webfolio,
+.motif {
 
     width: 100%;
     height: 100%;
@@ -1057,7 +1062,6 @@ A GLOBAL MATTER
     .colD {
         height: 100%;
         padding: 0;
-        background-image: url(../images/06.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -1115,6 +1119,12 @@ A GLOBAL MATTER
 	}
 }
 
+.motif {
+	.colD {
+		background-image: url(../images/motif.jpg);
+	}
+}
+
 .categorie {
     color: #0BE58F;
     font-weight: bold;
@@ -1155,7 +1165,6 @@ A GLOBAL MATTER
 .bloc_images {
     width: 80%;
     height: 80%;
-
     margin: 0px auto;
     padding-top: 0px;
 }
@@ -1232,12 +1241,6 @@ A GLOBAL MATTER
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 NERVURES
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
-.nervures {
-    width: 100%;
-    height: 100%;
-}
-
 #nervures {
     height: 100%;
     padding: 0;
@@ -1254,20 +1257,25 @@ NERVURES
 	.border_logo {
 	    width: 400px;
 	}
-}
-
-.nervures .bloc_text {
-    padding-bottom: 200px;
+	.bloc_text {
+    	padding-bottom: 200px;
+	}
+	.text_standard {
+    	float: left;
+    	margin: 10px 30px 10px;
+	}
+	figcaption {
+	    width: 80%;
+	    text-align: left;
+	    font-size: 16px;
+	    position: relative;
+	    left: 0;
+	}
 }
 
 .categorie {
     color: #0BE58F;
     font-weight: bold;
-}
-
-.nervures .text_standard {
-    float: left;
-    margin: 10px 30px 10px;
 }
 
 .btn {
@@ -1281,25 +1289,8 @@ NERVURES
     color: #0BE58F;
 }
 
-.nervures .btn {
-
-    position: relative;
-    left: 50%;
-}
-
-.nervures figcaption {
-    width: 80%;
-    text-align: left;
-    font-size: 16px;
-    position: relative;
-    left: 0;
-}
-
 #nervures2.wrap {
-    clear: both;
     background-color: #EFEEEC;
-    width: 100%;
-    height: 100%;
 }
 
 #nervures2 .bloc_text,
@@ -1325,16 +1316,8 @@ NERVURES
     background-color: #38234B;
 }
 
-#nervures2 .btn {
-    position: absolute;
-    left: 50%;
-}
-
-#nervures3 .wrap {
-    clear: both;
+#nervures3.wrap {
     background-color: white;
-    width: 100%;
-    height: 100%;
 }
 
 #sitemap {
@@ -1347,27 +1330,72 @@ NERVURES
 
 #nervures3 img {
     width: 1200px;
-
     margin: 0 auto;
 }
 
-.planche_btn {
-    width: 100%;
-    height: 150px;
-    padding-top: 100px;
+#nervures4 {
+    background-color: #efeeec;
+    padding-top: 50px;
+    
+    figcaption:hover {
+    	color: black;
+	}
 }
 
-#nervures3 .btn {
-    position: relative;
-    left: 50%;
+#nervures-homepage {
+    margin-top: 50px;
+    width: 1920px;
+    height: 974px;
+    background-image: url(../images/nervures-homepage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.bloc_images {
-    width: 80%;
-    height: 80%;
+#nervures5, #nervures6 {
+    .colG,
+    .colD {
+        margin-top: 100px;
+        width: 50%;
+        height: 60%;
+        padding: 20px;
+        overflow: visible;
+    }
 
-    margin: 0px auto;
-    padding-top: 0px;
+    .avant, .apres
+    {
+        margin-top: 50px;
+        width: 100%;
+
+        img{
+        	max-width: 100%;
+        	width: 100%;
+        	object-fit: contain;
+	        border: solid 1px #0BE58F;
+        }
+    }
+}
+
+#nervures6 {
+    .lien {
+        margin-bottom: 30px;
+    }
+
+
+    .lien a {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        background-color: #0BE58F;
+        text-decoration: none;
+
+        color: white;
+        text-align: center;
+    }
+    .lien a:hover {
+
+        color: #0BE58F;
+        background-color: white;
+    }
 }
 
 .titre_planche {
@@ -1450,118 +1478,13 @@ color: black;
     }
 }
 
-#nervures4 {
-    background-color: #efeeec;
-    padding-top: 50px;
-}
 
-#nervures4 figcaption:hover {
-    color: black;
-}
 
 .a_global_matter img {
     width: 70%;
 }
 
-#nervures-homepage {
-    margin-top: 50px;
-    width: 1920px;
-    height: 974px;
-    background-image: url(../images/nervures-homepage.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-#nervures4 .btn {
-    position: relative;
-    left: 50%;
-}
-
-#nervures5 {
-    .colG,
-    .colD {
-        margin-top: 100px;
-        width: 50%;
-        height: 60%;
-        padding: 20px;
-        overflow: visible;
-    }
-
-    .avant,
-    {
-        margin-top: 50px;
-        width: 100%;
-        height: 100%;
-        background-image: url(../images/old-produit.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border: solid 1px #0BE58F;
-    }
-    .apres {
-        margin-top: 50px;
-        width: 100%;
-        height: 100%;
-        background-image: url(../images/nervures-produit.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border: solid 1px #0BE58F;
-    }
-}
-
-#nervures6 {
-    .colG,
-    .colD {
-        margin-top: 100px;
-        width: 50%;
-        height: 60%;
-        padding: 20px;
-        overflow: visible;
-    }
-
-    .avant,
-    {
-        margin-top: 50px;
-        width: 100%;
-        height: 100%;
-        background-image: url(../images/old-morea.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border: solid 1px #0BE58F;
-    }
-    .apres {
-        margin-top: 50px;
-        width: 100%;
-        height: 100%;
-        background-image: url(../images/nervures-morea.jpg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        border: solid 1px #0BE58F;
-    }
-    .lien {
-        margin-bottom: 30px;
-    }
-
-
-    .lien a {
-        display: block;
-        width: 300px;
-        margin: 0 auto;
-        background-color: #0BE58F;
-        text-decoration: none;
-
-        color: white;
-        text-align: center;
-    }
-    .lien a:hover {
-
-        color: #0BE58F;
-        background-color: white;
-    }
-}
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Publicitaire
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */

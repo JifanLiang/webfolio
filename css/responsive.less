@@ -84,28 +84,32 @@
         padding-top: 10%;
     }
 
-    .a_global_matter h1, .logo_design h1, .nervures h1 {
-        font-size: 24px;
+    .a_global_matter, .logo_design, .nervures {
+        h1{
+            font-size: 24px;
+        }
     }
 
-    .a_global_matter .border_logo {
-        margin: 20% auto;
-        width: 300px;
-        height: 100px;
-        border: solid 1px #0BE58F;
-        border-right: 1px solid;
-        border-image-source: linear-gradient(to bottom left, #0BE58F 10%, white 40%);
-        border-image-slice: 1 1;
-    }
-    .a_global_matter .scroller {
-        margin-left: 50%;
-        bottom: 10%;
-    }
-    .a_global_matter .palette {
-        margin-top: 50px;
-        width: 100px;
-        height: 100px;
-        float: left;
+    .a_global_matter  {
+        .border_logo{
+            margin: 20% auto;
+            width: 300px;
+            height: 100px;
+            border: solid 1px #0BE58F;
+            border-right: 1px solid;
+            border-image-source: linear-gradient(to bottom left, #0BE58F 10%, white 40%);
+            border-image-slice: 1 1;
+        }
+        .scroller {
+            margin-left: 50%;
+            bottom: 10%;
+        }
+        .palette {
+            margin-top: 50px;
+            width: 100px;
+            height: 100px;
+            float: left;
+        }
     }
 
     #a_global_matter2 {
@@ -127,9 +131,61 @@
         }
     }
 
-    .planche_btn {
+    .nervures{
+        .bloc_text{
+            padding-bottom: 20px;
+        }
+    }
 
-        padding-top: 50px;
+    #nervures2, #nervures3, #nervures4{
+        .scroller{
+            bottom: 0px;
+        }
+    }
+    #nervures2 {
+        .bloc_text{
+            padding-top: 20px;
+        }
+    }
+    #nervures3 {
+        #sitemap{
+            margin-top: 0px;
+        }
+        .bloc_images{
+            height: auto;
+        }
+        img {
+            width: 80%;
+        }
+    }
+    #nervures4{
+        padding-top: 100px;
+        .bloc_images{
+            height: 90%;
+        }
+    }
+    #nervures-homepage{
+        width: initial;
+        background-size: contain;
+        margin-top: 0px;
+    }
+
+    #nervures5, #nervures6{
+        .colG, .colD{
+            margin-top: 0px;
+        }
+        .bloc_images{
+            height: auto;
+        }
+        .scroller{
+            bottom: 20px;
+        }
+    }
+
+    #nervures6{
+        .avant, .apres{
+            margin-top: 0px;
+        }
     }
 }
 

@@ -54,7 +54,7 @@
 		<div id="nervures" class="colD">
 			
 		</div>
-		<div id="nervures2" class="wrap">
+		<div id="nervures2" class="page wrap">
 			<div class="bloc_text">
 				<p class="categorie">Analyse de projet :</p>
 				<p>
@@ -74,144 +74,120 @@
 				
 				
 			</div>
-			<a href="#nervures3" class="next"><div class="btn">+</div></a>
+			<div class="scroller">
+				<a href="#nervures3" class="next">
+					<div class="btn">+</div>
+				</a>
+			</div>
 			
 		</div>
-		<div id="nervures3" class="wrap">
-			
-			
+
+		<div id="nervures3" class="page wrap">
 			<div class="bloc_images">
-				<div class="titre_planche"><span class="categorie">Sitemap :</span></div>
+				<div class="titre_planche">
+					<span class="categorie">Sitemap :</span>
+				</div>
 				<div id="sitemap">
 					<img src="images/sitemap-l.jpg">
 				</div>
-				
 			</div>
-			<div class="planche_btn">
+			<div class="scroller">
 				<a href="#nervures4" class="next"><div class="btn">+</div></a>
 			</div>
 		</div>
 		
-		<div id="nervures4" class="wrap">
-			
-			
+		<div id="nervures4" class="page wrap">
 			<div class="bloc_images">
-				<div class="titre_planche"><span class="categorie">Nervures page d'acceuil</span></div>
-				<div id="nervures-homepage">
-					
+				<div class="titre_planche">
+					<span class="categorie">Nervures page d'acceuil</span>
 				</div>
-				
-		
-
-</div>
-<div class="planche_btn">
-<a href="#nervures5" class="next"><div class="btn">+</div></a>
-</div>
-</div>
-
-
-
-
-
-<div id="nervures5" class="wrap">
-
-
-<div class="bloc_images">
-<div class="titre_planche"><span class="categorie">Comparaison : </span></div>
-<p>La page produit de l'ancien site Nervures donne une impression d'être une impasse, elle créé de la confusion : nous ne savons pas si cette page contient des informations, si le fond est cliquablie ou pas.</p>
-<p>Ensuite on découvre que ici, le fond est cliquable et il nous amène une page avancée sur les produits, en revanche, la page suivante qui a presque le même fond n'est plus cliquable.</p> 
-<br />
-<p>Pour le nouveau site, nous rendons la page explicite pour que les visiteurs aient une vision directe sur les produits. </p>
-
-
-
-		<div class="colG">
-		<div><p>Avant : </p></div>
-		<div class="avant">
-			
+				<div id="nervures-homepage">	
+				</div>				
+			</div>
+			<div class="scroller">
+				<a href="#nervures5" class="next">
+					<div class="btn">+</div>
+				</a>
+			</div>
 		</div>
-	
-			
-			
-			
-		</div>
+
+		<div id="nervures5" class="page wrap">
+			<div class="bloc_images">
+				<div class="titre_planche">
+					<span class="categorie">Comparaison : </span>
+				</div>
+				<p>La page produit de l'ancien site Nervures donne une impression d'être une impasse, elle créé de la confusion : nous ne savons pas si cette page contient des informations, si le fond est cliquablie ou pas.</p>
+				<p>Ensuite on découvre que ici, le fond est cliquable et il nous amène une page avancée sur les produits, en revanche, la page suivante qui a presque le même fond n'est plus cliquable.</p> 
+				<br />
+				<p>Pour le nouveau site, nous rendons la page explicite pour que les visiteurs aient une vision directe sur les produits. </p>
+				<div class="colG">
+					<div>
+						<p>Avant : </p>
+					</div>
+					<div class="avant">
+						<img src="images/old-produit.jpg" />
+					</div>
+				</div>
 		
-		<div class="colD">
-		<div><p>Après : </p></div>
-			<div class="apres">
+				<div class="colD">
+					<div>
+						<p>Après : </p>
+					</div>
+					<div class="apres">
+						<img src="images/nervures-produit.jpg" />
+					</div>
+				</div>
+
+			</div>
+			<div class="scroller">
+				<a href="#nervures6" class="page next">
+					<div class="btn">+</div>
+				</a>
+			</div>
+		</div>
+
+		<div id="nervures6" class="page wrap">
+			<div class="bloc_images">
+				<div class="titre_planche">
+					<span class="categorie">Comparaison : </span>
+				</div>
+				<p>Sur l'ancien site Nervures, la page de la descritpion du produit est encombrée d'informations, la lisibilité est faible, qui décourage les visiteurs pour la lecture.</p>
+				<p>Les images de chaque produit sont "rangé" dans un sous onglet, qui sont presque cachées, qui ne sont pas facile à accèss. </p> 
+				<br />
+				<p>En crééant le nouveau site, nous avons refait la misen en page afin d'avoir une proportion raisonnable entre les images et les textes.</p> <p>Nous avons également ajouté des boutons pop-up sur une image, pour mieux montrer les information techniques sur un parapent.</p>
 				
+				<div class="colG">
+					<div>
+						<p>Avant : </p>
+					</div>
+					<div class="avant">
+						<img src="images/old-morea.jpg" />
+					</div>
+				</div>
+		
+				<div class="colD">
+					<div>
+						<p>Après : </p>
+					</div>
+					<div class="apres">
+						<img src="images/nervures-morea.jpg" />
+					</div>
+				</div>
 			</div>
 
-		</div>
-
-
-
-
-
-
-</div>
-<div class="planche_btn">
-<a href="#nervures6" class="next"><div class="btn">+</div></a>
-</div>
-</div>
-
-<div id="nervures6" class="wrap">
-
-
-<div class="bloc_images">
-<div class="titre_planche"><span class="categorie">Comparaison : </span></div>
-<p>Sur l'ancien site Nervures, la page de la descritpion du produit est encombrée d'informations, la lisibilité est faible, qui décourage les visiteurs pour la lecture.</p>
-<p>Les images de chaque produit sont "rangé" dans un sous onglet, qui sont presque cachées, qui ne sont pas facile à accèss. </p> 
-<br />
-<p>En crééant le nouveau site, nous avons refait la misen en page afin d'avoir une proportion raisonnable entre les images et les textes.</p> <p>Nous avons également ajouté des boutons pop-up sur une image, pour mieux montrer les information techniques sur un parapent.</p>
-
-
-
-		<div class="colG">
-		<div><p>Avant : </p></div>
-		<div class="avant">
-			
-		</div>
-	
-			
-			
-			
-		</div>
-		
-		<div class="colD">
-		<div><p>Après : </p></div>
-			<div class="apres">
-				
+			<div class="lien">
+				<a  class="link" href="https://nervures.jifan.fr/" target="_blanc">Consulter le site Nervures </a>
+					
+			</div>
+			<div class="lien">
+				<a  class="link" href="https://webfolio.jifan.fr/index.php#webdesign">Voir d'autres projets </a>
 			</div>
 
+
 		</div>
 
-
-
-
-
-
-</div>
-
-<div class="lien">
-					
-					
-					<a  class="link" href="https://nervures.jifan.fr/" target="_blanc">Consulter le site Nervures </a>
-					
-				</div>
-
-<div class="lien">
-					
-					
-					<a  class="link" href="https://webfolio.jifan.fr/index.php#webdesign">Voir d'autres projets </a>
-					
-				</div>
-
-
-</div>
-
-<?php include_once("inc/footer.php") ?>
-</div>
+		<?php include_once("inc/footer.php") ?>
+	</div>
 
 
 </div>
