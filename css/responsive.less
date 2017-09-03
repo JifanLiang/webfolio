@@ -427,6 +427,9 @@
 
 @media screen and (max-width: 500px) {
 
+    body{
+        line-height: 1.25em;
+    }
     #global {
         padding: 16px;
     }
@@ -456,13 +459,17 @@
     }
     article {
         width: 100%;
+        h1{
+            margin-top: 0px;
+            border: none;
+            font-size: 2em;
+            line-height: 1.25em;
+        }
     }
 
-    .colG {
-
-        padding: 10px;
+    .colG, .colD {
+        padding: 16px;
     }
-
 
     .conteneur {
         margin: 0px auto;
@@ -470,6 +477,13 @@
         height: 150px;
     }
 
+    .conteneur_o, .conteneur_v {
+        width: 100%;
+    }
+
+    .conteneur_v {
+        margin-top: 1%;
+    }
 
     .images {
         width: 100%;
@@ -478,9 +492,6 @@
     }
 
     #menu_vertical {
-
-
-
         width: 100%;
     }
 
@@ -571,19 +582,11 @@
         height: 60px;
     }
 
-    .gallerie_colG {
+    .gallerie_colG, .gallerie_colM, .gallerie_colD {
 
         width: 100%;
     }
 
-
-    .gallerie_colM {
-        width: 100%;
-    }
-
-    .gallerie_colD {
-        width: 100%;
-    }
     .gallerie_colD figure {
         width: 100%;
     }
@@ -597,6 +600,12 @@
         border: none;
     }
 
+    #webdesign2 .images_o{
+        background-position: -90px 0px;
+    }
+    #graphisme2 .images_o{
+        background-position: -50px 0px;
+    }
 
     .link a {
         width: 100%;
