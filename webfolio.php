@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>A Global Matter</title>
+		<title>Webfolio</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<link rel="stylesheet" type="text/css" href="css/design.css">
 		<!-- Google font : josefin sans-->
@@ -27,22 +27,22 @@
 	</head>
 	<body>
 		<?php include_once("inc/header.php"); ?>
-		<div class="a_global_matter">
+		<div class="webfolio">
 			
 			<div class="colG">
 				<div class="border_logo">
-					<h1>Affiche : A Global Matter</h1>
+					<h1>Développement web : webfolio</h1>
 				</div>
 
 				<div class="bloc_text">
-					<p class="text_standard"><span class="categorie">Client :</span> Projet école</p>
-					<p class="text_standard"><span class="categorie">Logiciel :</span> Photoshop, Illustrator, Indesign</p>
+					<p class="text_standard"><span class="categorie">Client :</span> Projet personnel </p>
+					<p class="text_standard"><span class="categorie">Languages :</span> HTML, CSS, Javascript</p>
 					<p class="text_standard"><span class="categorie">Origine du projet:</span><br>
-				Création d'une affiche de la conférence au sujet d' "A Global Matter" en format A3 et 300dpi, avec un montage photos des animaux et les informations essentiels de la conférence.</p>
+				Création d'un site statique afin de présenter tous mes travaux.</p>
 				
 				</div>
 				<div class="scroller">
-					<a href="#a_global_matter2"><div class="btn">+</div></a>
+					<a href="#webfolio2"><div class="btn">+</div></a>
 				</div>
 				
 			</div>
@@ -51,32 +51,35 @@
 				
 			</div>
 
-			<div id="a_global_matter2" class="page wrap">
-				<div class="" style="width: 100%">
+			<div id="webfolio2" class="page wrap">
+				<div style="width: 100%">
 					<div class="bloc_text">
 						<p class="categorie">Analyse de projet :</p>
 						<br />
 						
 
-						<p>L’affiche référence de ce « global matter » évoque l’échauffement climatique mondial, et ses conséquence grave vers les animaux. Quand je traite de sujet, je pense d’utiliser la flamme afin de accentuer l’urgence et la violence du problème, le public pourrait ainsi visualiser et même sentir l’impact de ce dernier. Par ailleurs, j’ai choisi surtout des animaux qui ont un regard directe de face, pour que le public puisse sentir que cela nous concerne tous.</p><br />
+						<p>
+						La création pour soi est toujours le plus difficile, car on a trop de liberté, on est tous subjective, et on a du mal à se détacher. Ainsi, mon première étape, c'est de faire une analyse subjective sur mon travail. J'en ai retiré trois points importants : je fais du développement web, je créer des travaux graphiques et je suis photographe. Cela a défini la structure principale de mon site.</p>
+						<br />
 
-<p>J’ai donc choisi les couleurs orange et violet pou représenter le feu. Afin de garder une cohérence, les autres partie visuelle sur l’affiche reste sur le même ton chronométrique.</p><br />
+						<p>
+						Pour la partie visuelle, je suis beaucoup insipirée par des musées et des gallerys, par leur façon d'amenager l'espace et mettre en valeurs les oeuvres d'art. Je souhaite reproduire le même composition pour mon webfolio, comme si ce dernier est une exposition en ligne. Vous trouvez ainsi sur la page d'acceuil : un espacement important qui offre un air épuré, un bordure contour chaque image qui est inspiré du cadre, et ainsi mon logo qui représente à la fois un cadre et un viseur d'appareil photo.</p><br />
 
-<p>Le montage triangulaire des animaux se montre une importance sur l’affiche, cela représente le mot « global » : c’est un problème pout Tous, et non seulement pour certain.</p><br />
+						<p>Le choix de la couleur verte, est plutôt personnel. L'aspect saine, calme, fraîche et zen de cette couleur correnspond à ma personnalité et mon travail.</p><br />
 
-<p>Pour le choix de typo, j’ai pris un typo géométrique pour souligner l’aspect sérieux et scientifique du sujet.</p>
 
-						<div id="pal_1" class="palette"></div>
-						<div id="pal_2" class="palette"></div>
+
+						<div id="pal_webf_1" class="palette"></div>
+						<div id="pal_webf_2" class="palette"></div>
 					</div>
 
 		        <div class="scroller">
-					<a href="#a_global_matter3"><div class="btn">+</div></a>
+					<a href="#webfolio3"><div class="btn">+</div></a>
 				</div>
 				</div>
 			</div>
 
-			<div id="a_global_matter3" class=" moodboard page wrap">
+			<div id="webfolio3" class=" moodboard page wrap">
 				<div class="bloc_images">
 					<div class="titre_planche">
 						<span class="categorie">Planche de tendances :</span>
@@ -84,54 +87,54 @@
 
 					<div class="planche_col">
 						<figure>
-							<img src="images/ins01.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1 - http://www.wwf.fr</figcaption>
+							<img src="images/webf-1.jpg" alt="inspiration 1" title="inspiration 1" >
+							<figcaption>Inspiration 1 - http://doamaral.com/#/domains</figcaption>
 								
 						</figure>
 						<figure>	
-							<img src="images/ins02.jpg" alt="planche 2" title="planche 2" >
-							<figcaption>Inspiration 2 - www.jifan.com</figcaption>
+							<img src="images/webf-2.jpg" alt="inspiration2" title="inspiration 2" >
+							<figcaption>Inspiration 2 - http://poc-sculpture.com/</figcaption>
 						</figure>
 					</div>
 					<div class="planche_col">
 						<figure>
-							<img src="images/ins03.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 3 - www.jifan.com</figcaption>
+							<img src="images/webf-3.jpg" alt="planche 1" title="planche 3" >
+							<figcaption>Inspiration 3 - https://www.freddelacompta.com/</figcaption>
 						</figure>
 						<figure>
-							<img src="images/ins08.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 4 - www.jifan.com</figcaption>
+							<img src="images/webf-4.jpg" alt="planche 1" title="planche 4" >
+							<figcaption>Inspiration 4 - https://dribbble.com/raazcse</figcaption>
 						</figure>
 					</div>
 					<div class="planche_col">
 						<figure>
-							<img src="images/ins07.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 5 - www.karimfakhoury.com</figcaption>
+							<img src="images/webf-5.jpg" alt="planche 1" title="planche 5" >
+							<figcaption>Inspiration 5 - http://isabelsousa.com/work/nespresso</figcaption>
 						</figure>
 						<figure>
-							<img src="images/ins06.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 6 - www.jifan.com</figcaption>
+							<img src="images/webf-6.jpg" alt="planche 1" title="planche 6" >
+							<figcaption>Inspiration 6 - http://designspartan.com/</figcaption>
 						</figure>
 					</div>
 					<div class="planche_col">
 						<figure>	
-							<img src="images/ins05.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<img src="images/webf-7.jpg" alt="planche 1" title="planche 7" >
+							<figcaption>Inspiration 1- https://trionndesign.com/</figcaption>
 						</figure>
 						<figure>
-							<img src="images/ins04.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>						
+							<img src="images/webf-8.jpg" alt="planche 1" title="planche 8" >
+							<figcaption>Inspiration 1- https://www.feudi.it/</figcaption>						
 						</figure>
 					</div>
 				</div>
 		        <div class="scroller">
-		            <a href="#a_global_matter4">
+		            <a href="#webfolio4">
 		                <div class="btn">+</div>
 		            </a>
 		        </div>
 			</div>
 				
-			<div id="a_global_matter4" class="page wrap">
+			<div id="webfolio4" class="page wrap">
 				<div class="bloc_images">
 					<div class="titre_planche">
 						<span class="categorie">Pistes créatives :</span>
@@ -174,13 +177,13 @@
 					</div>
 				</div>
 		        <div class="scroller">
-		            <a href="#a_global_matter5">
+		            <a href="#webfolio5">
 		                <div class="btn">+</div>
 		            </a>
 		        </div>
 			</div>
 				
-			<div id="a_global_matter5" class="page wrap">
+			<div id="webfolio5" class="page wrap">
 				<div class="bloc_images">
 					<div class="titre_planche">
 						<span class="categorie">D'autres créations d'affiche :</span>
@@ -222,7 +225,7 @@
 
 				var identifiant;
 
-				$(".a_global_matter a").click(function(event) {
+				$(".webfolio a").click(function(event) {
 
 				//Déactiver l'effet de flash en annulant l'ancre 
 				event.preventDefault();

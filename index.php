@@ -136,14 +136,14 @@
 
 					<div id="webdesign2" class="colG">
 					<div class="conteneur_o">
-						<a href="#">
+						<a href="webfolio.php">
 							<div class="images_o">
 								<p class="legende">Voir le projet</p>
 								
 							</div>
 						</a>
 					</div>
-					<a href="#"><p class="text"><span>Webfolio</span>, création de site statique. </p></a>
+					<a href="webfolio.php"><p class="text"><span>Webfolio</span>, création de site statique. </p></a>
 					
 				</div>
 				</div>
