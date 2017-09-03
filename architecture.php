@@ -32,7 +32,9 @@
 			include_once("inc/header.php"); ?>
 			
 			<div id="architecture" class="gallery_bw">
-				<div class="border_logo"><h1>Photographie d'architecture</h1></div>
+				<div class="border_logo">
+					<h1>Photographie d'architecture</h1>
+				</div>
 
 				<div class="gallerie_colG">
 					
@@ -40,7 +42,7 @@
 						<a data-fancybox="gallery" href="images/arch-comble-l.jpg" data-caption="Aménagement de comble en chambre">
 							
 							<img src="images/arch-comble.jpg" alt="Aménagement de comble" title="Aménagement de comble" >
-							<figcaption>Aménagement de comble en chambre</figcaption>
+							<figcaption>Aménagement de comble</figcaption>
 						</a>
 						
 					</figure>
@@ -100,7 +102,7 @@
 					<figure>
 						<a data-fancybox="gallery" href="images/arch-comble1-l.jpg" data-caption="Aménagement comble en salle d'eau">
 							<img src="images/arch-comble1.jpg" alt="Aménagement comble 2" title="Aménagement comble 2">
-							<figcaption>Aménagement comble en salle d'eau</figcaption>
+							<figcaption>Aménagement de combles</figcaption>
 						</a>
 					</figure>
 				
