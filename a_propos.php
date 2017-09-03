@@ -12,8 +12,68 @@
 		<!-- Lien vers la librairie-->
 		<script src="js/html5.js"></script>
 		<script src="js/jQuery3.2.1.js"></script>
+		<!-- Lien pour loading page-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+		<script>$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});</script>
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'></script>
+<script type='text/javascript' src='loadImg.js'></script>
+<script type='text/javascript'>
+    $(function(){
+        $('img').imgPreload()
+    })
+</script>
 
-			<script>
+			
+	</head>
+	<body>
+	<div class="global">
+
+		<?php include_once("inc/header.php"); ?>
+	
+	<div id="a_propos">
+		<div  class="colG">
+			<div class="border_logo"><h2>À propos</h2></div>
+
+			<div class="paragraphe">
+
+			<a href="pdf/cv_Liang_Jifan.pdf" target="_blank" alt="mon cv en pdf"><p>Pour connaître mon parcours, vous pouvez télécharger mon<span class="categorie underline"> CV en PDF</span>;</p></a>
+
+			<p> D'ailleurs, si vous avez 1 minute maintenant, vous pouvez aussi regarder mon <a href="#cv_animate" id="link_to_cv"><span class="categorie underline">CV en motion design.</span></a>
+</p> 
+			</div>
+	
+		</div>
+		
+		<div id="autoportrait" class="colD">
+			
+			
+		</div>
+	</div>
+
+	<div id="cv_animate">
+
+
+			 <video controls >
+			<source src="video/cv-jifan.mp4" type="video/mp4" />
+			
+			<source src="video/movie.ogv" type="video/ogv" />
+			<source src="video/movie.webm" type="video/webm" />
+			
+			</video>
+		
+<?php include_once("inc/footer.php") ?>
+		</div>
+
+
+
+
+		</div>
+		</div>
+<script>
 			$(function(){
 
 				var identifiant;
@@ -63,52 +123,6 @@
 			    $('#a_propos .colD').slideDown(1000);
 			});
 			</script>
-
-	</head>
-	<body>
-	<div class="global">
-
-		<?php include_once("inc/header.php"); ?>
-	
-	<div id="a_propos">
-		<div  class="colG">
-			<div class="border_logo"><h2>À propos</h2></div>
-
-			<div class="paragraphe">
-
-			<a href="pdf/cv_Liang_Jifan.pdf" target="_blank" alt="mon cv en pdf"><p>Pour connaître mon parcours, vous pouvez télécharger mon<span class="categorie underline"> CV en PDF</span>;</p></a>
-
-			<p> D'ailleurs, si vous avez 1 minute maintenant, vous pouvez aussi regarder mon <a href="#cv_animate" id="link_to_cv"><span class="categorie underline">CV en motion design.</span></a>
-</p> 
-			</div>
-	
-		</div>
-		
-		<div id="autoportrait" class="colD">
-			
-			
-		</div>
-	</div>
-
-	<div id="cv_animate">
-
-
-			 <video controls >
-			<source src="video/cv-jifan.mp4" type="video/mp4" />
-			
-			<source src="video/movie.ogv" type="video/ogv" />
-			<source src="video/movie.webm" type="video/webm" />
-			
-			</video>
-		
-<?php include_once("inc/footer.php") ?>
-		</div>
-
-
-
-
-		</div>
-		</div>
 
 
 

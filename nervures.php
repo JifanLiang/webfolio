@@ -14,6 +14,20 @@
 		<script src="js/html5.js"></script>
 		<script src="js/jQuery3.2.1.js"></script>
 		<script src="js/jquery.fancybox.min.js"></script>
+		<!-- Lien pour loading page-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+		<script>$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});</script>
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'></script>
+<script type='text/javascript' src='loadImg.js'></script>
+<script type='text/javascript'>
+    $(function(){
+        $('img').imgPreload()
+    })
+</script>
 		
 	</head>
 	<body>
