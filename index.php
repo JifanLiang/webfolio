@@ -94,12 +94,12 @@
 						<p class="nombre">01</p>
 						<article>
 							<h1>
-							Web-design
+							Développement Web
 							</h1>
 							
 							<p>Ayant découvert le code et sa magie depuis un an, je suis impressionnée et passionnée par le monde informatique. Jonglant entre HTML 5, CSS 3 et JavaScript, je maîtrise l’intégration et la création de sites web, CMS ( Wordpress)… Je vous invite à regarder les projets que j’ai réalisés récemment. 
 							<br />
-							<br />Pour le site dynamique de <strong>Nervures</strong>, j'ai réalisé la migration et gestion de contenu, amélioré l'ergonomie générale et le référencement afin d'obtenir une plus forte fréquentation pour augmenter les ventes en ligne.
+							<br />Pour le site dynamique de <strong>Nervures</strong>, j'ai réalisé la migration et gestion de contenu, amélioré l'ergonomie générale et le référencement afin d'offrir une meilleure navigation sur le site aux clients fidèles.
 							<strong>Webfolio</strong> est la réalisation de mon propre site web, afin de montrer mon savoir faire et mes compétences. Le code Less est compilé vers du CSS pour un développement plus lisible, un meilleur rendu multi-plateforme et de l'optimisation de poids de page.</p>
 						</article>
 						
@@ -108,14 +108,14 @@
 					<!-- PROJET 1 -->
 					<div class="colD">
 						<div class="conteneur_o">
-							<a href="#">
+							<a href="nervures.php">
 								<div class="images_o">
 									<p class="legende">Voir le projet</p>
 									
 								</div>
 							</a>
 						</div>
-						<a href="#"><p class="text"><span>Nervures</span>, création de site e-commerce. </p></a>
+						<a href="nervures.php"><p class="text"><span>Nervures</span>, création de site e-commerce. </p></a>
 						
 						
 					</div>
