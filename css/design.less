@@ -1029,7 +1029,9 @@ A GLOBAL MATTER
 @global_matter_alt_bg_color: #EFEEEC;
 .a_global_matter,
 .logo_design,
-.nervures {
+.nervures,
+.webfolio,
+.motif {
 
     width: 100%;
     height: 100%;
@@ -1108,6 +1110,11 @@ A GLOBAL MATTER
     }
 }
 
+.motif {
+	.colD {
+		background-image: url(../images/motif.jpg);
+	}
+}
 .categorie {
     color: #0BE58F;
     font-weight: bold;
@@ -1310,14 +1317,72 @@ NERVURES
 
 #nervures3 img {
     width: 1200px;
-
     margin: 0 auto;
 }
 
-.planche_btn {
-    width: 100%;
-    height: 150px;
-    padding-top: 100px;
+#nervures4 {
+    background-color: #efeeec;
+    padding-top: 50px;
+    
+    figcaption:hover {
+    	color: black;
+	}
+}
+
+#nervures-homepage {
+    margin-top: 50px;
+    width: 1920px;
+    height: 974px;
+    background-image: url(../images/nervures-homepage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#nervures5, #nervures6 {
+    .colG,
+    .colD {
+        margin-top: 100px;
+        width: 50%;
+        height: 60%;
+        padding: 20px;
+        overflow: visible;
+    }
+
+    .avant, .apres
+    {
+        margin-top: 50px;
+        width: 100%;
+
+        img{
+        	max-width: 100%;
+        	width: 100%;
+        	object-fit: contain;
+	        border: solid 1px #0BE58F;
+        }
+    }
+}
+
+#nervures6 {
+    .lien {
+        margin-bottom: 30px;
+    }
+
+
+    .lien a {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+        background-color: #0BE58F;
+        text-decoration: none;
+
+        color: white;
+        text-align: center;
+    }
+    .lien a:hover {
+
+        color: #0BE58F;
+        background-color: white;
+    }
 }
 
 .titre_planche {
@@ -1378,74 +1443,13 @@ NERVURES
     }
 }
 
-#nervures4 {
-    background-color: #efeeec;
-    padding-top: 50px;
-}
 
-#nervures4 figcaption:hover {
-    color: black;
-}
 
 .a_global_matter img {
     width: 70%;
 }
 
-#nervures-homepage {
-    margin-top: 50px;
-    width: 1920px;
-    height: 974px;
-    background-image: url(../images/nervures-homepage.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-#nervures5, #nervures6 {
-    .colG,
-    .colD {
-        margin-top: 100px;
-        width: 50%;
-        height: 60%;
-        padding: 20px;
-        overflow: visible;
-    }
-
-    .avant, .apres
-    {
-        margin-top: 50px;
-        width: 100%;
-
-        img{
-        	max-width: 100%;
-        	width: 100%;
-        	object-fit: contain;
-	        border: solid 1px #0BE58F;
-        }
-    }
-}
-
-#nervures6 {
-    .lien {
-        margin-bottom: 30px;
-    }
-
-
-    .lien a {
-        display: block;
-        width: 300px;
-        margin: 0 auto;
-        background-color: #0BE58F;
-        text-decoration: none;
-
-        color: white;
-        text-align: center;
-    }
-    .lien a:hover {
-
-        color: #0BE58F;
-        background-color: white;
-    }
-}
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Publicitaire
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */

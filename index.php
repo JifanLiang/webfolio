@@ -192,19 +192,19 @@
 							</div>
 						</a>
 					</div>
-					<a href="#"><p class="text"><span>Logos</span></p></a>
+					<a href="logo_design.php"><p class="text"><span>Logos</span></p></a>
 					
 				</div>
 				<div id="graphisme3" class="colG">
 					<div class="conteneur_o">
-						<a href="#">
+						<a href="motifs.php">
 							<div class="images_o">
 								<p class="legende">Voir le projet</p>
 								
 							</div>
 						</a>
 					</div>
-					<a href="#"><p class="text"><span>Motifs</span></p></a>
+					<a href="motifs.php"><p class="text"><span>Motifs</span></p></a>
 					
 					
 				</div>
