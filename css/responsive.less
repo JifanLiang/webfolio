@@ -500,28 +500,38 @@
         cursor: pointer;
     }
     /*à propos*/
-    #a_propos .border_logo {
-        margin: 30px auto 0px;
-    }
-    #a_propos p {
-        text-align: justify;
-        margin: 20px;
-    }
+    #a_propos {
 
-    #autoportrait {
+        padding-top: 70px;
+        height: 100%;
+        .border_logo {
+            margin: 0px auto 0px;
+        }
+        
+        p {
+            text-align: justify;
+            margin: 20px;
+        }
 
-        height: 250px;
-        background-size: 80%;
+        #autoportrait{
+            padding-bottom: 0px;
+            height: 250px;
+            background-size: 80%;
+            img{
+                width: 100%;
+            }
+        }
     }
 
     #cv_animate {
-        margin-top: 350px;
+        margin-top: 100px;
+        video {
+            margin: 0 auto;
+            width: 80%;
+        }
     }
 
-    #cv_animate video {
-        margin: 0 auto;
-        width: 80%;
-    }
+    #cv_animate 
     /*Contact */
     #contact .contenant {
 
@@ -609,6 +619,8 @@
         background-color: #0BE58F;
         transition: all 1s ease-out;
     }
+
+
 }
 
 
