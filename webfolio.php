@@ -42,7 +42,7 @@
 				
 				</div>
 				<div class="scroller">
-					<a href="#webfolio2"><div class="btn">+</div></a>
+					<a href="#webfolio2" class="next"><div class="btn">+</div></a>
 				</div>
 				
 			</div>
@@ -74,7 +74,7 @@
 					</div>
 
 		        <div class="scroller">
-					<a href="#webfolio3"><div class="btn">+</div></a>
+					<a href="#webfolio3" class="next"><div class="btn">+</div></a>
 				</div>
 				</div>
 			</div>
@@ -128,7 +128,7 @@
 					</div>
 				</div>
 		        <div class="scroller">
-		            <a href="#webfolio4">
+		            <a href="#webfolio4" class="next">
 		                <div class="btn">+</div>
 		            </a>
 		        </div>
@@ -141,82 +141,56 @@
 					</div>
 					<div class="planche_col">
 						<figure>
-							<img src="images/piste01.png" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<img src="images/maquette-1.jpg" alt="maquette-1" title="maquette-1" >
+							<figcaption>Maquette 1 - page d'acceuil</figcaption>
+						</figure>
+						<figure>
+							<img src="images/maquette-5.jpg" alt="maquette-1" title="maquette-1" >
+							<figcaption>Maquette 2 - page d'acceuil</figcaption>
 						</figure>
 					</div>				
 					<div class="planche_col">
 						<figure>
-							<img src="images/piste03.png" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<img src="images/maquette-2.jpg" alt="planche 1" title="planche 1" >
+							<figcaption>Maquette 1 - page design graphique</figcaption>
 						</figure>
 						<figure>
-							<img src="images/piste04.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<img src="images/maquette-6.jpg" alt="planche 1" title="planche 1" >
+							<figcaption>Maquette 3 - page d'acceuil</figcaption>
 						</figure>
 					</div>
 					<div class="planche_col">
 						<figure>
-							<img src="images/piste05.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<img src="images/maquette-3.jpg" alt="planche 1" title="planche 1" >
+							<figcaption>Maquette 1 - page À-propos</figcaption>
 						</figure>
 						<figure>
-							<img src="images/pist06.png" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<img src="images/maquette-7.jpg" alt="planche 1" title="planche 1" >
+							<figcaption>Maquette 3 - page d'acceuil</figcaption>
 						</figure>					
 					</div>
 					<div class="planche_col">
 						<figure>
-							<img src="images/piste07.png" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<img src="images/maquette-4.jpg" alt="planche 1" title="planche 1" >
+							<figcaption>Maquette 1 - page Contact</figcaption>
 						</figure>
 						<figure>
-							<img src="images/piste08.png" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<img src="images/maquette-8.jpg" alt="planche 1" title="planche 1" >
+							<figcaption>Maquette 3 -page Gallerie</figcaption>
 						</figure>
 					</div>
 				</div>
-		        <div class="scroller">
-		            <a href="#webfolio5">
-		                <div class="btn">+</div>
-		            </a>
-		        </div>
+		    
+		       <div class="lien">
+				<a  class="link" href="https://webfolio.jifan.fr/index.php#webdesign">Voir d'autres projets </a>
 			</div>
-				
-			<div id="webfolio5" class="page wrap">
-				<div class="bloc_images">
-					<div class="titre_planche">
-						<span class="categorie">D'autres créations d'affiche :</span>
-					</div>
-					<div class="gallerie_colG">
-						<figure>
-							<a data-fancybox="gallery" href="images/affiche-vintage.jpg" data-caption="affiche vintage">			
-								<img src="images/affiche-vintage.jpg" alt="affiche vintage" title="affiche vintage" >
-								<figcaption>Affiche vintage</figcaption>
-							</a>
-						</figure>
-					</div>				
-					<div class="gallerie_colM">
-						<figure>
-							<a data-fancybox="gallery" href="images/affiche-chocolat-l.jpg" data-caption="Affiche publicitaire">
-								<img src="images/affiche-chocolat.jpg" alt="Affiche publicitaire" title="Affiche publicitaire" >
-								<figcaption>Affiche publicitaire - Émotions sucrées</figcaption>
-							</a>
-						</figure>
-					</div>			
-					<div class="gallerie_colD">
-						<figure>
-							<a data-fancybox="gallery" href="images/affiche-tarantino.jpg" data-caption="affiche cinéma">
-								<img src="images/affiche-tarantino.jpg" alt="affiche cinéma" title="affiche cinéma">
-								<figcaption>Affiche cinéma</figcaption>
-							</a>
-						</figure>	
-					</div>
-				</div>
-				
-				<?php include_once("inc/footer.php") ?>
 
+
+
+		        <?php include_once("inc/footer.php") ?>
 			</div>
+				
+			
 
 		</div>
 
@@ -225,7 +199,7 @@
 
 				var identifiant;
 
-				$(".webfolio a").click(function(event) {
+				$("a.next").click(function(event) {
 
 				//Déactiver l'effet de flash en annulant l'ancre 
 				event.preventDefault();
