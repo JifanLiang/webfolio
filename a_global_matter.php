@@ -84,43 +84,43 @@
 
 					<div class="planche_col">
 						<figure>
-							<img src="images/ins01.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1 - http://www.wwf.fr</figcaption>
+							<img src="images/ins01.jpg" alt="Inspiration 1" title="Inspiration 1" >
+							<figcaption>Inspiration 1 - www.wwf.fr</figcaption>
 								
 						</figure>
 						<figure>	
-							<img src="images/ins02.jpg" alt="planche 2" title="planche 2" >
-							<figcaption>Inspiration 2 - www.jifan.com</figcaption>
+							<img src="images/ins02.jpg" alt="Inspiration 2" title="Inspiration 2" >
+							<figcaption>Inspiration 2 - Artist : Cheng Rui </figcaption>
 						</figure>
 					</div>
 					<div class="planche_col">
 						<figure>
-							<img src="images/ins03.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 3 - www.jifan.com</figcaption>
+							<img src="images/ins03.jpg" alt="Inspiration 3" title="Inspiration 3" >
+							<figcaption>Inspiration 3 - www.lux-valence.com</figcaption>
 						</figure>
 						<figure>
-							<img src="images/ins08.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 4 - www.jifan.com</figcaption>
+							<img src="images/ins08.jpg" alt="Inspiration 4" title="Inspiration 4" >
+							<figcaption>Inspiration 4 - www.robinwood.de</figcaption>
 						</figure>
 					</div>
 					<div class="planche_col">
 						<figure>
-							<img src="images/ins07.jpg" alt="planche 1" title="planche 1" >
+							<img src="images/ins07.jpg" alt="Inspiration 5" title="Inspiration 5" >
 							<figcaption>Inspiration 5 - www.karimfakhoury.com</figcaption>
 						</figure>
 						<figure>
-							<img src="images/ins06.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 6 - www.jifan.com</figcaption>
+							<img src="images/ins06.jpg" alt="Inspiration 6" title="Inspiration 6" >
+							<figcaption>Inspiration 6 - tangyauhoong.com</figcaption>
 						</figure>
 					</div>
 					<div class="planche_col">
 						<figure>	
-							<img src="images/ins05.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<img src="images/ins05.jpg" alt="Inspiration 7" title="Inspiration 7" >
+							<figcaption>Inspiration 7 - Digital Artworks d'Aldo Pulella</figcaption>
 						</figure>
 						<figure>
-							<img src="images/ins04.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>						
+							<img src="images/ins04.jpg" alt="Inspiration 8" title="Inspiration 8" >
+							<figcaption>Inspiration 8 - Dessin de Igor Morski</figcaption>						
 						</figure>
 					</div>
 				</div>
@@ -139,37 +139,37 @@
 					<div class="planche_col">
 						<figure>
 							<img src="images/piste01.png" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<figcaption>Créa - détourage</figcaption>
 						</figure>
 					</div>				
 					<div class="planche_col">
 						<figure>
 							<img src="images/piste03.png" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<figcaption>Créa - détourage</figcaption>
 						</figure>
 						<figure>
 							<img src="images/piste04.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<figcaption>Créa - montage</figcaption>
 						</figure>
 					</div>
 					<div class="planche_col">
 						<figure>
 							<img src="images/piste05.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<figcaption>Créa - forme</figcaption>
 						</figure>
 						<figure>
 							<img src="images/pist06.png" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<figcaption>Créa - forme</figcaption>
 						</figure>					
 					</div>
 					<div class="planche_col">
 						<figure>
 							<img src="images/piste07.png" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<figcaption>Créa - forme</figcaption>
 						</figure>
 						<figure>
 							<img src="images/piste08.png" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<figcaption>Créa - composition</figcaption>
 						</figure>
 					</div>
 				</div>
