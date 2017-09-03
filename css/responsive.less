@@ -1,10 +1,10 @@
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-																							RESPONSIVE
+                                                                                            RESPONSIVE
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-																Écran moyenne				
+                                                                Écran moyenne               
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
 @media screen and (max-width: 1500px) {
@@ -42,34 +42,30 @@
 
 
 
-.conteneur_o {
-   
-    width: 450px;
-    height: 300px;
-    
-}
+    .conteneur_o {
 
-.images_o {
-    
-    width: 450px;
-    height: 300px;
-   
+        width: 450px;
+        height: 300px;
+    }
 
-}
+    .images_o {
 
-.conteneur_v {
+        width: 450px;
+        height: 300px;
+    }
 
-    width: 300px;
-    height: 450px;
-}
+    .conteneur_v {
 
-#graphisme .images_v, #photographie2 .images_v {
-    
-    width: 300px;
-    height: 450px;
-   
-    
-}
+        width: 300px;
+        height: 450px;
+    }
+
+    #graphisme .images_v,
+    #photographie2 .images_v {
+
+        width: 300px;
+        height: 450px;
+    }
 
     .images {
 
@@ -88,20 +84,8 @@
         padding-top: 10%;
     }
 
-    .a_global_matter h1 {
+    .a_global_matter h1, .logo_design h1 {
         font-size: 24px;
-        margin: 20% auto;
-
-        width: 300px;
-        height: 100px;
-        border: solid 1px #0BE58F;
-        text-align: center;
-        padding: 20px 20px;
-
-
-        border-left: 1px solid;
-        border-image-source: linear-gradient(to top right, #0BE58F 10%, white 40%);
-        border-image-slice: 1 1;
     }
     .a_global_matter .border_logo {
 
@@ -118,9 +102,7 @@
         border-image-slice: 1 1;
     }
     .a_global_matter .scroller {
-
-        position: absolute;
-        left: 25%;
+        margin-left: 50%;
         bottom: 10%;
     }
     .a_global_matter .palette {
@@ -131,25 +113,34 @@
     }
 
     #a_global_matter2 .btn {
-        position: absolute;
-        left: 50%;
+        //position: absolute;
+        //left: 50%;
     }
 
-    #a_global_matter3{
-    	padding-top: 50px;
+    #a_global_matter3 {
+        padding-top: 50px;
+        .scroller{
+            bottom: 0px;
+        }
+    }
+
+    #a_global_matter4, #logo_design4 {
+        .scroller{
+            bottom: 0px;
+        }
     }
 
     .planche_btn {
-    
-    padding-top: 50px;
-    
+
+        padding-top: 50px;
+    }
 }
-}
+
 
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-															TABLETTE				
+                                                            TABLETTE                
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
 @media screen and (max-width: 1000px) {
@@ -367,11 +358,12 @@
 }
 
 
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-															MOBILE	
+                                                            MOBILE  
 
 
-	
+    
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
 @media screen and (max-width: 500px) {
@@ -561,11 +553,12 @@
 }
 
 
+
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-															PETIT MOBILE	
+                                                            PETIT MOBILE    
 
 
-	
+    
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
 @media screen and (max-width: 320px) {

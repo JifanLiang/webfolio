@@ -172,7 +172,7 @@
 			
 				<div id="graphisme2" class="colD">
 					<div class="conteneur_o">
-						<a href="#">
+						<a href="logo_design.php">
 							<div class="images_o">
 								<p class="legende">Voir le projet</p>
 								

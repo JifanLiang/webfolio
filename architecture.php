@@ -31,7 +31,7 @@
 			<?php
 			include_once("inc/header.php"); ?>
 			
-			<div id="architecture">
+			<div id="architecture" class="gallery_bw">
 				<div class="border_logo"><h1>Photographie d'architecture</h1></div>
 
 				<div class="gallerie_colG">

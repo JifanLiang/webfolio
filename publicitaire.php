@@ -30,7 +30,7 @@
 			
 			<?php
 			include_once("inc/header.php"); ?>
-			<div id="publicitaire">
+			<div id="publicitaire" class="gallery_bw">
 				<div class="border_logo"><h1>Photographie publicitaire</h1></div>
 				
 				<div class="gallerie_colG">

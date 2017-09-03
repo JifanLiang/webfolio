@@ -23,312 +23,189 @@
 		<div class="a_global_matter">
 			
 			<div class="colG">
-				<div class="border_logo"><h1>Affiche : A Global Matter</h1></div>
+				<div class="border_logo">
+					<h1>Affiche : A Global Matter</h1>
+				</div>
 
 				<div class="bloc_text">
-				<p class="text_standard"><span class="categorie">Client :</span> Projet école</p>
-				<p class="text_standard"><span class="categorie">Logiciel :</span> Photoshop, Illustrator, Indesign</p>
-				<p class="text_standard"><span class="categorie">Origine du projet:</span><br>
-			Création d'une affiche de la conférence au sujet d' "A Global Matter" en format A3 et 300dpi, avec un montage photos des animaux et les informations essentiels de la conférence.</p>
-			
-			<div class="scroller">
-
-					<div class="u-absolute u-fit-w u-pos-bl u-align-center is-active" has-binding="">
+					<p class="text_standard"><span class="categorie">Client :</span> Projet école</p>
+					<p class="text_standard"><span class="categorie">Logiciel :</span> Photoshop, Illustrator, Indesign</p>
+					<p class="text_standard"><span class="categorie">Origine du projet:</span><br>
+				Création d'une affiche de la conférence au sujet d' "A Global Matter" en format A3 et 300dpi, avec un montage photos des animaux et les informations essentiels de la conférence.</p>
+				
+				</div>
+				<div class="scroller">
 					<a href="#a_global_matter2"><div class="btn">+</div></a>
-				
-					
 				</div>
-
 				
-				</div>
-
-
 			</div>
 			
-		</div>
-		
-		<div class="colD">
-			
-		</div>
-
-		<div id="a_global_matter2" class="wrap">
-		<div class="bloc_text">
-
-			<p class="categorie">Analyse de projet :</p>
-
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-			<div id="pal_1" class="palette"></div>
-			<div id="pal_2" class="palette"></div>
-	
-
-
-
-			</div>
-				<a href="#a_global_matter3"><div class="btn">+</div></a>
+			<div class="colD">
 				
+			</div>
 
+			<div id="a_global_matter2" class="page wrap">
+				<div class="" style="width: 100%">
+					<div class="bloc_text">
+						<p class="categorie">Analyse de projet :</p>
 
-		</div>
+						<p>L’affiche référence de ce « global matter » évoque l’échauffement climatique mondial, et ses conséquence grave vers les animaux. Quand je traite de sujet, je pense d’utiliser la flamme afin de accentuer l’urgence et la violence du problème, le public pourrait ainsi visualiser et même sentir l’impact de ce dernier. Par ailleurs, j’ai choisi surtout des animaux qui ont un regard directe de face, pour que le public puisse sentir que cela nous concerne tous.<br />
+J’ai donc choisi les couleurs orange et violet pou représenter le feu. Afin de garder une cohérence, les autres partie visuelle sur l’affiche reste sur le même ton chronométrique.<br />
+Le montage triangulaire des animaux se montre une importance sur l’affiche, cela représente le mot « global » : c’est un problème pout Tous, et non seulement pour certain.<br />
+Pour le choix de typo, j’ai pris un typo géométrique pour souligner l’aspect sérieux et scientifique du sujet.</p>
 
-		<div id="a_global_matter3" class="wrap">
-		
-		
-		<div class="bloc_images">
+						<div id="pal_1" class="palette"></div>
+						<div id="pal_2" class="palette"></div>
+					</div>
 
-			<div class="titre_planche"><span class="categorie">Planche de tendances :</span></div>
+		        <div class="scroller">
+					<a href="#a_global_matter3"><div class="btn">+</div></a>
+				</div>
+				</div>
+			</div>
 
-			<div class="planche_col">
-					
-					<figure>
-						
-							
+			<div id="a_global_matter3" class=" moodboard page wrap">
+				<div class="bloc_images">
+					<div class="titre_planche">
+						<span class="categorie">Planche de tendances :</span>
+					</div>
+
+					<div class="planche_col">
+						<figure>
 							<img src="images/ins01.jpg" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1 - http://www.wwf.fr</figcaption>
-						</a>
-						
-					</figure>
-					<figure>	
+								
+						</figure>
+						<figure>	
 							<img src="images/ins02.jpg" alt="planche 2" title="planche 2" >
 							<figcaption>Inspiration 2 - www.jifan.com</figcaption>
-						</a>
-						
-					</figure>
-					
-			</div>
-				
-				<div class="planche_col">
-
-				<figure>
+						</figure>
+					</div>
+					<div class="planche_col">
+						<figure>
 							<img src="images/ins03.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
-						</a>
-						
-					</figure>
-				
-					<figure>
-						
-							
+							<figcaption>Inspiration 3 - www.jifan.com</figcaption>
+						</figure>
+						<figure>
 							<img src="images/ins08.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
-						</a>
-						
-					</figure>
-				
-
-			</div>
-				
-				<div class="planche_col">
-					<figure>
-						
-							
+							<figcaption>Inspiration 4 - www.jifan.com</figcaption>
+						</figure>
+					</div>
+					<div class="planche_col">
+						<figure>
 							<img src="images/ins07.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 7- www.karimfakhoury.com</figcaption>
-						</a>
-						
-					</figure>
-					<figure>
-						
-							
+							<figcaption>Inspiration 5 - www.karimfakhoury.com</figcaption>
+						</figure>
+						<figure>
 							<img src="images/ins06.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
-						</a>
-						
-					</figure>
-					
-				</div>
-
-			<div class="planche_col">
-					<figure>
-						
-							
+							<figcaption>Inspiration 6 - www.jifan.com</figcaption>
+						</figure>
+					</div>
+					<div class="planche_col">
+						<figure>	
 							<img src="images/ins05.jpg" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
-						</a>
-						
-					</figure>
-				
-					<figure>
-						
-							
+						</figure>
+						<figure>
 							<img src="images/ins04.jpg" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
-						</a>
-						
-					</figure>
-				
+							<figcaption>Inspiration 1- www.jifan.com</figcaption>						
+						</figure>
+					</div>
 				</div>
-
-
-		
-		</div>
-		<div class="planche_btn">
-		<a href="#a_global_matter4"><div class="btn">+</div></a>
-		</div>
-
-		</div>
-		
-<div id="a_global_matter4" class="wrap">
-		
-		
-		<div class="bloc_images">
-
-			<div class="titre_planche"><span class="categorie">Pistes créatives :</span></div>
-
-			<div class="planche_col">
-					
-					<figure>
-						
-							
+		        <div class="scroller">
+		            <a href="#a_global_matter4">
+		                <div class="btn">+</div>
+		            </a>
+		        </div>
+			</div>
+				
+			<div id="a_global_matter4" class="page wrap">
+				<div class="bloc_images">
+					<div class="titre_planche">
+						<span class="categorie">Pistes créatives :</span>
+					</div>
+					<div class="planche_col">
+						<figure>
 							<img src="images/piste01.png" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
-						</a>
-						
-					</figure>
-					<!--
-					<figure>	
+						</figure>
+					</div>				
+					<div class="planche_col">
+						<figure>
 							<img src="images/piste03.png" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
-						</a>
-						
-					</figure>
-					-->
-					
-			</div>
-				
-				<div class="planche_col">
-			
-
-				<figure>
-							<img src="images/piste03.png" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
-						</a>
-						
-					</figure>
-
-					<figure>
-						
-							
+						</figure>
+						<figure>
 							<img src="images/piste04.jpg" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
-						</a>
-						
-					</figure>
-
-			</div>
-				
-				<div class="planche_col">
-					<figure>
-						
-							
+						</figure>
+					</div>
+					<div class="planche_col">
+						<figure>
 							<img src="images/piste05.jpg" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
-						</a>
-						
-					</figure>
-					<figure>
-						
-							
+						</figure>
+						<figure>
 							<img src="images/pist06.png" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
-						</a>
-						
-					</figure>
-					
-				</div>
-
-			<div class="planche_col">
-					<figure>
-						
-							
+						</figure>					
+					</div>
+					<div class="planche_col">
+						<figure>
 							<img src="images/piste07.png" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
-						</a>
-						
-					</figure>
-					<figure>
-						
-							
+						</figure>
+						<figure>
 							<img src="images/piste08.png" alt="planche 1" title="planche 1" >
 							<figcaption>Inspiration 1- www.jifan.com</figcaption>
-						</a>
-						
-					</figure>
-					
+						</figure>
+					</div>
 				</div>
-				</div>
-				<div class="planche_btn">
-				<a href="#a_global_matter5"><div class="btn">+</div></a>
-				</div>
-				</div>
-
-
-		
-		
-		
-
-		
-		
-		<div id="a_global_matter5" class="wrap">
-		
-		
-		<div class="bloc_images">
-
-			<div class="titre_planche"><span class="categorie">D'autres créations d'affiche :</span></div>
-
-			<div class="gallerie_colG">
-					
-					<figure>
-						<a data-fancybox="gallery" href="images/affiche-vintage.jpg" data-caption="affiche vintage">
-							
-							<img src="images/affiche-vintage.jpg" alt="affiche vintage" title="affiche vintage" >
-							<figcaption>Affiche vintage</figcaption>
-						</a>
-						
-					</figure>
-					
-				
+		        <div class="scroller">
+		            <a href="#a_global_matter5">
+		                <div class="btn">+</div>
+		            </a>
+		        </div>
 			</div>
 				
-				<div class="gallerie_colM">
-				<figure>
-						<a data-fancybox="gallery" href="images/affiche-chocolat-l.jpg" data-caption="Affiche publicitaire">
-							<img src="images/affiche-chocolat.jpg" alt="Affiche publicitaire" title="Affiche publicitaire" >
-							<figcaption>Affiche publicitaire - Émotions sucrées</figcaption>
-						</a>
-					</figure>
-					
-					
-			</div>
-				
-				<div class="gallerie_colD">
-					<figure>
-						<a data-fancybox="gallery" href="images/affiche-tarantino.jpg" data-caption="affiche cinéma">
-							<img src="images/affiche-tarantino.jpg" alt="affiche cinéma" title="affiche cinéma">
-							<figcaption>Affiche cinéma</figcaption>
-						</a>
-					</figure>
-					
+			<div id="a_global_matter5" class="page wrap">
+				<div class="bloc_images">
+					<div class="titre_planche">
+						<span class="categorie">D'autres créations d'affiche :</span>
+					</div>
+					<div class="gallerie_colG">
+						<figure>
+							<a data-fancybox="gallery" href="images/affiche-vintage.jpg" data-caption="affiche vintage">			
+								<img src="images/affiche-vintage.jpg" alt="affiche vintage" title="affiche vintage" >
+								<figcaption>Affiche vintage</figcaption>
+							</a>
+						</figure>
+					</div>				
+					<div class="gallerie_colM">
+						<figure>
+							<a data-fancybox="gallery" href="images/affiche-chocolat-l.jpg" data-caption="Affiche publicitaire">
+								<img src="images/affiche-chocolat.jpg" alt="Affiche publicitaire" title="Affiche publicitaire" >
+								<figcaption>Affiche publicitaire - Émotions sucrées</figcaption>
+							</a>
+						</figure>
+					</div>			
+					<div class="gallerie_colD">
+						<figure>
+							<a data-fancybox="gallery" href="images/affiche-tarantino.jpg" data-caption="affiche cinéma">
+								<img src="images/affiche-tarantino.jpg" alt="affiche cinéma" title="affiche cinéma">
+								<figcaption>Affiche cinéma</figcaption>
+							</a>
+						</figure>	
+					</div>
 				</div>
+				
+				<?php include_once("inc/footer.php") ?>
 
-		
-		</div>
-		
-		<?php include_once("inc/footer.php") ?>
+			</div>
 
 		</div>
 
-
-		
-		
-	</div>
-
-	<script>
+		<script>
 			$(function(){
 
 				var identifiant;
@@ -359,5 +236,5 @@
 		
 		</script>
 	
-</body>
+	</body>
 </html>
