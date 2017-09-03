@@ -12,13 +12,14 @@
 		<!-- Lien vers la librairie-->
 		<script src="js/html5.js"></script>
 		<script src="js/jQuery3.2.1.js"></script>
-		<!-- Lien pour loading page-->
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<!-- Lien pour loading page-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
 		<script>$(window).load(function() {
 		// Animate loader off screen
 		$(".se-pre-con").fadeOut("slow");;
 	});</script>
+
 	
 
 			
