@@ -18,6 +18,8 @@
 	</head>
 	<body>
 		<?php include_once("inc/header.php"); ?>
+		
+
 		<div class="nervures" >
 			
 			<div class="colG">
@@ -32,7 +34,7 @@
 			</div>
 			<div class="scroller">
 				<div class="u-absolute u-fit-w u-pos-bl u-align-center is-active" has-binding="">
-					<a href="#nervures2"><div class="btn">+</div></a>
+					<a href="#nervures2" class="next"><div class="btn">+</div></a>
 					
 					
 				</div>
@@ -64,7 +66,7 @@
 				
 				
 			</div>
-			<a href="#nervures3"><div class="btn">+</div></a>
+			<a href="#nervures3" class="next"><div class="btn">+</div></a>
 			
 		</div>
 		<div id="nervures3" class="wrap">
@@ -78,7 +80,7 @@
 				
 			</div>
 			<div class="planche_btn">
-				<a href="#nervures4"><div class="btn">+</div></a>
+				<a href="#nervures4" class="next"><div class="btn">+</div></a>
 			</div>
 		</div>
 		
@@ -95,7 +97,7 @@
 
 </div>
 <div class="planche_btn">
-<a href="#nervures5"><div class="btn">+</div></a>
+<a href="#nervures5" class="next"><div class="btn">+</div></a>
 </div>
 </div>
 
@@ -141,7 +143,7 @@
 
 </div>
 <div class="planche_btn">
-<a href="#nervures6"><div class="btn">+</div></a>
+<a href="#nervures6" class="next"><div class="btn">+</div></a>
 </div>
 </div>
 
@@ -208,7 +210,7 @@
 <script>
 		$(function(){
 			var identifiant;
-			$(".nervures a").click(function(event) {
+			$("a.next").click(function(event) {
 			//Déactiver l'effet de flash en annulant l'ancre
 			event.preventDefault();
 			//Je récupère l'id de la div jusqu'à laquelle descendre
