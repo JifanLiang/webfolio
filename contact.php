@@ -132,7 +132,7 @@
 
 <div class="contenant">
 
-	<div class="border_logo"><h2>Contact</h2></div>
+	<div class="border_logo"><h1>Contact</h1></div>
 <form action="contact.php" method="post">
 
 <p>
@@ -176,7 +176,9 @@
 
 </p>
 
-<input type="submit" name="go" id="go">
+<div class="lien">
+	<input class="link" type="submit" name="go" id="go">
+</div>
 
 </form>
 

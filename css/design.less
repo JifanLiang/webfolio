@@ -509,7 +509,7 @@ Fin de SCROLLER
     padding-top: 100px;
 }
 
-h1 {
+article h1 {
     margin-top: 46px;
     color: black;
     padding-left: 10px;
@@ -545,7 +545,7 @@ h1 {
 }
 
 article {
-    width: 60%;
+    width: 70%;
     float: left;
 }
 
@@ -890,8 +890,25 @@ PAGE CONTACT
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
 #contact {
-    width: 100%;
-    height: 100%;
+
+	.colD {
+	    padding-top: 15%;
+	    display: none;
+	}
+
+	.border_logo {
+	    height: 100px;
+	}
+
+	.colG {
+	    width: 50%;
+	    height: 100%;
+	    padding: 0; //display: none;
+	}
+
+    input.link{
+    	padding-top: 0px;
+    }
 }
 
 .contenant {
@@ -901,33 +918,6 @@ PAGE CONTACT
     margin: 0px auto;
 }
 
-#contact .colD {
-    padding-top: 15%;
-    display: none;
-}
-
-#contact .border_logo {
-    margin: 0px auto 80px;
-    width: 200px;
-    height: 100px;
-    border: solid 1px #0BE58F;
-    border-right: 1px solid;
-    border-image-source: linear-gradient(to bottom left, #0BE58F 10%, white 40%);
-    border-image-slice: 1 1;
-}
-
-#contact h2 {
-    margin: 0px auto 80px;
-    width: 200px;
-    height: 100px;
-    border: solid 1px #0BE58F;
-    text-align: center;
-    padding-top: 35px;
-    border-left: 1px solid;
-    border-image-source: linear-gradient(to top right, #0BE58F 10%, white 40%);
-    border-image-slice: 1 1;
-}
-
 .label {
     width: 150px;
     float: left;
@@ -935,22 +925,11 @@ PAGE CONTACT
 
 .champ {
     width: 500px;
-    /*border: solid 1px #0be58f; */
 }
 
-#go {
-    cursor: pointer;
-    color: #0be58f;
-}
 
 .warning {
     color: red;
-}
-
-#contact .colG {
-    width: 50%;
-    height: 100%;
-    padding: 0; //display: none;
 }
 
 #grenoble {
@@ -1035,7 +1014,10 @@ A GLOBAL MATTER
 .nervures,
 .webfolio,
 .motif,
-.data_design {
+.data_design,
+#contact,
+.gallery_bw
+ {
 
     width: 100%;
     height: 100%;
@@ -1106,11 +1088,25 @@ A GLOBAL MATTER
     .colD {
         background-image: url(../images/06.png);
     }
+
+    img {
+        width: 70%;
+    }
 }
 
 .logo_design {
     .colD {
         background-image: url(../images/logo/jvf-color.png);
+    }
+    .titre_planche{
+        margin-bottom: 40px;
+    }
+
+    #logo_design5, #logo_design4{
+        figure{
+            display: table;
+            text-align: left;
+        }
     }
 }
 
@@ -1380,24 +1376,33 @@ NERVURES
     .lien {
         margin-bottom: 30px;
     }
+}
 
+.lien {
+    margin-bottom: 30px;
 
-    .lien a {
+    a, input {
         display: block;
         width: 300px;
         margin: 0 auto;
         background-color: #0BE58F;
         text-decoration: none;
-
         color: white;
         text-align: center;
-    }
-    .lien a:hover {
+	}
 
-        color: #0BE58F;
-        background-color: white;
-    }
+	a:hover, input:hover {
+    	color: #0BE58F;
+    	background-color: white;
+	}
+
+	input{
+	    cursor: pointer;
+	    font-size: 16px;
+	}
 }
+
+
 
 .titre_planche {
     padding-bottom: 20px;
@@ -1447,32 +1452,6 @@ color: black;
     width: 60%;
     margin: 0 auto;
 
-    h1 {
-        font-size: 24px;
-
-        margin: 0px auto 80px;
-        width: 300px;
-        height: 100px;
-        border: solid 1px #0BE58F;
-        text-align: center;
-        padding-top: 35px;
-
-        border-left: 1px solid;
-        border-image-source: linear-gradient(to top right, #0BE58F 10%, white 40%);
-        border-image-slice: 1 1;
-    }
-
-    .border_logo {
-        margin: 100px auto 100px;
-        width: 300px;
-        height: 100px;
-        border: solid 1px #0BE58F;
-        text-align: center;
-        border-right: 1px solid;
-        border-image-source: linear-gradient(to bottom left, #0BE58F 10%, white 40%);
-        border-image-slice: 1 1;
-    }
-
     img {
         filter: grayscale(100%);
         transition: all 1s ease-out;
@@ -1487,14 +1466,11 @@ color: black;
     figure {
         margin-bottom: 60px;
     }
+
+    figcaption{
+        left: 10%;
+    }
 }
-
-
-
-.a_global_matter img {
-    width: 70%;
-}
-
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Publicitaire
@@ -1531,6 +1507,9 @@ figcaption:hover {
     a {
         width: 33.33%;
         float: left;
+        p{
+            text-align: center;
+        }
     }
 
     a:hover {
