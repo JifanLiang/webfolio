@@ -44,7 +44,7 @@
 		</div>
 		
 		<div id="autoportrait" class="colD">
-			
+			<img src="images/autoportrait.jpg" />
 			
 		</div>
 	</div>
