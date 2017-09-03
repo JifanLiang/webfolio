@@ -545,7 +545,7 @@ h1 {
 }
 
 article {
-    width: 60%;
+    width: 70%;
     float: left;
 }
 
@@ -1372,28 +1372,32 @@ NERVURES
     }
 }
 
-#nervures6 {
-    .lien {
-        margin-bottom: 30px;
-    }
 
+.lien {
+    margin-bottom: 30px;
 
-    .lien a {
+    a, input {
         display: block;
         width: 300px;
         margin: 0 auto;
         background-color: #0BE58F;
         text-decoration: none;
-
         color: white;
         text-align: center;
-    }
-    .lien a:hover {
+	}
 
-        color: #0BE58F;
-        background-color: white;
-    }
+	a:hover, input:hover {
+    	color: #0BE58F;
+    	background-color: white;
+	}
+
+	input{
+	    cursor: pointer;
+	    font-size: 16px;
+	}
 }
+
+
 
 .titre_planche {
     padding-bottom: 20px;

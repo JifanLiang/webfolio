@@ -176,7 +176,9 @@
 
 </p>
 
-<input type="submit" name="go" id="go">
+<div class="lien">
+	<input class="link" type="submit" name="go" id="go">
+</div>
 
 </form>
 
