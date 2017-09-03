@@ -137,7 +137,7 @@
 
 <p>
 	<label for="prenom" class="label categorie">Votre nom * : </label>
-	<input type="text" name="prenom" id="prenom" class="champ" placeholder="Paul"
+	<input type="text" name="prenom" id="prenom" class="champ" 
 	<?php if(isset($prenom)) echo "value=\"".$prenom."\"";
 	?>>
 
@@ -147,7 +147,7 @@
 </p>
 <p>
 	<label for="mail" class="label categorie">Votre adress mail * : </label>
-	<input type="text" name="mail" id="mail" class="champ" placeholder="Paul@exemple.com"
+	<input type="text" name="mail" id="mail" class="champ" 
 	<?php if(isset($prenom)) echo "value=\"".$mail."\"";
 	?>>
 	
@@ -158,7 +158,7 @@
 </p>
 <p>
 	<label for="objet" class="label categorie">Objet : </label>
-	<input type="text" name="objet" id="objet" class="champ" placeholder="recrutement"
+	<input type="text" name="objet" id="objet" class="champ" 
 	<?php if(isset($objet)) echo "value=\"".$objet."\"";
 	?>>
 
@@ -166,7 +166,7 @@
 
 <p>
 	<label for="message" class="label categorie">Votre message * : </label>
-	<textarea name="message" id="message" cols="50" rows="10" class="champ" placeholder="Bonjour Jifan, "
+	<textarea name="message" id="message" cols="50" rows="10" class="champ"  "
 	 <?php if(isset($message)) echo "value=\"".$message."\"";
 	?>>
 		
