@@ -56,41 +56,41 @@
                 <div class="planche_col">
                     <figure>
                         <img src="images/logo/jvfroid/moodboard/31506154-vecteur-de-montagne-de-neige-fond-abstrait-l-hiver-illustration-mod-le-toile-de-fond-pour-la-concept-Banque-d'images.jpeg" alt="planche 1" title="planche 1">
-                        <figcaption>Inspiration 1 - http://www.wwf.fr</figcaption>
+                        <figcaption><a href="https://www.wwf.fr" target="blank">Inspiration 1</a></figcaption>
                     </figure>
                     <figure>
                         <img src="images/logo/jvfroid/moodboard/14565.jpeg" alt="planche 2" title="planche 2">
-                        <figcaption>Inspiration 2 - www.jifan.com</figcaption>
+                        <figcaption>Inspiration 2</figcaption>
                     </figure>
                 </div>
                 <div class="planche_col">
                     <figure>
                         <img src="images/logo/jvfroid/moodboard/11.jpeg" alt="planche 3" title="planche 3">
-                        <figcaption>Inspiration 3 - www.jifan.com</figcaption>
+                        <figcaption>Inspiration 3</figcaption>
                     </figure>
                     <figure>
                         <img src="images/logo/jvfroid/moodboard/drop_dribbble.jpeg" alt="planche 4" title="planche 4">
-                        <figcaption>Inspiration 4 - www.jifan.com</figcaption>
+                        <figcaption>Inspiration 4</figcaption>
                     </figure>
                 </div>
                 <div class="planche_col">
                     <figure>
                         <img src="images/logo/jvfroid/moodboard/mv_icons_small.png" alt="planche 5" title="planche 5">
-                        <figcaption>Inspiration 5 - www.karimfakhoury.com</figcaption>
+                        <figcaption><a href="www.karimfakhoury.com" target="_blank">Inspiration 5</a></figcaption>
                     </figure>
                     <figure>
                         <img src="images/logo/jvfroid/moodboard/snowflake-vectors-preview.jpeg" alt="planche 6" title="planche 6">
-                        <figcaption>Inspiration 6 - www.jifan.com</figcaption>
+                        <figcaption>Inspiration 6</figcaption>
                     </figure>
                 </div>
                 <div class="planche_col">
                     <figure>
                         <img src="images/logo/jvfroid/moodboard/the_looking_glass_logo.jpeg" alt="planche 7" title="planche 7">
-                        <figcaption>Inspiration 7 - www.jifan.com</figcaption>
+                        <figcaption>Inspiration 7</figcaption>
                     </figure>
                     <figure>
                         <img src="images/logo/jvfroid/moodboard/le-soleil-et-la-neige.jpeg" alt="planche 8" title="planche 8">
-                        <figcaption>Inspiration 8 - www.jifan.com</figcaption>
+                        <figcaption>Inspiration 8</figcaption>
                     </figure>
                 </div>
             </div>
@@ -105,53 +105,42 @@
                 <div class="titre_planche"><span class="categorie">Pistes créatives :</span></div>
                 <div class="planche_col">
                     <figure>
-                        <img src="images/piste01.png" alt="planche 1" title="planche 1">
-                        <figcaption>Inspiration 1 - www.jifan.com</figcaption>
-                        </a>
+                        <img src="images/logo/crea/logo-crea-1.png" alt="planche 1" title="planche 1">
+                        <figcaption>Créa 1</figcaption>
                     </figure>
-                    <!--
 					<figure>	
-							<img src="images/piste03.png" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
-						</a>
-						
+						<img src="images/logo/crea/logo-crea-2.png" alt="planche 2" title="planche 2" >
+						<figcaption>Créa 2</figcaption>
 					</figure>
-					-->
                 </div>
                 <div class="planche_col">
                     <figure>
-                        <img src="images/piste03.png" alt="planche 1" title="planche 1">
-                        <figcaption>Inspiration 1 - www.jifan.com</figcaption>
-                        </a>
+                        <img src="images/logo/crea/logo-crea-3.png" alt="planche 3" title="planche 3">
+                        <figcaption>Créa 3</figcaption>
                     </figure>
                     <figure>
-                        <img src="images/piste04.jpg" alt="planche 1" title="planche 1">
-                        <figcaption>Inspiration 1 - www.jifan.com</figcaption>
-                        </a>
-                    </figure>
-                </div>
-                <div class="planche_col">
-                    <figure>
-                        <img src="images/piste05.jpg" alt="planche 1" title="planche 1">
-                        <figcaption>Inspiration 1 - www.jifan.com</figcaption>
-                        </a>
-                    </figure>
-                    <figure>
-                        <img src="images/pist06.png" alt="planche 1" title="planche 1">
-                        <figcaption>Inspiration 1 - www.jifan.com</figcaption>
-                        </a>
+                        <img src="images/logo/crea/logo-crea-4.png" alt="planche 4" title="planche 4">
+                        <figcaption>Créa 4</figcaption>
                     </figure>
                 </div>
                 <div class="planche_col">
                     <figure>
-                        <img src="images/piste07.png" alt="planche 1" title="planche 1">
-                        <figcaption>Inspiration 1 - www.jifan.com</figcaption>
-                        </a>
+                        <img src="images/logo/crea/logo-crea-5.png" alt="planche 5" title="planche 5">
+                        <figcaption>Créa 5</figcaption>
                     </figure>
                     <figure>
-                        <img src="images/piste08.png" alt="planche 1" title="planche 1">
-                        <figcaption>Inspiration 1 - www.jifan.com</figcaption>
-                        </a>
+                        <img src="images/logo/crea/logo-crea-6.png" alt="planche 6" title="planche 6">
+                        <figcaption>Créa 6</figcaption>
+                    </figure>
+                </div>
+                <div class="planche_col">
+                    <figure>
+                        <img src="images/logo/crea/logo-crea-7.png" alt="planche 7" title="planche 7">
+                        <figcaption>Créa 7</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="images/logo/crea/logo-crea-8.png" alt="planche 8" title="planche 8">
+                        <figcaption>Créa 8</figcaption>
                     </figure>
                 </div>
             </div>
@@ -165,21 +154,20 @@
             <div class="bloc_images">
                 <div class="titre_planche"><span class="categorie">D'autres créations de logos :</span></div>
                 <div class="gallerie_colG">
-                    <figure>
-                        <a data-fancybox="gallery" href="images/affiche-vintage.jpg" data-caption="affiche vintage">
-							
+                    <a data-fancybox="gallery" href="images/affiche-vintage.jpg" data-caption="affiche vintage">
+                    	<figure>		
 							<img src="images/affiche-vintage.jpg" alt="affiche vintage" title="affiche vintage" >
 							<figcaption>Logo Jifan Liang</figcaption>
-						</a>
-                    </figure>
+                	    </figure>
+					</a>
                 </div>
                 <div class="gallerie_colM">
-                    <figure>
-                        <a data-fancybox="gallery" href="images/affiche-chocolat-l.jpg" data-caption="Affiche publicitaire">
+                    <a data-fancybox="gallery" href="images/affiche-chocolat-l.jpg" data-caption="Affiche publicitaire">
+                    	<figure>
 							<img src="images/affiche-chocolat.jpg" alt="Affiche publicitaire" title="Affiche publicitaire" >
 							<figcaption>Logo Nervures</figcaption>
-						</a>
-                    </figure>
+                    	</figure>
+					</a>
                 </div>
             </div>
             <?php include_once("inc/footer.php") ?>
