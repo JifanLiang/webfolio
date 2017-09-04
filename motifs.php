@@ -30,7 +30,7 @@
                     <br>Pour meubler différents supports (papier, fond d'écran, image de fond), l'entreprise souhaitait avoir un panel de motifs en correspondance avec l'esprit et le nom de l'entreprise.</p>
             </div>
             <div class="scroller">
-                <a href="#motif2">
+                <a href="#motif2" class="next">
                     <div class="btn">+</div>
                 </a>
             </div>
@@ -49,7 +49,7 @@
                
             </div>
             <div class="scroller">
-                <a href="#motif3">
+                <a href="#motif3" class="next">
                     <div class="btn">+</div>
                 </a>
             </div>
@@ -99,7 +99,7 @@
                 </div>
             </div>
             <div class="scroller">
-                <a href="#motif4">
+                <a href="#motif4" class="next">
                     <div class="btn">+</div>
                 </a>
             </div>
@@ -159,42 +159,20 @@
                     </figure>
                 </div>
             </div>
-            <div class="scroller">
-                <a href="#motif5">
-                    <div class="btn">+</div>
-                </a>
+           <div class="lien">
+                <a  class="link" href="https://webfolio.jifan.fr/index.php#webdesign">Voir d'autres projets </a>
             </div>
+
+              <?php include_once("inc/footer.php") ?>
         </div>
-        <div id="motif5" class="wrap">
-            <div class="bloc_images">
-                <div class="titre_planche"><span class="categorie">D'autres créations de logos :</span></div>
-                <div class="gallerie_colG">
-                    <figure>
-                        <a data-fancybox="gallery" href="images/affiche-vintage.jpg" data-caption="affiche vintage">
-							
-							<img src="images/affiche-vintage.jpg" alt="affiche vintage" title="affiche vintage" >
-							<figcaption>Logo Jifan Liang</figcaption>
-						</a>
-                    </figure>
-                </div>
-                <div class="gallerie_colM">
-                    <figure>
-                        <a data-fancybox="gallery" href="images/affiche-chocolat-l.jpg" data-caption="Affiche publicitaire">
-							<img src="images/affiche-chocolat.jpg" alt="Affiche publicitaire" title="Affiche publicitaire" >
-							<figcaption>Logo Nervures</figcaption>
-						</a>
-                    </figure>
-                </div>
-            </div>
-            <?php include_once("inc/footer.php") ?>
-        </div>
+   
     </div>
     <script>
     $(function() {
 
         var identifiant;
 
-        $(".motif a").click(function(event) {
+        $("a.next").click(function(event) {
 
             //Déactiver l'effet de flash en annulant l'ancre 
             event.preventDefault();
