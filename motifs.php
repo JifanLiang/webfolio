@@ -40,9 +40,13 @@
         <div id="motif2" class="page wrap">
             <div class="bloc_text">
                 <p class="categorie">Analyse de projet :</p>
-                <p>Agence Himalaya est une agence de communication. Son nom évoque clairement l'aspect montagne, j'ai donc travaillé le sujet, avec ses composantes principales. On retrouve donc stylisés des montagnes, de l'eau, des arbres, des nuages, des tentes, la lune, des ponts ou encore du vent.</p>
-                <div id="pal_1" class="palette"></div>
-                <div id="pal_2" class="palette"></div>
+                <p>Au départ, comme le site de l'agence Himalaya se présente par une métaphore avec l’ascension alpinisme, je voudrais rester sur la même stratégie, j'ai fait des croquis autour de l'ascension alpinisme : la corde, le casque, le piolet, le fixer et le baudrier etc.</p>
+           
+                <p> Néanmoins, l'agence souhaiterais se donner une image plutôt fan et relax sur les réseaux sociaux et leur blog. Donc, je fais des croquis plutôt orienté sur l'été et les vacances. Mais cela ne fait pas assez sérieux par rapport l'image professionnelle de l'agence.</p>
+           
+                <p> 
+                Ensuite, je suis inspirée par des motifs graphique, et par l'art traditionnelle chinoise :  Yi Jing. Finalement, je reviens sur l'idée de montagne, mais je ne me concentre plus sur les activités montagnardes, mais plutôt sur la nature de la montagne même. On retrouve donc stylisés des montagnes, de l'eau, des arbres, des nuages, des tentes, la lune, des ponts ou encore du vent.</p>
+               
             </div>
             <div class="scroller">
                 <a href="#motif3">
@@ -105,52 +109,52 @@
                 <div class="titre_planche"><span class="categorie">Pistes créatives :</span></div>
                 <div class="planche_col">
                     <figure>
-                        <img src="images/piste01.png" alt="planche 1" title="planche 1">
-                        <figcaption>Inspiration 1 - www.jifan.com</figcaption>
+                        <img src="images/motif-crea-1.jpg" alt="planche 1" title="planche 1">
+                        <figcaption>Créa 1 - Sur lalpinisme</figcaption>
                         </a>
                     </figure>
-                    <!--
+                  
 					<figure>	
-							<img src="images/piste03.png" alt="planche 1" title="planche 1" >
-							<figcaption>Inspiration 1- www.jifan.com</figcaption>
+							<img src="images/motif-crea-5.jpg" alt="planche 1" title="planche 1" >
+							<figcaption>Créa 4 - Motif de vent </figcaption>
 						</a>
 						
 					</figure>
-					-->
+				
                 </div>
                 <div class="planche_col">
                     <figure>
-                        <img src="images/piste03.png" alt="planche 1" title="planche 1">
-                        <figcaption>Inspiration 1 - www.jifan.com</figcaption>
+                        <img src="images/motif-crea-2.jpg" alt="planche 1" title="planche 1">
+                        <figcaption>Créa 2 - Sur les vacances</figcaption>
                         </a>
                     </figure>
                     <figure>
-                        <img src="images/piste04.jpg" alt="planche 1" title="planche 1">
-                        <figcaption>Inspiration 1 - www.jifan.com</figcaption>
-                        </a>
-                    </figure>
-                </div>
-                <div class="planche_col">
-                    <figure>
-                        <img src="images/piste05.jpg" alt="planche 1" title="planche 1">
-                        <figcaption>Inspiration 1 - www.jifan.com</figcaption>
-                        </a>
-                    </figure>
-                    <figure>
-                        <img src="images/pist06.png" alt="planche 1" title="planche 1">
-                        <figcaption>Inspiration 1 - www.jifan.com</figcaption>
+                        <img src="images/motif-crea-6.jpg" alt="planche 1" title="planche 1">
+                        <figcaption>Créa 4 - Motif de sapin</figcaption>
                         </a>
                     </figure>
                 </div>
                 <div class="planche_col">
                     <figure>
-                        <img src="images/piste07.png" alt="planche 1" title="planche 1">
-                        <figcaption>Inspiration 1 - www.jifan.com</figcaption>
+                        <img src="images/motif-crea-4.jpg" alt="planche 1" title="planche 1">
+                        <figcaption>Créa 2 - sur les vacances</figcaption>
                         </a>
                     </figure>
                     <figure>
-                        <img src="images/piste08.png" alt="planche 1" title="planche 1">
-                        <figcaption>Inspiration 1 - www.jifan.com</figcaption>
+                        <img src="images/motif-crea-7.jpg" alt="planche 1" title="planche 1">
+                        <figcaption>Créa 4 - Motif de nuage</figcaption>
+                        </a>
+                    </figure>
+                </div>
+                <div class="planche_col">
+                    <figure>
+                        <img src="images/motif-crea-3.jpg" alt="planche 1" title="planche 1">
+                        <figcaption>Créa 3 - Motifs abstraits</figcaption>
+                        </a>
+                    </figure>
+                    <figure>
+                        <img src="images/motif-crea-8.jpg" alt="planche 1" title="planche 1">
+                        <figcaption>Créa 4 - Motif de tipi</figcaption>
                         </a>
                     </figure>
                 </div>

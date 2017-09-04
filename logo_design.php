@@ -41,8 +41,9 @@
             <div class="bloc_text">
                 <p class="categorie">Analyse de projet :</p>
                 <p>L'entreprise JVF souhaitait moderniser son logo, pour le rendre plus visible, plus reconnaissable et qu'il soit en accord avec le secteur d'activité. JVF commercialise des solutions de congélation, climatisation et chauffage. Elle souhaite également montrer un aspect écologique, lié à l'utilisation de ses produits, à leur rendement et à la diminution de leur impact sur l'environnement.</p>
-                <div id="pal_1" class="palette"></div>
-                <div id="pal_2" class="palette"></div>
+                <div id="pal_logo_1" class="palette"></div>
+                <div id="pal_logo_2" class="palette"></div>
+                <div id="pal_logo_3" class="palette"></div>
             </div>
             <div class="scroller">
                 <a href="#logo_design3">
@@ -154,17 +155,17 @@
             <div class="bloc_images">
                 <div class="titre_planche"><span class="categorie">D'autres créations de logos :</span></div>
                 <div class="gallerie_colG">
-                    <a data-fancybox="gallery" href="images/affiche-vintage.jpg" data-caption="affiche vintage">
+                    <a data-fancybox="gallery" href="images/carte-visite-jifan.jpg" data-caption="jifan logo">
                     	<figure>		
-							<img src="images/affiche-vintage.jpg" alt="affiche vintage" title="affiche vintage" >
+							<img src="images/carte-visite-jifan.jpg" alt="affiche vintage" title="jifan logo" >
 							<figcaption>Logo Jifan Liang</figcaption>
                 	    </figure>
 					</a>
                 </div>
                 <div class="gallerie_colM">
-                    <a data-fancybox="gallery" href="images/affiche-chocolat-l.jpg" data-caption="Affiche publicitaire">
+                    <a data-fancybox="gallery" href="images/nervures-logo-boutique.jpg" data-caption="nervures logo">
                     	<figure>
-							<img src="images/nervures-logo-boutique.jpg" alt="Affiche publicitaire" title="Affiche publicitaire" >
+							<img src="images/nervures-logo-boutique.jpg" alt="Affiche publicitaire" title="nervures logo" >
 							<figcaption>Logo Nervures</figcaption>
                     	</figure>
 					</a>
