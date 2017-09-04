@@ -24,10 +24,10 @@
             <div class="border_logo">
                 <h1>Design de Logo</h1></div>
             <div class="bloc_text">
-                <p class="text_standard"><span class="categorie">Client :</span> JV Froid</p>
+                <p class="text_standard"><span class="categorie">Client :</span> entreprise JVF</p>
                 <p class="text_standard"><span class="categorie">Logiciel :</span> Photoshop, Illustrator, Indesign</p>
                 <p class="text_standard"><span class="categorie">Origine du projet:</span>
-                    <br> Pour le client de l'entreprise, création d'un logo permettant l'identification de l'entreprise et suggérant le domaine d'activité - climatisation et chauffage.</p>
+                    <br> Pour le client de l'entreprise, création d'un logo permettant l'identification de l'entreprise et suggérant le domaine d'activité - congélateur, climatisation et chauffage.</p>
             </div>
             <div class="scroller">
                 <a href="#logo_design2">
@@ -40,9 +40,10 @@
         <div id="logo_design2" class="page wrap">
             <div class="bloc_text">
                 <p class="categorie">Analyse de projet :</p>
-                <p>L'entreprise JV Froid souhaitait moderniser son logo, pour le rendre plus visible, plus reconnaissable et qu'il soit en accord avec le secteur d'activité. JV Froid commercialise des solutions de climatisation et chauffage. Elle souhaite également montrer un aspect écologique, lié à l'utilisation de ses produits, à leur rendement et à la diminution de leur impact sur l'environnement.</p>
-                <div id="pal_1" class="palette"></div>
-                <div id="pal_2" class="palette"></div>
+                <p>L'entreprise JVF souhaitait moderniser son logo, pour le rendre plus visible, plus reconnaissable et qu'il soit en accord avec le secteur d'activité. JVF commercialise des solutions de congélation, climatisation et chauffage. Elle souhaite également montrer un aspect écologique, lié à l'utilisation de ses produits, à leur rendement et à la diminution de leur impact sur l'environnement.</p>
+                <div id="pal_logo_1" class="palette"></div>
+                <div id="pal_logo_2" class="palette"></div>
+                <div id="pal_logo_3" class="palette"></div>
             </div>
             <div class="scroller">
                 <a href="#logo_design3">
@@ -56,41 +57,41 @@
                 <div class="planche_col">
                     <figure>
                         <img src="images/logo/jvfroid/moodboard/31506154-vecteur-de-montagne-de-neige-fond-abstrait-l-hiver-illustration-mod-le-toile-de-fond-pour-la-concept-Banque-d'images.jpeg" alt="planche 1" title="planche 1">
-                        <figcaption><a href="https://www.wwf.fr" target="blank">Inspiration 1</a></figcaption>
+                        <figcaption>Inspiration 1 - fr.dreamstime.com</figcaption>
                     </figure>
                     <figure>
-                        <img src="images/logo/jvfroid/moodboard/14565.jpeg" alt="planche 2" title="planche 2">
-                        <figcaption>Inspiration 2</figcaption>
+                        <img src="images/the_land_contour.jpeg" alt="planche 2" title="planche 2">
+                        <figcaption>Inspiration 2 - The Land Contour</figcaption>
                     </figure>
                 </div>
                 <div class="planche_col">
                     <figure>
                         <img src="images/logo/jvfroid/moodboard/11.jpeg" alt="planche 3" title="planche 3">
-                        <figcaption>Inspiration 3</figcaption>
+                        <figcaption>Inspiration 3 - Inconnu</figcaption>
                     </figure>
                     <figure>
                         <img src="images/logo/jvfroid/moodboard/drop_dribbble.jpeg" alt="planche 4" title="planche 4">
-                        <figcaption>Inspiration 4</figcaption>
+                        <figcaption>Inspiration 4 - Alexander Haase </figcaption>
                     </figure>
                 </div>
                 <div class="planche_col">
                     <figure>
                         <img src="images/logo/jvfroid/moodboard/mv_icons_small.png" alt="planche 5" title="planche 5">
-                        <figcaption><a href="www.karimfakhoury.com" target="_blank">Inspiration 5</a></figcaption>
+                        <figcaption><a href="www.karimfakhoury.com" target="_blank">Inspiration 5 - ustwo</a></figcaption>
                     </figure>
                     <figure>
                         <img src="images/logo/jvfroid/moodboard/snowflake-vectors-preview.jpeg" alt="planche 6" title="planche 6">
-                        <figcaption>Inspiration 6</figcaption>
+                        <figcaption>Inspiration 6 - www.tutorialmonsters.com</figcaption>
                     </figure>
                 </div>
                 <div class="planche_col">
                     <figure>
                         <img src="images/logo/jvfroid/moodboard/the_looking_glass_logo.jpeg" alt="planche 7" title="planche 7">
-                        <figcaption>Inspiration 7</figcaption>
+                        <figcaption>Inspiration 7 - The Looking Glass</figcaption>
                     </figure>
                     <figure>
-                        <img src="images/logo/jvfroid/moodboard/le-soleil-et-la-neige.jpeg" alt="planche 8" title="planche 8">
-                        <figcaption>Inspiration 8</figcaption>
+                        <img src="images/meteor.jpeg" alt="planche 8" title="planche 8">
+                        <figcaption>Inspiration 8 - Yoga Perdana</figcaption>
                     </figure>
                 </div>
             </div>
@@ -154,17 +155,17 @@
             <div class="bloc_images">
                 <div class="titre_planche"><span class="categorie">D'autres créations de logos :</span></div>
                 <div class="gallerie_colG">
-                    <a data-fancybox="gallery" href="images/affiche-vintage.jpg" data-caption="affiche vintage">
+                    <a data-fancybox="gallery" href="images/carte-visite-jifan.jpg" data-caption="jifan logo">
                     	<figure>		
-							<img src="images/affiche-vintage.jpg" alt="affiche vintage" title="affiche vintage" >
+							<img src="images/carte-visite-jifan.jpg" alt="affiche vintage" title="jifan logo" >
 							<figcaption>Logo Jifan Liang</figcaption>
                 	    </figure>
 					</a>
                 </div>
                 <div class="gallerie_colM">
-                    <a data-fancybox="gallery" href="images/affiche-chocolat-l.jpg" data-caption="Affiche publicitaire">
+                    <a data-fancybox="gallery" href="images/nervures-logo-boutique.jpg" data-caption="nervures logo">
                     	<figure>
-							<img src="images/affiche-chocolat.jpg" alt="Affiche publicitaire" title="Affiche publicitaire" >
+							<img src="images/nervures-logo-boutique.jpg" alt="Affiche publicitaire" title="nervures logo" >
 							<figcaption>Logo Nervures</figcaption>
                     	</figure>
 					</a>
