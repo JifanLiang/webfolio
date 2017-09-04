@@ -4,7 +4,7 @@
 
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-                                                                Écran moyenne               
+                                                                Écran moyen               
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
 @media screen and (max-width: 1500px) {
@@ -89,7 +89,8 @@
     .a_global_matter  {
         .border_logo{
             margin: 20% auto;
-            width: 300px;
+            max-width: 300px;
+            width: 100%;
             height: 100px;
             border: solid 1px #0BE58F;
             border-right: 1px solid;
@@ -115,7 +116,7 @@
 
     }
     #a_global_matter3 {
-        padding-top: 50px;
+        //padding-top: 50px;
         .scroller{
             bottom: 0px;
         }
@@ -129,7 +130,7 @@
 
     .nervures{
         .bloc_text{
-            padding-bottom: 20px;
+            //padding-bottom: 20px;
         }
     }
 
@@ -140,7 +141,7 @@
     }
     #nervures2 {
         .bloc_text{
-            padding-top: 20px;
+            //padding-top: 20px;
         }
     }
     #nervures3 {
@@ -193,6 +194,10 @@
             margin-top: 50px;
         }
     }
+
+    .page.wrap{
+        padding-top: 50px;
+    }
 }
 
 
@@ -232,9 +237,6 @@
     .nombre {
         display: none;
     }
-
-
-
 
     h1 {
         text-align: center;
@@ -288,45 +290,30 @@
         padding-top: 0;
     }
     /*page publicitaire*/
-    #publicitaire,
-    #architecture,
-    #portrait,
-    #vagabondage {
+    .gallery_bw {
         width: 80%;
-    }
-    #publicitaire h1,
-    #architecture h1,
-    #portrait h1,
-    #vagabondage h1 {
+        h1 {
+            font-size: 18px;
+            margin: 0px auto 30px;
+            width: 250px;
+            //padding-top: 15px;
+        }
 
-        font-size: 18px;
-
-        margin: 0px auto 30px;
-        width: 250px;
-        height: 60px;
-        padding-top: 15px;
-    }
-
-    #publicitaire .border_logo,
-    #architecture .border_logo,
-    #portrait .border_logo,
-    #vagabondage .border_logo {
-        margin: 100px auto 50px;
-        width: 250px;
-        height: 60px;
+        .border_logo {
+            margin: 100px auto 50px;
+            width: 250px;
+        }
     }
 
-    .gallerie_colG {
+    #contact, #a_propos{
+        padding-top: @menu_height;
+    }
 
+    .gallerie_colG, .gallerie_colM {
         width: 50%;
     }
-
-
-    .gallerie_colM {
-        width: 50%;
-    }
-
-    .gallerie_colD {
+    .gallerie_colD
+    {
         width: 100%;
     }
     .gallerie_colD figure {
@@ -334,69 +321,47 @@
         float: left;
     }
     /*contact*/
-    #contact .border_logo {
+    #contact {
+        .border_logo {
         margin: 0px auto 50px;
         width: 150px;
         height: 100px;
-        border: solid 1px #0BE58F;
-        text-align: center;
-        border-right: 1px solid;
-        border-image-source: linear-gradient(to bottom left, #0BE58F 5%, white 20%);
-        border-image-slice: 1 1;
-    }
+        }
 
-    #contact h2 {
+        h1 {
+            width: 150px;
+            height: auto;
+            padding-top: 25px;
+        }
+        .colD, .colG{
+            width: 100%;            
+        }
 
-        width: 150px;
-        height: 100px;
-
-        padding-top: 25px;
-        border-left: 1px solid;
-        border-image-source: linear-gradient(to top right, #0BE58F 5%, white 20%);
-        border-image-slice: 1 1;
+        .bottom {
+            margin-top: 0px;
+        }
     }
-    #contact .colD {
-        width: 100%;
-    }
-    #contact .colG {
-        width: 100%;
-    }
-    #contact .bottom {
-        margin-top: 0px;
-    }
+ 
     /*à propos*/
     #a_propos {
-
         height: 80%;
-    }
 
+        .border_logo {
+            margin: 100px auto 20px;
+            width: 200px;
+            height: 100px;
+        }
 
+         h1 {
 
-    #a_propos .colD {
-        width: 100%;
-    }
+            width: 200px;
+            height: auto;
+            padding-top: 25px;
+        }
 
-
-    #a_propos .border_logo {
-        margin: 100px auto 20px;
-        width: 150px;
-        height: 100px;
-        border: solid 1px #0BE58F;
-        text-align: center;
-        border-right: 1px solid;
-        border-image-source: linear-gradient(to bottom left, #0BE58F 5%, white 20%);
-        border-image-slice: 1 1;
-    }
-
-    #a_propos h2 {
-
-        width: 150px;
-        height: 100px;
-
-        padding-top: 25px;
-        border-left: 1px solid;
-        border-image-source: linear-gradient(to top right, #0BE58F 5%, white 20%);
-        border-image-slice: 1 1;
+        .colD {
+            width: 100%;
+        }
     }
     #autoportrait {
 
@@ -413,6 +378,19 @@
     #cv_animate {
 
         height: 0;
+    }
+
+    .page.wrap{
+        padding-top: 20px;
+    }
+    .nervures .bloc_text{
+        padding-bottom: 0; 
+    }
+
+    #nervures2, #nervures3{
+        .bloc_text{
+            padding-top: 0px;
+        }
     }
 }
 
@@ -439,6 +417,10 @@
         background-size: 240px auto;
     }
 
+    .scroller{
+        visibility: hidden;
+        display: none;
+    }
 
     .nombre {
         display: none;
@@ -450,10 +432,91 @@
 
         display: block;
     }
+
+    .nervures{
+        .border_logo{
+            width: 100%;
+        }
+
+        h1{
+            white-space: normal;
+            width: 100%;
+            line-height: 1.5em;
+            padding: 15px 10px;
+        }
+
+        .bloc_text{
+            height: initial;
+
+        }
+
+    }
+
+    .nervures,
+    #nervures2,
+    .a_global_matter,
+    #a_global_matter2,
+    .motif,
+    {
+        .bloc_text{
+            width: 100%;
+            height: initial;
+
+            .text_standard{
+                margin: 0px;
+            }
+        }
+
+        .page.wrap{
+            padding-top: 20px;
+            padding-left: 16px;
+            padding-right: 16px;
+            height: auto;
+        }
+    }
+
+    #nervures3{
+        img{
+            width: 100%;
+        }
+    }
+
+    #nervures4{
+        padding-top: 20px;
+    }
+
+    #nervures-homepage{
+        height: 190px;
+    }
+
+    #nervures5, #nervures6{
+        .colG, .colD{
+            width: 100%;
+        }
+        .avant, .apres{
+            margin-top: 10px;
+        }
+    }
+    .bloc_images{
+        width: 100%;
+    }
     #vertical {
         margin-top: 10%;
     }
 
+    #a_global_matter3, #a_global_matter2, #a_global_matter4{
+        padding-top: 20px;
+    }
+    #a_global_matter4{
+        .bloc_images{
+            overflow: auto;            
+        }
+    }
+    #a_global_matter5{
+        figure{ 
+            margin-bottom: 20px;
+        }
+    }
     #webdesign {
         margin-top: 10px;
     }
@@ -491,6 +554,20 @@
         background-size: cover;
     }
 
+    .planche_col{
+        width: 50%;
+        text-align: center;
+        figcaption{
+            width: 100%;
+            left: initial;  
+            text-align: center;
+            font-size: 11px;
+        }
+    }
+
+    .a_global_matter .palette{
+        margin-top: 0px;
+    }
     #menu_vertical {
         width: 100%;
     }
@@ -512,8 +589,6 @@
     }
     /*à propos*/
     #a_propos {
-
-        padding-top: 70px;
         height: 100%;
         .border_logo {
             margin: 0px auto 0px;
@@ -542,7 +617,6 @@
         }
     }
 
-    #cv_animate 
     /*Contact */
     #contact .contenant {
 
@@ -554,36 +628,21 @@
         /*border: solid 1px #0be58f; */
     }
     /*page publicitaire*/
-    #publicitaire,
-    #architecture,
-    #portrait,
-    #vagabondage {
+    .gallery_bw {
         width: 90%;
-    }
-    #publicitaire h1,
-    #architecture h1,
-    #portrait h1,
-    #vagabondage h1 {
+        h1{
+            font-size: 18px;
+            margin: 0px auto 30px;
+            width: 250px;
+        }
 
-        font-size: 18px;
-
-        margin: 0px auto 30px;
-        width: 250px;
-        height: 60px;
-        padding-top: 15px;
-    }
-
-    #publicitaire .border_logo,
-    #architecture .border_logo,
-    #portrait .border_logo,
-    #vagabondage .border_logo {
-        margin: 100px auto 50px;
-        width: 250px;
-        height: 60px;
+        .border_logo {
+            margin: 100px auto 50px;
+            width: 250px;
+        }
     }
 
     .gallerie_colG, .gallerie_colM, .gallerie_colD {
-
         width: 100%;
     }
 
@@ -600,6 +659,13 @@
         border: none;
     }
 
+    .lien {
+        a{
+            width: 100%;
+            height: initial;
+            padding: 10px;
+        }
+    }
     #webdesign2 .images_o{
         background-position: -90px 0px;
     }

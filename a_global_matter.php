@@ -52,7 +52,7 @@
 			</div>
 
 			<div id="a_global_matter2" class="page wrap">
-				<div class="" style="width: 100%">
+				<div class="">
 					<div class="bloc_text">
 						<p class="categorie">Analyse de projet :</p>
 						<br />

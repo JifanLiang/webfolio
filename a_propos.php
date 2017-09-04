@@ -29,9 +29,11 @@
 
 		<?php include_once("inc/header.php"); ?>
 	
-	<div id="a_propos">
+	<div id="a_propos" class="a_propos">
 		<div  class="colG">
-			<div class="border_logo"><h2>À propos</h2></div>
+			<div class="border_logo">
+				<h1>À propos</h1>
+			</div>
 
 			<div class="paragraphe">
 

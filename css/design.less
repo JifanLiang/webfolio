@@ -69,9 +69,10 @@ h1 a:hover {
     color: white;
 }
 
+@menu_height: 70px;
 #main_menu {
     width: 100%;
-    height: 70px;
+    height: @menu_height;
     margin: 0 auto;
     position: fixed;
     top: 0;
@@ -797,43 +798,30 @@ PHOTOGRAPHIE
 
     width: 100%;
     height: 100%;
-}
+    .colD {
+        display: none;
+    }
 
-#a_propos .colD {
-    display: none;
-}
+    .paragraphe {
+        padding-top: 50px;
+    }
 
-#a_propos .paragraphe {
-    padding-top: 50px;
-}
+    .border_logo {
+        margin: 30% auto 50px;
+        width: 200px;
+        height: 100px;
+    }
 
-#a_propos .border_logo {
-    margin: 30% auto 50px;
-    width: 200px;
-    height: 100px;
-    border: solid 1px #0BE58F;
-    text-align: center;
+    h1 {
+        width: 200px;
+        height: 100px;
+        padding-top: 35px;
+    }
 
-    border-right: 1px solid;
-    border-image-source: linear-gradient(to bottom left, #0BE58F 10%, white 40%);
-    border-image-slice: 1 1;
-}
-
-#a_propos h2 {
-
-    width: 200px;
-    height: 100px;
-    border: solid 1px #0BE58F;
-    text-align: center;
-    padding-top: 35px;
-    border-left: 1px solid;
-    border-image-source: linear-gradient(to top right, #0BE58F 10%, white 40%);
-    border-image-slice: 1 1;
-}
-
-#a_propos p {
-    text-align: center;
-    margin-top: 20px;
+    p {
+        text-align: center;
+        margin-top: 20px;
+    }
 }
 
 .underline {
@@ -1015,7 +1003,8 @@ A GLOBAL MATTER
 .motif,
 .data_design,
 #contact,
-.gallery_bw
+.gallery_bw,
+.a_propos
  {
 
     width: 100%;
@@ -1285,8 +1274,10 @@ NERVURES
     color: #0BE58F;
 }
 
-#nervures2.wrap {
-    background-color: #EFEEEC;
+#nervures2, #nervures4, #nervures6{
+    &.wrap{
+        background-color: @global_matter_alt_bg_color
+    }
 }
 
 #nervures2 .bloc_text,
@@ -1330,7 +1321,6 @@ NERVURES
 }
 
 #nervures4 {
-    background-color: #efeeec;
     padding-top: 50px;
     
     figcaption:hover {
@@ -1376,6 +1366,8 @@ NERVURES
         margin-bottom: 30px;
     }
 }
+
+
 
 .lien {
     margin-bottom: 30px;
