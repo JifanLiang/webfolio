@@ -151,7 +151,7 @@
                 </a>
             </div>
         </div>
-        <div id="logo_design5" class="wrap">
+        <div id="logo_design5" class="page wrap">
             <div class="bloc_images">
                 <div class="titre_planche"><span class="categorie">D'autres créations de logos :</span></div>
                 <div class="gallerie_colG">

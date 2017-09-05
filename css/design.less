@@ -599,7 +599,7 @@ PHOTOGRAPHIE
 PAGE CONTACT
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-#contact {
+.contact {
 
 	.colD {
 	    padding-top: 15%;
@@ -618,6 +618,12 @@ PAGE CONTACT
 
     input.link{
     	padding-top: 0px;
+    }
+
+    .colD{
+        .lien{
+            width: 100%;
+        }
     }
 }
 
@@ -945,7 +951,8 @@ A GLOBAL MATTER
 
 #a_global_matter4, #webfolio4, #logo_design4, #motif4 {
     background-color: @global_matter_alt_bg_color;
-    padding-top: 50px;
+    .page.wrap{padding-top: 50px;}
+    
 
     figcaption:hover {
         color: black;

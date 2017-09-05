@@ -127,7 +127,7 @@
 
 	<?php include_once("inc/header.php"); ?>
 
-<div id="contact">
+<div id="contact" class="contact">
 <div class="colD">
 
 <div class="contenant">
