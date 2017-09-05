@@ -90,6 +90,7 @@
 <!-- Lien vers la librairie-->
 <script src="js/html5.js"></script>
 <script src="js/jQuery3.2.1.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
 
 <script>$(document).ready(function() {
 
@@ -175,7 +176,9 @@
 	?>
 
 </p>
-
+<div class="google_captcha">
+	<div class="g-recaptcha" data-sitekey="6LeKgy8UAAAAAGqCp_eMalvuFIlwQB08r7kAUR3V"></div>
+</div>
 <div class="lien">
 	<input class="link" type="submit" name="go" id="go">
 </div>
