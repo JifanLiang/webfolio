@@ -10,7 +10,6 @@
 @media screen and (max-width: 1500px) {
 
     .bandeau {
-
         background-size: 400px auto;
     }
 
@@ -32,7 +31,6 @@
     }
 
     .colG {
-
         padding: 0 30px;
     }
     .conteneur {
@@ -40,22 +38,17 @@
         height: 250px;
     }
 
-
-
     .conteneur_o {
-
         width: 450px;
         height: 300px;
     }
 
     .images_o {
-
         width: 450px;
         height: 300px;
     }
 
     .conteneur_v {
-
         width: 300px;
         height: 450px;
     }
@@ -63,7 +56,8 @@
     #graphisme .images_v,
     #photographie2 .images_v {
 
-        width: 300px;
+        //width: 300px;
+        width: 100%;
         height: 450px;
     }
 
@@ -101,12 +95,14 @@
             margin-left: 50%;
             bottom: 10%;
         }
-        .palette {
-            margin-top: 50px;
-            width: 100px;
-            height: 100px;
-            float: left;
-        }
+    }
+
+    .palette {
+        margin-top: 50px;
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin-bottom: 20px;
     }
 
     #a_global_matter2 {
@@ -198,6 +194,7 @@
     .page.wrap{
         padding-top: 50px;
     }
+
 }
 
 
@@ -209,6 +206,9 @@
 
 @media screen and (max-width: 1000px) {
 
+    body{
+        line-height: 1.3;
+    }
     /*page d'accueil*/
     .bandeau {
         height: 250px;
@@ -217,23 +217,33 @@
         height: 250px;
     }
 
-    #scroller {
+    .wrap {
+
+        padding-top: 0px;
+    }
+
+    #scroller, .scroller, .nervures .scroller {
         display: none;
         right: 10px;
         bottom: -60px;
     }
 
-    .wrap {
 
-        padding-top: 0px;
-    }
     article {
-        width: 100%;
+        width: 70%;
         padding-top: 0;
+        margin: auto;
+        float: none;
+
+        h1{
+            border: none;
+        }
+
+        p {
+            border: none;
+        }
     }
-    article p {
-        border: none;
-    }
+
     .nombre {
         display: none;
     }
@@ -259,7 +269,6 @@
 
     .colD {
         margin: 0 auto;
-
         width: 100%;
         padding: 0px 30px 50px;
         clear: both;
@@ -267,12 +276,9 @@
     }
 
     .conteneur_o {
-
-
         width: 400px;
         height: 260px;
     }
-
 
     .images_o {
 
@@ -281,13 +287,37 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
-    .text {
 
-        width: 50%;
-        left: 20%;
+    #webdesign{
+        .conteneur_o{
+            margin-top: 10%;
+        }
     }
     #webdesign2 {
         padding-top: 0;
+    }
+
+    #graphisme{
+        .colD{
+            padding-top: 50px;
+        }
+    }
+    .conteneur_v{
+        margin-top: 10%;
+    }
+
+    .a_global_matter,
+    .logo_design,
+    .nervures,
+    .webfolio,
+    .motif,
+    .data_design,
+    #contact,
+    .gallery_bw,
+    .a_propos{
+        .border_logo{
+            margin: 15% auto;
+        }
     }
     /*page publicitaire*/
     .gallery_bw {
@@ -345,7 +375,7 @@
     /*à propos*/
     #a_propos {
         height: 80%;
-
+        overflow: auto;
         .border_logo {
             margin: 100px auto 20px;
             width: 200px;
@@ -361,12 +391,17 @@
 
         .colD {
             width: 100%;
+            float: right;
         }
     }
     #autoportrait {
 
-        height: 250px;
+        height: 100%;
         background-size: 50%;
+        margin-bottom: 20px;
+        img{
+            height: 100%;
+        }
     }
 
 
@@ -381,16 +416,51 @@
     }
 
     .page.wrap{
-        padding-top: 20px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        height: auto;
     }
-    .nervures .bloc_text{
-        padding-bottom: 0; 
+    .nervures {
+        .bloc_text{
+            padding-bottom: 0; 
+        }
+        .colG, .colD{
+            float: left;
+            clear: none;
+            padding-left: 0px;
+            padding-right: 0px;
+
+        }
+        .text-standard {
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+
+        .bloc_images{
+            overflow: auto;
+        }
     }
 
     #nervures2, #nervures3{
+        height: auto;
         .bloc_text{
             padding-top: 0px;
+            width: 70%;
         }
+    }
+    #nervures4{
+        padding-top: 40px;
+    }
+
+    .webfolio{
+        .text_standard{
+            float: none;
+        }
+    }
+
+    #webfolio4 .titre_planche{
+        padding-top: 0px;
+        margin-top: 20px;
     }
 }
 
@@ -433,7 +503,17 @@
         display: block;
     }
 
-    .nervures{
+    .text {
+        width: 50%;
+        left: 20%;
+    }
+
+    #graphisme,#photographie2{
+        .text{
+            left: 20%;
+        }
+    }
+    .nervures, .webfolio{
         .border_logo{
             width: 100%;
         }
@@ -457,6 +537,7 @@
     .a_global_matter,
     #a_global_matter2,
     .motif,
+    .webfolio,
     {
         .bloc_text{
             width: 100%;
@@ -499,12 +580,16 @@
     }
     .bloc_images{
         width: 100%;
+        overflow: auto;
     }
     #vertical {
         margin-top: 10%;
     }
 
-    #a_global_matter3, #a_global_matter2, #a_global_matter4{
+    #a_global_matter3, 
+    #a_global_matter2, 
+    #a_global_matter4,
+    #webfolio4{
         padding-top: 20px;
     }
     #a_global_matter4{
@@ -555,7 +640,7 @@
     }
 
     .planche_col{
-        width: 50%;
+        width: 100%;
         text-align: center;
         figcaption{
             width: 100%;
@@ -590,6 +675,7 @@
     /*à propos*/
     #a_propos {
         height: 100%;
+        overflow: auto;
         .border_logo {
             margin: 0px auto 0px;
         }
@@ -601,7 +687,7 @@
 
         #autoportrait{
             padding-bottom: 0px;
-            height: 250px;
+            height: auto;
             background-size: 80%;
             img{
                 width: 100%;
@@ -618,18 +704,19 @@
     }
 
     /*Contact */
-    #contact .contenant {
-
-        width: 300px;
-    }
-
-    #contact .champ {
-        width: 300px;
-        /*border: solid 1px #0be58f; */
+    #contact {
+        .contenant {
+            width: 300px;
+        }
+        .champ {
+            width: 300px;
+        }
     }
     /*page publicitaire*/
     .gallery_bw {
         width: 90%;
+        height: auto;
+        overflow: auto;
         h1{
             font-size: 18px;
             margin: 0px auto 30px;
@@ -639,6 +726,15 @@
         .border_logo {
             margin: 100px auto 50px;
             width: 250px;
+        }
+    }
+
+    .bottom_links, #nervures6, #motif4{
+        .lien{
+            width: 100%;
+        }
+        .link{
+            border: solid 1px #0BE58F;
         }
     }
 
@@ -652,20 +748,18 @@
 
     .link {
         clear: both;
-
-        height: 100px;
-
+        //height: 100px;
         padding-top: 10px;
         border: none;
-    }
 
-    .lien {
         a{
             width: 100%;
             height: initial;
             padding: 10px;
         }
+
     }
+
     #webdesign2 .images_o{
         background-position: -90px 0px;
     }
@@ -673,28 +767,39 @@
         background-position: -50px 0px;
     }
 
-    .link a {
-        width: 100%;
-        float: none;
+    .link {
+        
+        a {
+            width: 100%;
+            float: none;
+        }
+        a:hover {
+            text-decoration: none;
+            color: white;
+        }
+
+        p {
+            border: solid 1px #0BE58F;
+            margin-bottom: 10px;
+            height: 50px;
+            padding-top: 15px;
+        }
+
+        p:hover {
+            background-color: #0BE58F;
+            transition: all 1s ease-out;
+        }
     }
 
-    .link a:hover {
-
-        text-decoration: none;
-
-        color: white;
-    }
-    .link p {
-        border: solid 1px #0BE58F;
-        margin-bottom: 10px;
-        height: 50px;
-        padding-top: 15px;
-    }
-    .link p:hover {
-        background-color: #0BE58F;
-        transition: all 1s ease-out;
+    #motif3,#motif4, #webfolio4{
+        .titre_planche{
+            margin-top: 0px;
+        }
     }
 
+    #motif4{
+        padding-top: 20px;
+    }
 
 }
 

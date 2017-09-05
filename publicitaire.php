@@ -139,12 +139,16 @@
 						</a>
 					</figure>
 				</div>
-
-				<div class="link">
-					
-					<a href="architecture.php"><p>Photographie Architecture</p></a>
-					<a href="portrait.php"><p>Photographie Portrait</p></a>
-					<a href="vagabondage.php"><p>Photographie Vagabondage</p></a>
+			</div>
+			<div class="bottom_links">
+				<div class="lien">
+					<a  class="link" href="architecture.php">Photographie Architecture</a>
+				</div>
+				<div class="lien">
+					<a  class="link" href="portrait.php">Photographie Portrait</a>
+				</div>
+				<div class="lien">					
+					<a  class="link" href="vagabondage.php">Photographie Vagabondage</a>
 				</div>
 			</div>
 			<?php include_once("inc/footer.php") ?>

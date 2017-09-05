@@ -23,6 +23,7 @@ if it's not present, don't show loader */
     height: 100%;
     z-index: 9999;
     background: url(../images/loading.gif) center no-repeat #fff;
+    background-size: cover;
 }
 
 * {
@@ -253,256 +254,10 @@ FIN DE MENU
     height: auto;
 }
 /*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - -
-SCROLLER
+Scroller
 - - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+@import url('scroller.less');
 
-#scroller {
-    z-index: 2000;
-    position: fixed;
-    bottom: -20px;
-    left: 45%;
-}
-
-.c-line--3,
-.is-active .c-line--3 {
-    -webkit-transition-delay: .12s;
-    transition-delay: .12s;
-}
-
-.is-active .c-line--from-opacity {
-    opacity: 1;
-}
-
-.is-active .c-line {
-    -webkit-transition-duration: .8s;
-    transition-duration: .8s;
-}
-
-.u-inline-block {
-    display: inline-block;
-}
-
-.c-scroll-btn__label {
-    color: #0be58f;
-    font-size: 24px;
-
-    -webkit-animation: b 2s;
-    animation: b 2s;
-    -webkit-animation-play-state: paused;
-    animation-play-state: paused;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    cursor: pointer;
-}
-
-.is-active .c-scroll-btn__label {
-    -webkit-animation-play-state: running;
-    animation-play-state: running;
-}
-
-.u-inline-block {
-    display: inline-block;
-}
-
-.c-line--from-opacity {
-    opacity: 0;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
-}
-
-.c-line {
-    -webkit-transition: opacity .5s cubic-bezier(.49, .01, .27, 1), -webkit-transform .5s cubic-bezier(.49, .01, .27, 1);
-    transition: opacity .5s cubic-bezier(.49, .01, .27, 1), -webkit-transform .5s cubic-bezier(.49, .01, .27, 1);
-    transition: transform .5s cubic-bezier(.49, .01, .27, 1), opacity .5s cubic-bezier(.49, .01, .27, 1);
-    transition: transform .5s cubic-bezier(.49, .01, .27, 1), opacity .5s cubic-bezier(.49, .01, .27, 1), -webkit-transform .5s cubic-bezier(.49, .01, .27, 1);
-    will-change: transform;
-}
-
-@keyframes b {
-    0% {
-        -webkit-transform: translateY(0) translateZ(0);
-        transform: translateY(0) translateZ(0);
-        opacity: 1;
-    }
-    25% {
-        -webkit-transform: translateY(6vh) translateZ(0);
-        transform: translateY(6vh) translateZ(0);
-        opacity: 0;
-    }
-    25.1% {
-        -webkit-transform: translateY(-100%) translateZ(0);
-        transform: translateY(-100%) translateZ(0);
-        opacity: 0;
-    }
-    50% {
-        -webkit-transform: translateY(0) translateZ(0);
-        transform: translateY(0) translateZ(0);
-        opacity: 1;
-    }
-    100% {
-        -webkit-transform: translateY(0) translateZ(0);
-        transform: translateY(0) translateZ(0);
-        opacity: 1;
-    }
-    0% {
-        -webkit-transform: translateY(0) translateZ(0);
-        transform: translateY(0) translateZ(0);
-        opacity: 1;
-    }
-    25% {
-        -webkit-transform: translateY(6vh) translateZ(0);
-        transform: translateY(6vh) translateZ(0);
-        opacity: 0;
-    }
-    25.1% {
-        -webkit-transform: translateY(-100%) translateZ(0);
-        transform: translateY(-100%) translateZ(0);
-        opacity: 0;
-    }
-    50% {
-        -webkit-transform: translateY(0) translateZ(0);
-        transform: translateY(0) translateZ(0);
-        opacity: 1;
-    }
-    100% {
-        -webkit-transform: translateY(0) translateZ(0);
-        transform: translateY(0) translateZ(0);
-        opacity: 1;
-    }
-}
-
-.u-inline-block {
-    display: inline-block;
-}
-
-.c-scroll-btn__line {
-    width: 1px;
-    height: 2vh;
-    margin-top: 5px;
-    margin-bottom: 4vh;
-    overflow: hidden;
-}
-
-*,
-*::after,
-*::before,
-html {
-    box-sizing: border-box;
-}
-
-.u-align-center {
-    text-align: center;
-}
-
-.o-wrapper--valign,
-.o-wrapper--valign-bottom,
-.u-vacuum {
-    font-size: 0;
-}
-
-.c-line--4,
-.is-active .c-line--4 {
-    -webkit-transition-delay: .16s;
-    transition-delay: .16s;
-}
-
-.u-inline-block {
-    display: inline-block;
-}
-
-.c-scroll-btn__line {
-    width: 1px;
-    height: 4vh;
-    margin-top: 5px;
-    margin-bottom: 4vh;
-    overflow: hidden;
-}
-
-.u-align-center {
-    text-align: center;
-}
-
-.o-wrapper--valign,
-.o-wrapper--valign-bottom,
-.u-vacuum {
-    font-size: 0;
-}
-
-.is-active .c-scroll-btn__inner-line,
-.is-active .c-scroll-btn__inner-line--light {
-    -webkit-animation-play-state: running;
-    animation-play-state: running;
-}
-
-.c-scroll-btn__inner-line {
-    background: #0be58f;
-}
-
-.c-scroll-btn__inner-line,
-.c-scroll-btn__inner-line--light {
-    width: 100%;
-    height: 100%;
-    -webkit-animation: a 2s;
-    animation: a 2s;
-    -webkit-animation-play-state: paused;
-    animation-play-state: paused;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-}
-
-@keyframes a {
-    0% {
-        -webkit-transform: translateY(0) translateZ(0);
-        transform: translateY(0) translateZ(0);
-    }
-    25% {
-        -webkit-transform: translateY(100%) translateZ(0);
-        transform: translateY(100%) translateZ(0);
-    }
-    25.1% {
-        -webkit-transform: translateY(-100%) translateZ(0);
-        transform: translateY(-100%) translateZ(0);
-    }
-    35% {
-        -webkit-transform: translateY(-100%) translateZ(0);
-        transform: translateY(-100%) translateZ(0);
-    }
-    50% {
-        -webkit-transform: translateY(0) translateZ(0);
-        transform: translateY(0) translateZ(0);
-    }
-    100% {
-        -webkit-transform: translateY(0) translateZ(0);
-        transform: translateY(0) translateZ(0);
-    }
-    0% {
-        -webkit-transform: translateY(0) translateZ(0);
-        transform: translateY(0) translateZ(0);
-    }
-    25% {
-        -webkit-transform: translateY(100%) translateZ(0);
-        transform: translateY(100%) translateZ(0);
-    }
-    25.1% {
-        -webkit-transform: translateY(-100%) translateZ(0);
-        transform: translateY(-100%) translateZ(0);
-    }
-    35% {
-        -webkit-transform: translateY(-100%) translateZ(0);
-        transform: translateY(-100%) translateZ(0);
-    }
-    50% {
-        -webkit-transform: translateY(0) translateZ(0);
-        transform: translateY(0) translateZ(0);
-    }
-    100% {
-        -webkit-transform: translateY(0) translateZ(0);
-        transform: translateY(0) translateZ(0);
-    }
-}
-/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - -
-Fin de SCROLLER
-- - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
 
 .wrap {
     width: 100%;
@@ -510,22 +265,29 @@ Fin de SCROLLER
     padding-top: 100px;
 }
 
-article h1 {
-    margin-top: 46px;
-    color: black;
-    padding-left: 10px;
-    text-align: left;
-
-    font-size: 36px;
-    border-left: 1px solid;
-    border-image-source: linear-gradient(to top, black 40%, white 40%);
-    border-image-slice: 1 1;
-}
-
-.colG {
+article {
+    width: 70%;
     float: left;
-    width: 50%;
-    padding: 0 100px;
+    h1 {
+        margin-top: 46px;
+        color: black;
+        padding-left: 10px;
+        text-align: left;
+
+        font-size: 36px;
+        border-left: 1px solid;
+        border-image-source: linear-gradient(to top, black 40%, white 40%);
+        border-image-slice: 1 1;
+    }
+
+    p {
+        border: solid 1px;
+        border-image-source: linear-gradient(to bottom right, black 30%, white 30%);
+        border-width: 1px;
+        border-image-slice: 1 1;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
 }
 
 .nombre {
@@ -545,18 +307,10 @@ article h1 {
     padding-top: 10px;
 }
 
-article {
-    width: 70%;
+.colG {
     float: left;
-}
-
-article p {
-    border: solid 1px;
-    border-image-source: linear-gradient(to bottom right, black 30%, white 30%);
-    border-width: 1px;
-    border-image-slice: 1 1;
-    padding-top: 10px;
-    padding-left: 10px;
+    width: 50%;
+    padding: 0 100px;
 }
 
 .colD {
@@ -585,7 +339,6 @@ article p {
 }
 
 .in_view {
-
     transform: translateY(0);
     transition-duration: 2s;
     transition-delay: 0s;
@@ -593,14 +346,13 @@ article p {
 }
 
 .images_o {
-
     width: 600px;
     height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.images_o:hover {
+.images_o:hover, .images_v:hover {
     transform: scale(1.15, 1.15);
     transition: 1.5s;
     transition-timing-function: ease-in-out;
@@ -622,17 +374,6 @@ article p {
     display: block;
 }
 
-#webdesign .conteneur_o {
-    margin-top: 20%;
-}
-
-#webdesign .images_o {
-    background-image: url(../images/nervures-homepage.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-
 .text {
     width: 30%;
     position: relative;
@@ -648,15 +389,23 @@ span {
     font-weight: bold;
 }
 
-#webdesign2 {
-    /*padding-top: 10%;*/
+#webdesign, #webdesign2{
+    .conteneur_o{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+#webdesign .conteneur_o {
+    margin-top: 20%;
+}
+
+#webdesign .images_o {
+    background-image: url(../images/nervures-homepage.png);
 }
 
 #webdesign2 .images_o {
     background-image: url(../images/webfolio.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 GRAPHIQUE DESIGN
@@ -683,7 +432,6 @@ GRAPHIQUE DESIGN
 }
 
 .images_v {
-
     width: 600px;
     height: 400px;
     background-repeat: no-repeat;
@@ -697,16 +445,7 @@ GRAPHIQUE DESIGN
     background-image: url(../images/3.png);
 }
 
-.images_v:hover {
-    transform: scale(1.15, 1.15);
-    transition: 1.5s;
-    transition-timing-function: ease-in-out;
-    filter: brightness(70%);
-    -webkit-filter: brightness(70%);
-    -moz-filter: brightness(70%);
-    -o-filter: brightness(70%);
-    -ms-filter: brightness(70%);
-}
+
 
 #graphisme2 {
     /*clear: both;*/
@@ -715,8 +454,6 @@ GRAPHIQUE DESIGN
 
 #graphisme2 .images_o {
     background-image: url(../images/7.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #graphisme3 {
@@ -724,17 +461,11 @@ GRAPHIQUE DESIGN
 }
 
 #graphisme3 .images_o {
-
-
     background-image: url(../images/motif.jpg);
 }
 
 #graphisme4 .images_v {
-
-
     background-image: url(../images/data-design.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 PHOTOGRAPHIE
@@ -751,34 +482,27 @@ PHOTOGRAPHIE
 
 #photographie1 .images_o {
     background-image: url(../images/4.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 #photographie2 {
     padding-top: 0;
-}
+    .text {
+        position: relative;
+        left: 40%;
+    }
 
-#photographie2 .text {
-    position: relative;
-    left: 40%;
-}
-
-#photographie2 .images_v {
-
-    width: 400px;
-    height: 600px;
-    background-image: url(../images/portrait.png);
+    .images_v {
+        width: 400px;
+        height: 600px;
+        background-image: url(../images/portrait.png);
+    }
 }
 
 #photographie3 {
     padding-top: 10%;
-}
-
-#photographie3 .images_o {
-    background-image: url(../images/24.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    .images_o {
+        background-image: url(../images/24.png);
+    }
 }
 
 #photographie4 {
@@ -788,8 +512,6 @@ PHOTOGRAPHIE
 
 #photographie4 .images_o {
     background-image: url(../images/28.png);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 /*page À propos*/
 
@@ -798,6 +520,7 @@ PHOTOGRAPHIE
 
     width: 100%;
     height: 100%;
+
     .colD {
         display: none;
     }
@@ -829,9 +552,9 @@ PHOTOGRAPHIE
 }
 
 #autoportrait {
-    height: 100%;
+    height: auto;
     img{
-        height: 100%;
+        height: auto;
     }
 }
 
@@ -1072,6 +795,13 @@ A GLOBAL MATTER
     }
 }
 
+.a_propos{
+    overflow: hidden;
+    img{
+        width: 100%;
+    }
+}
+
 .a_global_matter {
     .colD {
         background-image: url(../images/06.png);
@@ -1094,6 +824,12 @@ A GLOBAL MATTER
         figure{
             display: table;
             text-align: left;
+        }
+    }
+
+    #logo_design5{
+        img{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         }
     }
 }
@@ -1221,6 +957,9 @@ A GLOBAL MATTER
     .gallerie_colM,
     .gallerie_colD {
         text-align: left;
+        img{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
     }
 }
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -1330,11 +1069,9 @@ NERVURES
 
 #nervures-homepage {
     margin-top: 50px;
-    width: 1920px;
-    height: 974px;
-    background-image: url(../images/nervures-homepage.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    img{
+        width: 100%;
+    }
 }
 
 #nervures5, #nervures6 {
@@ -1383,6 +1120,7 @@ NERVURES
 	}
 
 	a:hover, input:hover {
+        transition: all 1s ease-out;
     	color: #0BE58F;
     	background-color: white;
 	}
@@ -1490,6 +1228,8 @@ color: black;
 
 .gallery_bw {
     width: 60%;
+    height: auto;
+    overflow: auto;
     margin: 0 auto;
 
     img {
@@ -1509,6 +1249,19 @@ color: black;
 
     figcaption{
         left: 10%;
+    }
+}
+.global{
+    .lien{
+        width: 30%;
+        display: inline-block;
+        a{
+            width: 100%;
+            white-space: normal;
+        }
+    }
+    .bottom_links{
+        text-align: center;
     }
 }
 

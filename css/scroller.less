@@ -1,0 +1,251 @@
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - -
+SCROLLER
+- - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/
+
+#scroller {
+    z-index: 2000;
+    position: fixed;
+    bottom: -20px;
+    left: 45%;
+}
+
+.c-line--3,
+.is-active .c-line--3 {
+    -webkit-transition-delay: .12s;
+    transition-delay: .12s;
+}
+
+.is-active .c-line--from-opacity {
+    opacity: 1;
+}
+
+.is-active .c-line {
+    -webkit-transition-duration: .8s;
+    transition-duration: .8s;
+}
+
+.u-inline-block {
+    display: inline-block;
+}
+
+.c-scroll-btn__label {
+    color: #0be58f;
+    font-size: 24px;
+
+    -webkit-animation: b 2s;
+    animation: b 2s;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+}
+
+.is-active .c-scroll-btn__label {
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+
+.u-inline-block {
+    display: inline-block;
+}
+
+.c-line--from-opacity {
+    opacity: 0;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+}
+
+.c-line {
+    -webkit-transition: opacity .5s cubic-bezier(.49, .01, .27, 1), -webkit-transform .5s cubic-bezier(.49, .01, .27, 1);
+    transition: opacity .5s cubic-bezier(.49, .01, .27, 1), -webkit-transform .5s cubic-bezier(.49, .01, .27, 1);
+    transition: transform .5s cubic-bezier(.49, .01, .27, 1), opacity .5s cubic-bezier(.49, .01, .27, 1);
+    transition: transform .5s cubic-bezier(.49, .01, .27, 1), opacity .5s cubic-bezier(.49, .01, .27, 1), -webkit-transform .5s cubic-bezier(.49, .01, .27, 1);
+    will-change: transform;
+}
+
+@keyframes b {
+    0% {
+        -webkit-transform: translateY(0) translateZ(0);
+        transform: translateY(0) translateZ(0);
+        opacity: 1;
+    }
+    25% {
+        -webkit-transform: translateY(6vh) translateZ(0);
+        transform: translateY(6vh) translateZ(0);
+        opacity: 0;
+    }
+    25.1% {
+        -webkit-transform: translateY(-100%) translateZ(0);
+        transform: translateY(-100%) translateZ(0);
+        opacity: 0;
+    }
+    50% {
+        -webkit-transform: translateY(0) translateZ(0);
+        transform: translateY(0) translateZ(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translateY(0) translateZ(0);
+        transform: translateY(0) translateZ(0);
+        opacity: 1;
+    }
+    0% {
+        -webkit-transform: translateY(0) translateZ(0);
+        transform: translateY(0) translateZ(0);
+        opacity: 1;
+    }
+    25% {
+        -webkit-transform: translateY(6vh) translateZ(0);
+        transform: translateY(6vh) translateZ(0);
+        opacity: 0;
+    }
+    25.1% {
+        -webkit-transform: translateY(-100%) translateZ(0);
+        transform: translateY(-100%) translateZ(0);
+        opacity: 0;
+    }
+    50% {
+        -webkit-transform: translateY(0) translateZ(0);
+        transform: translateY(0) translateZ(0);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: translateY(0) translateZ(0);
+        transform: translateY(0) translateZ(0);
+        opacity: 1;
+    }
+}
+
+.u-inline-block {
+    display: inline-block;
+}
+
+.c-scroll-btn__line {
+    width: 1px;
+    height: 2vh;
+    margin-top: 5px;
+    margin-bottom: 4vh;
+    overflow: hidden;
+}
+
+*,
+*::after,
+*::before,
+html {
+    box-sizing: border-box;
+}
+
+.u-align-center {
+    text-align: center;
+}
+
+.o-wrapper--valign,
+.o-wrapper--valign-bottom,
+.u-vacuum {
+    font-size: 0;
+}
+
+.c-line--4,
+.is-active .c-line--4 {
+    -webkit-transition-delay: .16s;
+    transition-delay: .16s;
+}
+
+.u-inline-block {
+    display: inline-block;
+}
+
+.c-scroll-btn__line {
+    width: 1px;
+    height: 4vh;
+    margin-top: 5px;
+    margin-bottom: 4vh;
+    overflow: hidden;
+}
+
+.u-align-center {
+    text-align: center;
+}
+
+.o-wrapper--valign,
+.o-wrapper--valign-bottom,
+.u-vacuum {
+    font-size: 0;
+}
+
+.is-active .c-scroll-btn__inner-line,
+.is-active .c-scroll-btn__inner-line--light {
+    -webkit-animation-play-state: running;
+    animation-play-state: running;
+}
+
+.c-scroll-btn__inner-line {
+    background: #0be58f;
+}
+
+.c-scroll-btn__inner-line,
+.c-scroll-btn__inner-line--light {
+    width: 100%;
+    height: 100%;
+    -webkit-animation: a 2s;
+    animation: a 2s;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@keyframes a {
+    0% {
+        -webkit-transform: translateY(0) translateZ(0);
+        transform: translateY(0) translateZ(0);
+    }
+    25% {
+        -webkit-transform: translateY(100%) translateZ(0);
+        transform: translateY(100%) translateZ(0);
+    }
+    25.1% {
+        -webkit-transform: translateY(-100%) translateZ(0);
+        transform: translateY(-100%) translateZ(0);
+    }
+    35% {
+        -webkit-transform: translateY(-100%) translateZ(0);
+        transform: translateY(-100%) translateZ(0);
+    }
+    50% {
+        -webkit-transform: translateY(0) translateZ(0);
+        transform: translateY(0) translateZ(0);
+    }
+    100% {
+        -webkit-transform: translateY(0) translateZ(0);
+        transform: translateY(0) translateZ(0);
+    }
+    0% {
+        -webkit-transform: translateY(0) translateZ(0);
+        transform: translateY(0) translateZ(0);
+    }
+    25% {
+        -webkit-transform: translateY(100%) translateZ(0);
+        transform: translateY(100%) translateZ(0);
+    }
+    25.1% {
+        -webkit-transform: translateY(-100%) translateZ(0);
+        transform: translateY(-100%) translateZ(0);
+    }
+    35% {
+        -webkit-transform: translateY(-100%) translateZ(0);
+        transform: translateY(-100%) translateZ(0);
+    }
+    50% {
+        -webkit-transform: translateY(0) translateZ(0);
+        transform: translateY(0) translateZ(0);
+    }
+    100% {
+        -webkit-transform: translateY(0) translateZ(0);
+        transform: translateY(0) translateZ(0);
+    }
+}
+/*- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - -
+Fin de SCROLLER
+- - -  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -*/

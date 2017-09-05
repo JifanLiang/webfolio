@@ -210,10 +210,9 @@
 						</figure>	
 					</div>
 				</div>
-				
-				<?php include_once("inc/footer.php") ?>
-
 			</div>
+			<?php include_once("inc/footer.php") ?>
+
 
 		</div>
 

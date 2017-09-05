@@ -131,16 +131,20 @@
 			
 					
 				</div>
-				<div class="link">
-					
-					<a href="publicitaire.php"><p>Photographie Publicitaire</p></a>
-					<a href="architecture.php"><p>Photographie Architecture</p></a>
-					<a href="vagabondage.php"><p>Photographie Vagabondage</p></a>
-				</div>
-
 
 			</div>
-			
+			<div class="bottom_links">
+				<div class="lien">
+					<a  class="link" href="publicitaire.php">Photographie Publicitaire</a>
+				</div>
+				<div class="lien">
+					<a  class="link" href="architecture.php">Photographie Architecture</a>
+				</div>
+				<div class="lien">					
+					<a  class="link" href="vagabondage.php">Photographie Vagabondage</a>
+				</div>
+			</div>
+
 			<?php include_once("inc/footer.php") ?>
 		</div>
 	</body>
