@@ -28,29 +28,30 @@
 	<body>
 		<?php include_once("inc/header.php"); ?>
 		<div class="webfolio">
-			
-			<div class="colG">
-				<div class="border_logo">
-					<h1>Développement web : webfolio</h1>
-				</div>
+			<div id="webfolio1">
+				<div class="colG">
+					<div class="border_logo">
+						<h1>Développement web : webfolio</h1>
+					</div>
 
-				<div class="bloc_text">
-					<p class="text_standard"><span class="categorie">Client :</span> Projet personnel </p>
-					<p class="text_standard"><span class="categorie">Languages :</span> HTML, CSS, Javascript</p>
-					<p class="text_standard"><span class="categorie">Origine du projet:</span><br>
-				Création d'un site statique afin de présenter tous mes travaux.</p>
-				
+					<div class="bloc_text">
+						<p class="text_standard"><span class="categorie">Client :</span> Projet personnel </p>
+						<p class="text_standard"><span class="categorie">Languages :</span> HTML, CSS, Javascript</p>
+						<p class="text_standard"><span class="categorie">Origine du projet:</span><br>
+					Création d'un site statique afin de présenter tous mes travaux.</p>
+					
+					</div>
+					<div class="scroller">
+						<a href="#webfolio2" class="next"><div class="btn">+</div></a>
+					</div>
+					
 				</div>
-				<div class="scroller">
-					<a href="#webfolio2" class="next"><div class="btn">+</div></a>
-				</div>
 				
-			</div>
+				<div class="colD">
+					
+				</div>
 			
-			<div class="colD">
-				
 			</div>
-
 			<div id="webfolio2" class="page wrap">
 				<div style="width: 100%">
 					<div class="bloc_text">

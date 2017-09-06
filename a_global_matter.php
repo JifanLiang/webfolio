@@ -28,27 +28,28 @@
 	<body>
 		<?php include_once("inc/header.php"); ?>
 		<div class="a_global_matter">
-			
-			<div class="colG">
-				<div class="border_logo">
-					<h1>Affiche : A Global Matter</h1>
-				</div>
+			<div id="a_global_matter1">
+				<div class="colG">
+					<div class="border_logo">
+						<h1>Affiche : A Global Matter</h1>
+					</div>
 
-				<div class="bloc_text">
-					<p class="text_standard"><span class="categorie">Client :</span> Projet école</p>
-					<p class="text_standard"><span class="categorie">Logiciel :</span> Photoshop, Illustrator, Indesign</p>
-					<p class="text_standard"><span class="categorie">Origine du projet:</span><br>
-				Création d'une affiche de la conférence au sujet d' "A Global Matter" en format A3 et 300dpi, avec un montage photos des animaux et les informations essentiels de la conférence.</p>
-				
+					<div class="bloc_text">
+						<p class="text_standard"><span class="categorie">Client :</span> Projet école</p>
+						<p class="text_standard"><span class="categorie">Logiciel :</span> Photoshop, Illustrator, Indesign</p>
+						<p class="text_standard"><span class="categorie">Origine du projet:</span><br>
+					Création d'une affiche de la conférence au sujet d' "A Global Matter" en format A3 et 300dpi, avec un montage photos des animaux et les informations essentiels de la conférence.</p>
+					
+					</div>
+					<div class="scroller">
+						<a href="#a_global_matter2"><div class="btn">+</div></a>
+					</div>
+					
 				</div>
-				<div class="scroller">
-					<a href="#a_global_matter2"><div class="btn">+</div></a>
+				
+				<div class="colD">
+					
 				</div>
-				
-			</div>
-			
-			<div class="colD">
-				
 			</div>
 
 			<div id="a_global_matter2" class="page wrap">

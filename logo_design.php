@@ -20,33 +20,48 @@
 <body>
     <?php include_once("inc/header.php"); ?>
     <div class="logo_design">
-        <div class="colG">
-            <div class="border_logo">
-                <h1>Design de Logo</h1></div>
-            <div class="bloc_text">
-                <p class="text_standard"><span class="categorie">Client :</span> entreprise JVF</p>
-                <p class="text_standard"><span class="categorie">Logiciel :</span> Photoshop, Illustrator, Indesign</p>
-                <p class="text_standard"><span class="categorie">Origine du projet:</span>
-                    <br> Pour le client de l'entreprise, création d'un logo permettant l'identification de l'entreprise et suggérant le domaine d'activité - congélateur, climatisation et chauffage.</p>
+        <div id="logo_design1">
+            <div class="colG">
+                <div class="border_logo">
+                    <h1>Design de Logo</h1></div>
+                <div class="bloc_text">
+                    <p class="text_standard"><span class="categorie">Client :</span> Entreprise JVF</p>
+                    <p class="text_standard"><span class="categorie">Logiciel :</span> Photoshop, Illustrator, Indesign</p>
+                    <p class="text_standard"><span class="categorie">Origine du projet:</span>
+                        <br>JVF est une entreprise qui vend du matériel de congélation, de climatisation et de chauffage. Le client souhaitait avoir un logo qui représente en même temps les trois branches d’activité. Il voulait surtout qu’un  ocon de neige soit présent dans le logo. Au niveau des couleurs, il souhaitait avoir la trichromie bleue, rouge et verte. Le bleu représente la partie climatisation et congélation, le rouge la partie chauffage, et le vert une touche écologique et économique, facteur important pour l’image de marque de la société.</p>
+                </div>
+                <div class="scroller">
+                    <a href="#logo_design2" class="next">
+                        <div class="btn">+</div>
+                    </a>
+                </div>
             </div>
-            <div class="scroller">
-                <a href="#logo_design2">
-                    <div class="btn">+</div>
-                </a>
+            <div class="colD">
             </div>
-        </div>
-        <div class="colD">
         </div>
         <div id="logo_design2" class="page wrap">
             <div class="bloc_text">
                 <p class="categorie">Analyse de projet :</p>
-                <p>L'entreprise JVF souhaitait moderniser son logo, pour le rendre plus visible, plus reconnaissable et qu'il soit en accord avec le secteur d'activité. JVF commercialise des solutions de congélation, climatisation et chauffage. Elle souhaite également montrer un aspect écologique, lié à l'utilisation de ses produits, à leur rendement et à la diminution de leur impact sur l'environnement.</p>
+                <p>J’ai consulté beaucoup de logos sur drib- bble.com pour avoir de l’inspiration, j’ai fait des croquis et des déclinaisons pour le logo. La dif culté était de présenter les trois as- pects presque opposés ensemble d’une ma- nière cohérente, logique et harmonieuse.<br />
+                <br />
+                Comme il s’agit d’une entreprise greno- bloise, ma première idée est partie des mon- tagnes ; j’ai associé le chaud et froid aux vol- cans et glaciers, et je les présente sous une forme géométrique. L’inconvénient était que l’idée était un peu abstraite, ayant peu de liens avec les activités de l’entreprise.<br />
+                <br />
+                Pour la deuxième piste, j’ai pense à une mai- son à deux saisons. Donc je divise une forme qui peut représenter la maison en deux par-
+ties, puis j’utilise une  amme pour l’aspect chauffage, et un  ocon pour l’aspect clima- tisation. Mais le résultat n’est pas convain- quant, car une  amme dans une maison est visuellement un peu violent et souvent asso- cié au danger. <br/>
+<br/>
+Ensuite, je suis partie sur une idée d’un gla- çon à plusieurs faces, chacune pouvant re- présenter un aspect, et j’ai fait beaucoup de déclinaisons à partir de cette idée. Fina- lement, le client a été convaincu par cette idée, et a choisi le logo avec trois  èches en vert, bleu et rouge qui représentent les trois aspects de son entreprise, et qui forme impli- citement un glaçon blanc au milieu, avec un  ocon dessus.
+
+</p>
+
+
+
+
                 <div id="pal_logo_1" class="palette"></div>
                 <div id="pal_logo_2" class="palette"></div>
                 <div id="pal_logo_3" class="palette"></div>
             </div>
             <div class="scroller">
-                <a href="#logo_design3">
+                <a href="#logo_design3" class="next">
                     <div class="btn">+</div>
                 </a>
             </div>
@@ -96,7 +111,7 @@
                 </div>
             </div>
             <div class="scroller">
-                <a href="#logo_design4">
+                <a href="#logo_design4" class="next">
                     <div class="btn">+</div>
                 </a>
             </div>
@@ -146,7 +161,7 @@
                 </div>
             </div>
             <div class="scroller">
-                <a href="#logo_design5">
+                <a href="#logo_design5" class="next">
                     <div class="btn">+</div>
                 </a>
             </div>
@@ -171,6 +186,10 @@
 					</a>
                 </div>
             </div>
+
+              <div class="lien">
+                <a  class="link" href="https://webfolio.jifan.fr/index.php#webdesign">Voir d'autres projets </a>
+            </div>
             <?php include_once("inc/footer.php") ?>
         </div>
     </div>
@@ -179,7 +198,7 @@
 
         var identifiant;
 
-        $(".logo_design a").click(function(event) {
+        $("a.next").click(function(event) {
 
             //Déactiver l'effet de flash en annulant l'ancre 
             event.preventDefault();

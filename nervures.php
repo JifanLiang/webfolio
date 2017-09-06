@@ -29,30 +29,31 @@
 		
 
 		<div class="nervures" >
-			
-			<div class="colG">
-				<div class="border_logo"><h1>Développement site : Nervures</h1></div>
-				<div class="bloc_text">
-					<p class="text_standard"><span class="categorie">Client :</span> Nervures</p>
-					<p class="text_standard"><span class="categorie">Technologies :</span> CMS (Wordpress), BDD (mysql), CSS</p>
-					<p class="text_standard"><span class="categorie">Origine du projet:</span><br>
-				Renouvellement du sit web de Nervures, amélioration de son ergonomie, afin de rafraîchir l’image de marque et fournir aux clients un site dynamique à la fois vitrine et e-commerce, qui serait moderne, fonctionnel et ergonomique.</p>
-				
-				
-			</div>
-			<div class="scroller">
-				<div class="u-absolute u-fit-w u-pos-bl u-align-center is-active" has-binding="">
-					<a href="#nervures2" class="next"><div class="btn">+</div></a>
+			<div id="nervures1">
+				<div class="colG">
+					<div class="border_logo"><h1>Développement site : Nervures</h1></div>
+					<div class="bloc_text">
+						<p class="text_standard"><span class="categorie">Client :</span> Nervures</p>
+						<p class="text_standard"><span class="categorie">Technologies :</span> CMS (Wordpress), BDD (mysql), CSS</p>
+						<p class="text_standard"><span class="categorie">Origine du projet:</span><br>
+					Renouvellement du sit web de Nervures, amélioration de son ergonomie, afin de rafraîchir l’image de marque et fournir aux clients un site dynamique à la fois vitrine et e-commerce, qui serait moderne, fonctionnel et ergonomique.</p>
 					
+					
+				</div>
+				<div class="scroller">
+					<div class="u-absolute u-fit-w u-pos-bl u-align-center is-active" has-binding="">
+						<a href="#nervures2" class="next"><div class="btn">+</div></a>
+						
+						
+					</div>
 					
 				</div>
 				
 			</div>
 			
-		</div>
-		
-		<div id="nervures" class="colD">
-			
+			<div id="nervures" class="colD">
+				
+			</div>
 		</div>
 		<div id="nervures2" class="page wrap">
 			<div class="bloc_text">
