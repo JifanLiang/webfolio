@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Logo Design</title>
+    <title>Motifs Design</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" type="text/css" href="css/design.css">
     <!-- Google font : josefin sans-->
@@ -162,10 +162,8 @@
            <div class="lien">
                 <a  class="link" href="https://webfolio.jifan.fr/index.php#webdesign">Voir d'autres projets </a>
             </div>
-
-              <?php include_once("inc/footer.php") ?>
         </div>
-   
+        <?php include_once("inc/footer.php") ?>   
     </div>
     <script>
     $(function() {

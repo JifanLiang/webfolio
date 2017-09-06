@@ -102,6 +102,7 @@
 					<span class="categorie">Nervures page d'acceuil</span>
 				</div>
 				<div id="nervures-homepage">	
+					<img src="images/nervures-homepage.jpg" alt="" />
 				</div>				
 			</div>
 			<div class="scroller">
@@ -174,7 +175,9 @@
 					</div>
 				</div>
 			</div>
+		</div>
 
+		<div class="bottom_links">
 			<div class="lien">
 				<a  class="link" href="https://nervures.jifan.fr/" target="_blanc">Consulter le site Nervures </a>
 					
@@ -182,10 +185,7 @@
 			<div class="lien">
 				<a  class="link" href="https://webfolio.jifan.fr/index.php#webdesign">Voir d'autres projets </a>
 			</div>
-
-
 		</div>
-
 		<?php include_once("inc/footer.php") ?>
 	</div>
 
