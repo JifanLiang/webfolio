@@ -1,4 +1,8 @@
 	<header>
+		<div id="logo_s">
+			<a href="<?php if(isset($page) && $page === "index.php"){ echo '#accueil';} else{ echo 'index.php#accueil';}?>"><img src="images/logo-s.png"></a>
+
+		</div>
 		<nav id="main_menu">
 			<ul id="menu">
 				<li><a href="<?php if(isset($page) && $page === "index.php"){ echo '#webdesign';} else{ echo 'index.php#webdesign';}?>" title="Portfolio">Portfolio</a></li>
