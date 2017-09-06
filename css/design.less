@@ -118,10 +118,11 @@ h1 a:hover {
     color: white;
 }
 
-.menu_mobile {
+/*.menu_mobile {
     color: black;
     display: none;
 }
+
 
 #menu_vertical {
     background-color: transparent;
@@ -132,9 +133,9 @@ h1 a:hover {
     padding-top: 8px;
     position: fixed;
     top: 0;
-    /*position de flech-droite*/
-    left: -300px;
-    z-index: 1000;
+    //position de flech-droite
+    right: -300px;
+    z-index: 20;
 
     color: #0be58f;
     -webkit-transition: all 1s ease;
@@ -144,7 +145,7 @@ h1 a:hover {
 }
 
 #menu_vertical:hover {
-    left: 0px;
+    //left: 0px;
 }
 
 #menu_vertical:before {
@@ -167,13 +168,14 @@ h1 a:hover {
     background-size: cover;
     top: 50%;
     left: 300px;
-    z-index: 1002;
+    z-index: 20;
     cursor: pointer;
     display: none;
 }
 
 #vertical {
     margin-top: 600px;
+    transition: all 1s ease;
 }
 
 #vertical a {
@@ -188,7 +190,7 @@ h1 a:hover {
 
 #vertical a:hover {
     color: black;
-}
+}*/
 
 .navbar.navbar-transparent {
     background-color: transparent;
@@ -225,7 +227,7 @@ FIN DE MENU
 }
 
 #logo {
-    z-index: 1001;
+    z-index: 10;
     position: absolute;
     width: 100%;
     top: 50px;
