@@ -175,8 +175,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
-
 		<div class="bottom_links">
 			<div class="lien">
 				<a  class="link" href="https://nervures.jifan.fr/" target="_blanc">Consulter le site Nervures </a>
@@ -186,6 +184,9 @@
 				<a  class="link" href="https://webfolio.jifan.fr/index.php#webdesign">Voir d'autres projets </a>
 			</div>
 		</div>
+		</div>
+
+
 		<?php include_once("inc/footer.php") ?>
 	</div>
 
@@ -195,24 +196,28 @@
 		$(function(){
 			var identifiant;
 			$("a.next").click(function(event) {
-			//Déactiver l'effet de flash en annulant l'ancre
-			event.preventDefault();
-			//Je récupère l'id de la div jusqu'à laquelle descendre
-			identifiant = $(this).attr('href');
-			//J'emmène la barre de scroll verticale
-			//Jusqu'à cette destination
-			$("html,body").animate({
-				scrollTop:$(identifiant).offset().top
-			},2000);
+				//Déactiver l'effet de flash en annulant l'ancre
+				event.preventDefault();
+				//Je récupère l'id de la div jusqu'à laquelle descendre
+				identifiant = $(this).attr('href');
+				//J'emmène la barre de scroll verticale
+				//Jusqu'à cette destination
+				$("html,body").animate({
+					scrollTop:$(identifiant).offset().top
+				},2000);
 			});
-			$('[data-fancybox]').fancybox({
-		image : {
-		protect: true
-		}
-		});
+			//$('[data-fancybox]').fancybox({
+			//	image : {
+			//		protect: true
+			//	}
+			//});
 			
 		});
-	
+
+		var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+		console.log("width: "+w);
+		var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+		console.log("height: "+h);
 	
 </script>
 

@@ -1,7 +1,29 @@
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
                                                                                             RESPONSIVE
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
-
+@media screen and (max-height: 700px){
+    .nervures .bloc_text{
+        padding-bottom: 20px;
+    }
+    #nervures2 .bloc_text{
+        height: 100%;
+    }
+    #nervures3 .bloc_images{
+        height: 100%;
+    }
+    #nervures4 .scroller{
+        bottom: 5%;
+    }
+    #nervures4 .bloc_images{
+        height: 100%;
+    }
+    #nervures5 .bloc_images{
+        height: 100%;
+    }
+    #nervures6 .colD, #nervures6 .colG, #nervures6 .bloc_images{
+        height: auto;
+    }
+}
 
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
                                                                 Écran moyen               
@@ -24,8 +46,6 @@
     }
 
     #scroller {
-
-
         bottom: -20px;
         font-size: 15px;
     }
@@ -130,11 +150,6 @@
         }
     }
 
-    #nervures2, #nervures3, #nervures4{
-        .scroller{
-            bottom: 0px;
-        }
-    }
     #nervures2 {
         .bloc_text{
             //padding-top: 20px;
@@ -145,7 +160,7 @@
             margin-top: 0px;
         }
         .bloc_images{
-            height: auto;
+            //height: auto;
         }
         img {
             width: 80%;
@@ -154,7 +169,7 @@
     #nervures4{
         padding-top: 100px;
         .bloc_images{
-            height: 90%;
+            //height: 90%;
         }
     }
     #nervures-homepage{
@@ -168,10 +183,7 @@
             margin-top: 0px;
         }
         .bloc_images{
-            height: auto;
-        }
-        .scroller{
-            bottom: 20px;
+            //height: 100%;
         }
     }
 
