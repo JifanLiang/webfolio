@@ -197,14 +197,14 @@
 
 				<div id="graphisme4" class="colD">
 				<div class="conteneur_v">
-							<a href="data_design.php">
+							<a href="charte.php">
 								<div class="images_v">
 									<p class="legende">Voir le projet</p>
 									
 								</div>
 							</a>
 						</div>
-						<a href="data_design.php"><p class="text"><span>Data design</span></p></a>
+						<a href="charte.php"><p class="text"><span>Data design</span></p></a>
 					
 					
 				</div>
