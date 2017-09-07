@@ -40,23 +40,6 @@
 			<div id="accueil">
 				<?php 
 					include_once("inc/header.php"); ?>
-
-						<nav id="menu_vertical">
-						
-							<ul id="vertical">
-								<li class="menu_mobile"><a href="<?php if(isset($page) && $page === "index.php"){ echo '#webdesign';} else{ echo 'index.php#webdesign';}?>" title="Portfolio">Portfolio</a></li>
-								<li class="menu_mobile"><a href="a_propos.php" title="À propos">À-propos</a></li>
-								<li id="der" class="menu_mobile"><a href="contact.php" title="contact">Contact</a></li>
-								<li>
-									<a href="#webdesign">
-										Web-design
-									</a>
-								</li>
-								<li><a href="#graphisme">Design graphique</a></li>
-								<li><a href="#photographie">Photographie</a></li>
-								
-							</ul>
-					</nav>
 				
 			<div class="bandeau">
 
@@ -155,7 +138,7 @@
 
 
 			<!--DESIGN GRAPHIQUE-->
-			<div id="graphisme">
+			<div id="graphisme" name="graphisme">
 				<div class="wrap">
 					<div class="colD">
 						<p class="nombre">02</p>
