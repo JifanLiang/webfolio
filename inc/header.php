@@ -1,6 +1,6 @@
 	<header>
 		<div id="logo_s">
-			<a href="<?php if(isset($page) && $page === "index.php"){ echo '#accueil';} else{ echo 'index.php#accueil';}?>"><img src="images/logo-s.png"></a>
+			<a href="<?php if(isset($page) && $page === "index.php"){ echo '#Portfolio';} else{ echo 'index.php';}?>" title="Portfolio"><img src="images/logo-s.png"></a>
 
 		</div>
 		<nav id="main_menu">
