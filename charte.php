@@ -59,7 +59,7 @@
 			<div class="bloc_text">
 				<p class="categorie">Analyse de projet :</p>
 				<p>
-					Comment renouveller l’image de la marque, moderniser leur charte graphique, a n que la branche communication et marketing soit au niveau de l’aspect tech- nique et du savoir faire de Nervures, et permette de mieux mettre en valeur les produits conçus ?
+					Comment renouveller l’image de la marque, moderniser leur charte graphique, pour que la branche communication et marketing soit au niveau de l’aspect technique et du savoir faire de Nervures, et permette de mieux mettre en valeur les produits conçus ?
 				</p>
 				<br />
 				<p>
@@ -68,7 +68,7 @@
 				<br />
 
 				<p>
-				J'ai choisi l'orange et le jeune pour le logo. Car l’orange est associé à l’énergie et à l’ac- tion. Il évoque le soleil, la chaleur et la lumière. Il transmet de la joie, du plaisir et de l’optimisme. Il est aussi synonyme de vitalité, de force et d’endurance. Au niveau des utilisations en communication visuelle, l’orange peut apporter une touche de dynamisme et de vitalité. Le jaune donne une impression de chaleur et de lumière. C’est la couleur de la bonne humeur et de la joie de vivre. Il symbolise la logique et le pouvoir personnel.
+				J'ai choisi l'orange et le jeune pour le logo. Car l’orange est associeé à l'énergie et à l’action. Il évoque le soleil, la chaleur et la lumière. Il transmet de la joie, du plaisir et de l’optimisme. Il est aussi synonyme de vidalité, de force et d’endurance. Au niveau des utilisations en communication visuelle, l’orange peut apporter une touche de dynamisme. Le jaune donne une impression de chaleur et de lumière. C’est la couleur de la bonne humeur et de la joie de vivre. Il symbolise la logique et le pouvoir personnel.
 				</p>
 				<div id="pal_cha_1" class="palette"></div>
 					<div id="pal_cha_2" class="palette"></div>
