@@ -42,7 +42,7 @@
 					
 					</div>
 					<div class="scroller">
-						<a href="#a_global_matter2"><div class="btn">+</div></a>
+						<a href="#a_global_matter2" class="next"><div class="btn">+</div></a>
 					</div>
 					
 				</div>
@@ -72,7 +72,7 @@
 					</div>
 
 		        <div class="scroller">
-					<a href="#a_global_matter3"><div class="btn">+</div></a>
+					<a href="#a_global_matter3" class="next"><div class="btn">+</div></a>
 				</div>
 				</div>
 			</div>
@@ -126,7 +126,7 @@
 					</div>
 				</div>
 		        <div class="scroller">
-		            <a href="#a_global_matter4">
+		            <a href="#a_global_matter4"  class="next">
 		                <div class="btn">+</div>
 		            </a>
 		        </div>
@@ -175,7 +175,7 @@
 					</div>
 				</div>
 		        <div class="scroller">
-		            <a href="#a_global_matter5">
+		            <a href="#a_global_matter5"  class="next">
 		                <div class="btn">+</div>
 		            </a>
 		        </div>
@@ -211,6 +211,11 @@
 						</figure>	
 					</div>
 				</div>
+
+				<div class="bottom_links">
+		       	<div class="lien">
+					<a  class="link" href="https://webfolio.jifan.fr/index.php#webdesign">Voir d'autres projets </a>
+				</div>
 			</div>
 			<?php include_once("inc/footer.php") ?>
 
@@ -222,7 +227,7 @@
 
 				var identifiant;
 
-				$(".a_global_matter a").click(function(event) {
+				$("a.next").click(function(event) {
 
 				//Déactiver l'effet de flash en annulant l'ancre 
 				event.preventDefault();

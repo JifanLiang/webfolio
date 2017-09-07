@@ -181,13 +181,14 @@
 						</figure>
 					</div>
 				</div>
-			</div>
 
-			<div class="bottom_links">
+				<div class="bottom_links">
 		       	<div class="lien">
 					<a  class="link" href="https://webfolio.jifan.fr/index.php#webdesign">Voir d'autres projets </a>
 				</div>
 			</div>
+
+			
 	        <?php include_once("inc/footer.php") ?>			
 
 		</div>
