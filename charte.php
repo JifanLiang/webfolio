@@ -31,12 +31,12 @@
 		<div class="charte" >
 			<div id="charte1">
 				<div class="colG">
-					<div class="border_logo"><h1>Développement site : charte</h1></div>
+					<div class="border_logo"><h1>Charte graphique : Nervures</h1></div>
 					<div class="bloc_text">
-						<p class="text_standard"><span class="categorie">Client :</span> webfolios</p>
-						<p class="text_standard"><span class="categorie">Technologies :</span> CMS (Wordpress), BDD (mysql), CSS</p>
+						<p class="text_standard"><span class="categorie">Client :</span> Nervures</p>
+						<p class="text_standard"><span class="categorie">Logiciel:</span> Illustrator, photosho, indesign</p>
 						<p class="text_standard"><span class="categorie">Origine du projet:</span><br>
-					Renouvellement du sit web de charte, amélioration de son ergonomie, afin de rafraîchir l’image de marque et fournir aux clients un site dynamique à la fois vitrine et e-commerce, qui serait moderne, fonctionnel et ergonomique.</p>
+					Renouvellement de l'identité visuelle de l'entreprise Nervures.</p>
 					
 					
 				</div>
@@ -59,20 +59,19 @@
 			<div class="bloc_text">
 				<p class="categorie">Analyse de projet :</p>
 				<p>
-					charte est une entreprise française et artisanale. La conception, fabrication et l’assemblage sont effectués en France, de façon non industrielle. Ce sont des arguments que la compagnie souhaite mettre en avant, pour inciter la clientèle à préférer la démarche locale et responsable.
+					Comment renouveller l’image de la marque, moderniser leur charte graphique, a n que la branche communication et marketing soit au niveau de l’aspect tech- nique et du savoir faire de Nervures, et permette de mieux mettre en valeur les produits conçus ?
 				</p>
 				<br />
 				<p>
-					charte publie régulièrement des nouvelles sur leur site (tous les 15 jours en moyenne), une page d'actualités pourra faciliter la mise à jour de nouvelles, dynamiser le site et améliorer le trafic internet.
+					Je pars de la légerté de parapente, je fais ainsi référence à la plume. De plus, la courbe lise de ce dernier pourrait évoquer la forme de la voile de parapente.  
 				</p>
 				<br />
+
 				<p>
-					L’entreprise veut avant tout pouvoir présenter ses produits. Elle souhaite donc avoir une vitrine permettant d’obtenir une description marketing et technique de ses produits, ainsi que des informations associées (produits associés, qualifications, normes, etc...). Comme charte sort régulièrement de nouveaux produits et souhaite augmenter sa visibilité et son traffic, le site doit être dynamique pour faciliter l’ajout de nouveautés, d’actualités, de témoignages ou autres éléments.
+				J'ai choisi l'orange et le jeune pour le logo. Car l’orange est associé à l’énergie et à l’ac- tion. Il évoque le soleil, la chaleur et la lumière. Il transmet de la joie, du plaisir et de l’optimisme. Il est aussi synonyme de vitalité, de force et d’endurance. Au niveau des utilisations en communication visuelle, l’orange peut apporter une touche de dynamisme et de vitalité. Le jaune donne une impression de chaleur et de lumière. C’est la couleur de la bonne humeur et de la joie de vivre. Il symbolise la logique et le pouvoir personnel.
 				</p>
-				<br />
-				<p>
-				</p>
-				
+				<div id="pal_cha_1" class="palette"></div>
+					<div id="pal_cha_2" class="palette"></div>
 				
 			</div>
 			<div class="scroller">
@@ -86,15 +85,12 @@
 		<div id="charte3" class="page wrap">
 			<div class="bloc_images">
 				<div class="titre_planche">
-					<span class="categorie">Comparaison : </span>
+					<span class="categorie">Planche de tendences et pistes créatives </span>
 				</div>
-				<p>La page produit de l'ancien site charte donne une impression d'être une impasse, elle créé de la confusion : nous ne savons pas si cette page contient des informations, si le fond est cliquablie ou pas.</p>
-				<p>Ensuite on découvre que ici, le fond est cliquable et il nous amène une page avancée sur les produits, en revanche, la page suivante qui a presque le même fond n'est plus cliquable.</p> 
-				<br />
-				<p>Pour le nouveau site, nous rendons la page explicite pour que les visiteurs aient une vision directe sur les produits. </p>
+				
 				<div class="colG">
 					<div>
-						<p>Avant : </p>
+						<p>Insipirations : </p>
 					</div>
 					<div class="avant">
 						<img src="images/charte/charte-moodboard.jpg" />
@@ -103,7 +99,7 @@
 		
 				<div class="colD">
 					<div>
-						<p>Après : </p>
+						<p>Croquis : </p>
 					</div>
 					<div class="apres">
 						<img src="images/charte/charte-croquis.jpg" />
@@ -119,15 +115,12 @@
 		<div id="charte4" class="page wrap">
 		<div class="bloc_images">
 				<div class="titre_planche">
-					<span class="categorie">Comparaison : </span>
+					<span class="categorie">Logotype : </span>
 				</div>
-				<p>La page produit de l'ancien site charte donne une impression d'être une impasse, elle créé de la confusion : nous ne savons pas si cette page contient des informations, si le fond est cliquablie ou pas.</p>
-				<p>Ensuite on découvre que ici, le fond est cliquable et il nous amène une page avancée sur les produits, en revanche, la page suivante qui a presque le même fond n'est plus cliquable.</p> 
-				<br />
-				<p>Pour le nouveau site, nous rendons la page explicite pour que les visiteurs aient une vision directe sur les produits. </p>
+				
 				<div class="colG">
 					<div>
-						<p>Avant : </p>
+						<p>Un logotype unique : </p>
 					</div>
 					<div class="avant">
 						<img src="images/charte/charte-presentation.jpg" />
@@ -136,7 +129,7 @@
 		
 				<div class="colD">
 					<div>
-						<p>Après : </p>
+						<p>Logotype sur fond coloré : </p>
 					</div>
 					<div class="apres">
 						<img src="images/charte/charte-logotype.jpg" />
@@ -154,15 +147,13 @@
 		<div id="charte5" class="page wrap">
 			<div class="bloc_images">
 				<div class="titre_planche">
-					<span class="categorie">Comparaison : </span>
+					<span class="categorie">Rapport de proportions, espace protégé et taille minimum </span>
 				</div>
-				<p>La page produit de l'ancien site charte donne une impression d'être une impasse, elle créé de la confusion : nous ne savons pas si cette page contient des informations, si le fond est cliquablie ou pas.</p>
-				<p>Ensuite on découvre que ici, le fond est cliquable et il nous amène une page avancée sur les produits, en revanche, la page suivante qui a presque le même fond n'est plus cliquable.</p> 
-				<br />
-				<p>Pour le nouveau site, nous rendons la page explicite pour que les visiteurs aient une vision directe sur les produits. </p>
+				<p>La hauteur du logotype sert de mesure.</p>
+			
 				<div class="colG">
 					<div>
-						<p>Avant : </p>
+						<p>Rapport de proportions : </p>
 					</div>
 					<div class="avant">
 						<img src="images/charte/charte-espace.jpg" />
@@ -171,7 +162,7 @@
 		
 				<div class="colD">
 					<div>
-						<p>Après : </p>
+						<p>Espace protégé et taille minimum : </p>
 					</div>
 					<div class="apres">
 						<img src="images/charte/charte-espace-2.jpg" />
@@ -189,36 +180,36 @@
 		<div id="charte6" class="page wrap">
 		<div class="bloc_images">
 					<div class="titre_planche">
-						<span class="categorie">D'autres créations d'affiche :</span>
+						<span class="categorie">Supprots markeing :</span>
 					</div>
 					<div class="gallerie_colG">
 						<figure>
 										
-								<img src="images/charte/charte-p.jpg" alt="affiche vintage" title="affiche vintage" >
-								<figcaption>Affiche vintage</figcaption>
+								<img src="images/charte/charte-p.jpg" alt="affiche vintage" title="papeterie" >
+								<figcaption>Papeterie</figcaption>
 							
 						</figure>
 					</div>				
 					<div class="gallerie_colM">
 						<figure>
 							
-								<img src="images/charte/charte-flyer.jpg" alt="Affiche publicitaire" title="Affiche publicitaire" >
-								<figcaption>Affiche publicitaire - Émotions sucrées</figcaption>
+								<img src="images/charte/charte-flyer.jpg" alt="flyers" title="flyers" >
+								<figcaption>Flyers</figcaption>
 							
 						</figure>
 					</div>			
 					<div class="gallerie_colD">
 						<figure>
 							
-								<img src="images/charte/charte-tass.jpg" alt="affiche cinéma" title="affiche cinéma">
-								<figcaption>Affiche cinéma</figcaption>
+								<img src="images/charte/charte-tass.jpg" alt="mug" title="mug">
+								<figcaption>Mug</figcaption>
 							
 						</figure>	
 					</div>
 				</div>
 		<div class="bottom_links">
 			<div class="lien">
-				<a  class="link" href="https://nervures.jifan.fr/" target="_blanc">Consulter le site charte </a>
+				<a  class="link" href="https://nervures.jifan.fr/" target="_blanc">Consulter le site Nervures </a>
 					
 			</div>
 			<div class="lien">

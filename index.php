@@ -204,7 +204,7 @@
 								</div>
 							</a>
 						</div>
-						<a href="charte.php"><p class="text"><span>Data design</span></p></a>
+						<a href="charte.php"><p class="text"><span>Charte graphique</span></p></a>
 					
 					
 				</div>
