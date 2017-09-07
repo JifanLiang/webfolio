@@ -947,7 +947,7 @@ PAGE CONTACT
 } */
 }
 
-#a_global_matter2, #webfolio2, #logo_design2, #motif2 {
+#a_global_matter2, #webfolio2, #logo_design2, #motif2, #charte2, #charte6 {
     &.wrap {
         background-color: @global_matter_alt_bg_color;
     }
@@ -967,7 +967,7 @@ PAGE CONTACT
     }
 }
 
-#a_global_matter4, #webfolio4, #logo_design4, #motif4 {
+#a_global_matter4, #webfolio4, #logo_design4, #motif4, #charte4 {
     background-color: @global_matter_alt_bg_color;
     .page.wrap{padding-top: 50px;}
     
@@ -1037,6 +1037,7 @@ NERVURES
     padding-top: 3px;
     color: #0BE58F;
 }
+/*nervures*/
 
 #nervures1{
     height: 100%;
@@ -1049,7 +1050,8 @@ NERVURES
 
 #nervures2 .bloc_text,
 #a_global_matter3 .bloc_text,
-#motif2 .bloc_text {
+#motif2 .bloc_text,
+#charte2 .bloc_text {
     width: 50%;
     height: 80%;
     padding-top: 10%;
@@ -1103,7 +1105,7 @@ NERVURES
     }
 }
 
-#nervures5, #nervures6 {
+#nervures5, #nervures6, #charte3, #charte4, #charte5  {
     .colG,
     .colD {
         margin-top: 100px;
@@ -1127,7 +1129,22 @@ NERVURES
     }
 }
 
-#nervures6, #webfolio4  {
+/*#charte3 {
+    .avant, .apres
+    {
+        margin-top: 50px;
+        width: 100%;
+
+        img{
+            max-width: 100%;
+            width: 100%;
+            object-fit: contain;
+            border: solid 1px #0BE58F;
+        }
+    }
+
+}*/
+#nervures6, #webfolio4, #charte  {
     .lien {
         margin-bottom: 30px;
     }
@@ -1237,6 +1254,28 @@ color: black;
 	margin-bottom: 100px;
 }
 
+/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+                                                                            Charte
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+#charte1{
+    height: 100%;
+}
+
+#charte1{
+    .colD {
+        background-image: url(../images/nervures-logo-boutique.jpg);
+    }
+}
+#charte2{
+    .bloc_text{
+        min-height: 50%;
+    }
+}
+#charte5, #charte4, #charte3{
+    .scroller{
+        bottom: 0px;
+    }
+}
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 																			logo jvf
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
