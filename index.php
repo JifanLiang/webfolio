@@ -95,7 +95,7 @@
 							Développement Web
 							</h1>
 							
-							<p>Ayant découvert le code et sa magie depuis un an, je suis impressionnée et passionnée par le monde informatique. Jonglant entre HTML 5, CSS 3 et JavaScript, je maîtrise l’intégration et la création de sites web, CMS ( Wordpress)… Je vous invite à regarder les projets que j’ai réalisés récemment. 
+							<p>Ayant découvert la magie du code, je suis impressionnée et passionnée par le monde informatique. Jonglant entre HTML 5, CSS 3 et JavaScript, je maîtrise l’intégration et la création de sites web, CMS ( Wordpress)… Je vous invite à regarder les projets que j’ai réalisés récemment. 
 							<br />
 							<br />Pour le site dynamique de <strong>Nervures</strong>, j'ai réalisé la migration et gestion de contenu, amélioré l'ergonomie générale et le référencement afin d'offrir une meilleure navigation sur le site aux clients fidèles.
 							<strong>Webfolio</strong> est la réalisation de mon propre site web, afin de montrer mon savoir faire et mes compétences. Le code Less est compilé vers du CSS pour un développement plus lisible, un meilleur rendu multi-plateforme et de l'optimisation de poids de page.</p>
@@ -113,7 +113,7 @@
 								</div>
 							</a>
 						</div>
-						<a href="nervures.php"><p class="text"><span>Nervures</span>, création de site e-commerce. </p></a>
+						<a href="nervures.php"><p class="text">Nervures, <span>création de site e-commerce.</span> </p></a>
 						
 						
 					</div>
@@ -147,7 +147,7 @@
 							Design Graphique
 							</h1>
 							
-							<p>Logos, affiches d'évènements, impression, identités visuelles, clips vidéos... Le monde de l'image et de la création graphique est un univers sans fin, dans lequel je sais comment et où aller, quelque soit le projet à mettre en oeuvre! Vous trouverez ici des exemples réalisés sous Photoshop, InDesign, Illustrator ou encore Premiere.</p>
+							<p>Logos, affiches d'évènements, impressions, identités visuelles, clips vidéos... Le monde de l'image et de la création graphique est un univers sans fin, dans lequel je sais comment et où aller, quelque soit le projet à mettre en oeuvre ! Vous trouverez ici des exemples réalisés sous Photoshop, InDesign, Illustrator ou encore Premiere.</p>
 						</article>
 						
 					</div>

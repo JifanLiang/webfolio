@@ -9,10 +9,12 @@ $(function () {
 </script>
 
 	<header>
+
 		<div id="logo_s">
 			<a href="<?php if(isset($page) && $page === "index.php"){ echo '#Portfolio';} else{ echo 'index.php';}?>" title="Portfolio"><img src="images/logo-s.png"></a>
 
 		</div>
+
 		<nav id="main_menu" class="navbar navbar-default navbar-fixed-top navbar-color-on-scroll navbar-transparent">
 			<ul id="menu">
 				<li><a href="<?php if(isset($page) && $page === "index.php"){ echo '#webdesign';} else{ echo 'index.php#webdesign';}?>" title="Portfolio">Portfolio</a></li>

@@ -40,12 +40,12 @@
         <div id="motif2" class="page wrap">
             <div class="bloc_text">
                 <p class="categorie">Analyse de projet :</p>
-                <p>Au départ, comme le site de l'agence Himalaya se présente par une métaphore avec l’ascension alpinisme, je voudrais rester sur la même stratégie, j'ai fait des croquis autour de l'ascension alpinisme : la corde, le casque, le piolet, le fixer et le baudrier etc.</p>
+                <p>Au départ, comme le site de l'agence Himalaya se présente sous la forme d'une métaphore de l'alpinisme, j'ai voulu rester sur la même stratégie, j'ai donc fait des croquis autour des objets de l'alpinisme : la corde, le casque, le piolet, le coinçeur, le baudrier etc.</p>
            
-                <p> Néanmoins, l'agence souhaiterais se donner une image plutôt fan et relax sur les réseaux sociaux et leur blog. Donc, je fais des croquis plutôt orienté sur l'été et les vacances. Mais cela ne fait pas assez sérieux par rapport l'image professionnelle de l'agence.</p>
+                <p> Néanmoins, l'agence souhaitait se donner une image plutôt fun et relax sur les réseaux sociaux et son blog. J'ai donc fait des croquis plutôt orientés sur l'été et les vacances. Mais cela ne faisait pas assez sérieux par rapport à l'image professionnelle de l'agence.</p>
            
                 <p> 
-                Ensuite, je suis inspirée par des motifs graphique, et par l'art traditionnelle chinoise :  Yi Jing. Finalement, je reviens sur l'idée de montagne, mais je ne me concentre plus sur les activités montagnardes, mais plutôt sur la nature de la montagne même. On retrouve donc stylisés des montagnes, de l'eau, des arbres, des nuages, des tentes, la lune, des ponts ou encore du vent.</p>
+                Ensuite, je me suis inspirée de motifs graphiques, et de l'art traditionnel chinois, le  Yi Jing. Finalement, je suis revenue sur l'idée de montagne, mais je ne me suis plus concentrée sur les activités mais plutôt sur la nature de la montagne même. On retrouve donc stylisés des montagnes, de l'eau, des arbres, des nuages, des tentes, la lune, des ponts ou encore du vent.</p>
                
             </div>
             <div class="scroller">

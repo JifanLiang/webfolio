@@ -34,7 +34,7 @@
 					<div class="border_logo"><h1>Charte graphique : Nervures</h1></div>
 					<div class="bloc_text">
 						<p class="text_standard"><span class="categorie">Client :</span> Nervures</p>
-						<p class="text_standard"><span class="categorie">Logiciel:</span> Illustrator, photosho, indesign</p>
+						<p class="text_standard"><span class="categorie">Logiciel:</span> Illustrator, photoshop, indesign</p>
 						<p class="text_standard"><span class="categorie">Origine du projet:</span><br>
 					Renouvellement de l'identité visuelle de l'entreprise Nervures.</p>
 					
@@ -63,12 +63,12 @@
 				</p>
 				<br />
 				<p>
-					Je pars de la légerté de parapente, je fais ainsi référence à la plume. De plus, la courbe lise de ce dernier pourrait évoquer la forme de la voile de parapente.  
+					Je suis partie de la légereté du parapente, pour arriver à la plume. De plus, la courbe lisse de cette dernière peut évoquer la forme de la voile du parapente.  
 				</p>
 				<br />
 
 				<p>
-				J'ai choisi l'orange et le jeune pour le logo. Car l’orange est associeé à l'énergie et à l’action. Il évoque le soleil, la chaleur et la lumière. Il transmet de la joie, du plaisir et de l’optimisme. Il est aussi synonyme de vidalité, de force et d’endurance. Au niveau des utilisations en communication visuelle, l’orange peut apporter une touche de dynamisme. Le jaune donne une impression de chaleur et de lumière. C’est la couleur de la bonne humeur et de la joie de vivre. Il symbolise la logique et le pouvoir personnel.
+				J'ai choisi l'orange et le jaune pour le logo. Car l’orange est associé à l'énergie et à l’action, et évoque le soleil, la chaleur et la lumière. Il transmet de la joie, du plaisir et de l’optimisme. Il est aussi synonyme de vitalité, de force et d’endurance. Au niveau des utilisations en communication visuelle, l’orange peut apporter une touche de dynamisme. Le jaune donne une impression de chaleur et de lumière. C’est la couleur de la bonne humeur et de la joie de vivre. Il symbolise la logique et le pouvoir personnel.
 				</p>
 				<div id="pal_cha_1" class="palette"></div>
 					<div id="pal_cha_2" class="palette"></div>
@@ -85,12 +85,12 @@
 		<div id="charte3" class="page wrap">
 			<div class="bloc_images">
 				<div class="titre_planche">
-					<span class="categorie">Planche de tendences et pistes créatives </span>
+					<span class="categorie">Planche de tendances et pistes créatives </span>
 				</div>
 				
 				<div class="colG">
 					<div>
-						<p>Insipirations : </p>
+						<p>Inspirations : </p>
 					</div>
 					<div class="avant">
 						<img src="images/charte/charte-moodboard.jpg" />
@@ -180,7 +180,7 @@
 		<div id="charte6" class="page wrap">
 		<div class="bloc_images">
 					<div class="titre_planche">
-						<span class="categorie">Supprots markeing :</span>
+						<span class="categorie">Supports marketing :</span>
 					</div>
 					<div class="gallerie_colG">
 						<figure>

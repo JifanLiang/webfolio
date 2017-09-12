@@ -38,7 +38,7 @@
 						<p class="text_standard"><span class="categorie">Client :</span> Projet école</p>
 						<p class="text_standard"><span class="categorie">Logiciel :</span> Photoshop, Illustrator, Indesign</p>
 						<p class="text_standard"><span class="categorie">Origine du projet:</span><br>
-					Création d'une affiche de la conférence au sujet d' "A Global Matter" en format A3 et 300dpi, avec un montage photos des animaux et les informations essentiels de la conférence.</p>
+					Création d'une affiche de la conférence au sujet d' "A Global Matter" en format A3 et 300dpi, avec un montage photos d'animaux et les informations essentielles de la conférence.</p>
 					
 					</div>
 					<div class="scroller">
@@ -59,13 +59,13 @@
 						<br />
 						
 
-						<p>L’affiche référence de ce « global matter » évoque l’échauffement climatique mondial, et ses conséquence grave vers les animaux. Quand je traite de sujet, je pense d’utiliser la flamme afin de accentuer l’urgence et la violence du problème, le public pourrait ainsi visualiser et même sentir l’impact de ce dernier. Par ailleurs, j’ai choisi surtout des animaux qui ont un regard directe de face, pour que le public puisse sentir que cela nous concerne tous.</p><br />
+						<p>L’affiche référence de ce « global matter » évoque le réchauffement climatique mondial, et ses conséquences graves sur les animaux. Quand j'ai traité ce sujet, j'ai pensé à utiliser la flamme afin d'accentuer l’urgence et la violence du problème, le public pourrait ainsi visualiser et même sentir l’impact de ce dernier. Par ailleurs, j’ai choisi surtout des animaux qui ont un regard direct de face, pour que le public puisse sentir que cela nous concerne tous.</p><br />
 
-<p>J’ai donc choisi les couleurs orange et violet pou représenter le feu. Afin de garder une cohérence, les autres partie visuelle sur l’affiche reste sur le même ton chronométrique.</p><br />
+<p>J’ai donc choisi les couleurs orange et violet pour représenter le feu. Afin de garder une cohérence, les autres parties visuelles de l’affiche restent sur le même ton chromatique.</p><br />
 
-<p>Le montage triangulaire des animaux se montre une importance sur l’affiche, cela représente le mot « global » : c’est un problème pout Tous, et non seulement pour certain.</p><br />
+<p>Le montage triangulaire des animaux d'une grande importance sur l’affiche, car il représente le mot « global » : c’est un problème pour tous, et non seulement pour certains.</p><br />
 
-<p>Pour le choix de typo, j’ai pris un typo géométrique pour souligner l’aspect sérieux et scientifique du sujet.</p>
+<p>J'ai choisi une typo géométrique pour souligner l’aspect sérieux et scientifique du sujet.</p>
 
 						<div id="pal_1" class="palette"></div>
 						<div id="pal_2" class="palette"></div>

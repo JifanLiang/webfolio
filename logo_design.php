@@ -28,7 +28,7 @@
                     <p class="text_standard"><span class="categorie">Client :</span> Entreprise JVF</p>
                     <p class="text_standard"><span class="categorie">Logiciel :</span> Photoshop, Illustrator, Indesign</p>
                     <p class="text_standard"><span class="categorie">Origine du projet:</span>
-                        <br>JVF est une entreprise qui vend du matériel de congélation, de climatisation et de chauffage. Le client souhaitait avoir un logo qui représente en même temps les trois branches d’activité. Il voulait surtout qu’un  ocon de neige soit présent dans le logo. Au niveau des couleurs, il souhaitait avoir la trichromie bleue, rouge et verte. Le bleu représente la partie climatisation et congélation, le rouge la partie chauffage, et le vert une touche écologique et économique, facteur important pour l’image de marque de la société.</p>
+                        <br>JVF est une entreprise qui vend du matériel de congélation, de climatisation et de chauffage. Le client souhaitait avoir un logo qui représente en même temps les trois branches d’activité. Il voulait surtout qu’un flocon de neige soit présent dans le logo. Au niveau des couleurs, il souhaitait avoir la trichromie bleue, rouge et verte. Le bleu représente la partie climatisation et congélation, le rouge la partie chauffage, et le vert une touche écologique et économique, facteur important pour l’image de marque de la société.</p>
                 </div>
                 <div class="scroller">
                     <a href="#logo_design2" class="next">
@@ -42,14 +42,13 @@
         <div id="logo_design2" class="page wrap">
             <div class="bloc_text">
                 <p class="categorie">Analyse de projet :</p>
-                <p>J’ai consulté beaucoup de logos sur drib- bble.com pour avoir de l’inspiration, j’ai fait des croquis et des déclinaisons pour le logo. La dif culté était de présenter les trois as- pects presque opposés ensemble d’une ma- nière cohérente, logique et harmonieuse.<br />
+                <p>J’ai consulté beaucoup de logos sur dribbble.com pour avoir de l’inspiration, j’ai fait des croquis et des déclinaisons pour le logo. La difficulté était de présenter les trois aspects presque opposés ensemble d’une ma- nière cohérente, logique et harmonieuse.<br />
                 <br />
-                Comme il s’agit d’une entreprise greno- bloise, ma première idée est partie des mon- tagnes ; j’ai associé le chaud et froid aux vol- cans et glaciers, et je les présente sous une forme géométrique. L’inconvénient était que l’idée était un peu abstraite, ayant peu de liens avec les activités de l’entreprise.<br />
+                Comme il s’agit d’une entreprise grenobloise, ma première idée est partie des montagnes ; j’ai associé le chaud et froid aux volcans et glaciers, et je les présente sous une forme géométrique. L’inconvénient était que l’idée était un peu abstraite, ayant peu de liens avec les activités de l’entreprise.<br />
                 <br />
-                Pour la deuxième piste, j’ai pense à une mai- son à deux saisons. Donc je divise une forme qui peut représenter la maison en deux par-
-ties, puis j’utilise une  amme pour l’aspect chauffage, et un  ocon pour l’aspect clima- tisation. Mais le résultat n’est pas convain- quant, car une  amme dans une maison est visuellement un peu violent et souvent asso- cié au danger. <br/>
+                Pour la deuxième piste, j’ai pensé à une maison à deux saisons. Donc je divise une forme qui peut représenter la maison en deux parties, puis j’utilise une flamme pour l’aspect chauffage, et un flocon pour l’aspect climatisation. Mais le résultat n’est pas convainquant, car une flamme dans une maison est visuellement un peu violente et souvent associée au danger. <br/>
 <br/>
-Ensuite, je suis partie sur une idée d’un gla- çon à plusieurs faces, chacune pouvant re- présenter un aspect, et j’ai fait beaucoup de déclinaisons à partir de cette idée. Fina- lement, le client a été convaincu par cette idée, et a choisi le logo avec trois  èches en vert, bleu et rouge qui représentent les trois aspects de son entreprise, et qui forme impli- citement un glaçon blanc au milieu, avec un  ocon dessus.
+Ensuite, je suis partie sur une idée d’un glaçon à plusieurs faces, chacune pouvant représenter un aspect, et j’ai fait beaucoup de déclinaisons à partir de cette idée. Finalement, le client a été convaincu par cette idée, et a choisi le logo avec trois  flèches en vert, bleu et rouge qui représentent les trois aspects de son entreprise, et qui forme implicitement un glaçon blanc au milieu, avec un flocon dessus.
 
 </p>
 

@@ -60,13 +60,13 @@
 						
 
 						<p>
-						La création pour soi est toujours le plus difficile, car on a trop de liberté, on est tous subjective, et on a du mal à se détacher. Ainsi, mon première étape, c'est de faire une analyse subjective sur mon travail. J'en ai retiré trois points importants : je fais du développement web, je créer des travaux graphiques et je suis photographe. Cela a défini la structure principale de mon site.</p>
+						La création pour soi est toujours le plus difficile, car on a trop de liberté, on est tous subjectifs, et on a du mal à se détacher. Ainsi, ma première étape a été de faire une analyse subjective de mon travail. J'en ai retiré trois points importants : je fais du développement web, je crée des travaux graphiques et je suis photographe. Cela a défini la structure principale de mon site.</p>
 						<br />
 
 						<p>
-						Pour la partie visuelle, je suis beaucoup insipirée par des musées et des gallerys, par leur façon d'amenager l'espace et mettre en valeurs les oeuvres d'art. Je souhaite reproduire le même composition pour mon webfolio, comme si ce dernier est une exposition en ligne. Vous trouvez ainsi sur la page d'acceuil : un espacement important qui offre un air épuré, un bordure contour chaque image qui est inspiré du cadre, et ainsi mon logo qui représente à la fois un cadre et un viseur d'appareil photo.</p><br />
+						Pour la partie visuelle, je me suis beaucoup inspirée des musées et des galleries, de leur façon d'aménager l'espace et de mettre en valeur les oeuvres d'art. Je souhaite reproduire la même composition pour mon webfolio, comme si ce dernier était une exposition en ligne. Vous trouverez ainsi sur la page d'accueil : un espacement important qui offre un air épuré, une bordure contournant chaque image et s'inspirant du cadre, ainsi que mon logo qui représente à la fois un cadre et un viseur d'appareil photo.</p><br />
 
-						<p>Le choix de la couleur verte, est plutôt personnel. L'aspect saine, calme, fraîche et zen de cette couleur correnspond à ma personnalité et mon travail.</p><br />
+						<p>Le choix de la couleur verte, est plutôt personnel. L'aspect sain, calme, frais et zen de cette couleur correspond à ma personnalité et mon travail.</p><br />
 
 
 

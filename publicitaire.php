@@ -135,7 +135,7 @@
 					<figure>
 					<a data-fancybox="gallery" href="images/pub-dede-l.jpg" data-caption="Burger - Casse croût à Dédé">
 						<img src="images/pub-dede.jpg" alt="publicité de buger" title="publicité de burger">
-						<figcaption>Burger - Casse croût à Dédé</figcaption>
+						<figcaption>Burger - Casse croûte à Dédé</figcaption>
 						</a>
 					</figure>
 				</div>
