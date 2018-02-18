@@ -66,7 +66,7 @@
 
 					<div id="logo">
 						<img src="images/logo_l.png">
-						<p>Je suis <span>Développeuse web</span>, <span>Designer graphique</span> et <span>Photographe</span>. </p>
+						<p>Je suis Jifan, <span>Développeuse web</span>, <span>Designer graphique</span> et <span>Photographe</span>. </p>
 					</div>
 					<video controls autoplay loop>
 						<source src="video/beandeau.mp4" type="video/mp4" />
@@ -95,10 +95,10 @@
 							Développement Web
 							</h1>
 							
-							<p>Ayant découvert la magie du code, je suis impressionnée et passionnée par le monde informatique. Jonglant entre HTML 5, CSS 3 et JavaScript, je maîtrise l’intégration et la création de sites web, CMS ( Wordpress)… Je vous invite à regarder les projets que j’ai réalisés récemment. 
+							<p>HTML5, CSS3, JavaScript, PHP... Je passe mon temps à jongler entre les différents langages et les outils de développement. Sites statiques (celui-ci), dynamiques (reprise de la charte graphique pour une entreprise de parapente), avec un CMS ou en utilisant Laravel, je crée les interfaces, je les développe et je les remplis de contenu au mieux.
 							<br />
-							<br />Pour le site dynamique de <strong>Nervures</strong>, j'ai réalisé la migration et gestion de contenu, amélioré l'ergonomie générale et le référencement afin d'offrir une meilleure navigation sur le site aux clients fidèles.
-							<strong>Webfolio</strong> est la réalisation de mon propre site web, afin de montrer mon savoir faire et mes compétences. Le code Less est compilé vers du CSS pour un développement plus lisible, un meilleur rendu multi-plateforme et de l'optimisation de poids de page.</p>
+							<!--<br />Pour le site dynamique de <strong>Nervures</strong>, j'ai réalisé la migration et gestion de contenu, amélioré l'ergonomie générale et le référencement afin d'offrir une meilleure navigation sur le site aux clients fidèles.
+							<strong>Webfolio</strong> est la réalisation de mon propre site web, afin de montrer mon savoir faire et mes compétences. Le code Less est compilé vers du CSS pour un développement plus lisible, un meilleur rendu multi-plateforme et de l'optimisation de poids de page.--></p>
 						</article>
 						
 					</div>
